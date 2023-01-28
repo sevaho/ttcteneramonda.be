@@ -4,6 +4,6 @@ languageCode = 'nl-be'
 title = 'TTC Teneramonda tafeltennis club.'
 
 [params]
-    description = 'Welkom bij Tafeltennisclub Teneramonda gelegen te Ouburg 61 9200 Dendermonde. Op deze site vindt u informatie over onze club TTC Teneramonda. Daarnaast gaat de training 2 keer per week door, dit op woensdag en vrijdag.'
+    description = 'Welkom bij Tafeltennisclub Teneramonda gelegen te Ouburg 61 9200 Dendermonde. Op deze site vindt u informatie over onze club TTC Teneramonda.'
 
 enableRobotsTXT = true
