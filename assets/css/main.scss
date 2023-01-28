@@ -16,6 +16,13 @@ $green: #239123;
 
 $font-stack: "Roboto";
 
+// TEMPLATE VARIABLES
+{{ $image := resources.Get "images/tabletennis2.jpg" }}
+{{ $background_image := $image.Resize "1900x webp q50" }}
+
+{{ $image := resources.Get "images/tabletennis1.jpg" }}
+{{ $footer_image := $image.Resize "1900x webp q50" }}
+
 html {
 
     overflow-y: scroll; 
@@ -25,7 +32,6 @@ html {
 
 body { 
 
-    background-image: url('/tabletennis2.jpg ');
     font: 100% $font-stack; 
     margin: 0; 
     font-size: 13px;
@@ -170,7 +176,7 @@ navbar {
     -moz-background-size: cover;  
     -o-background-size: cover; 
     background-size: cover; 
-    background-image: url('/img/tabletennis2.jpg '); 
+    background-image: url("{{$background_image.RelPermalink}}");
     top: 0;
     opacity:0.2;
   
@@ -193,7 +199,7 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover; 
     background-size: cover; 
-    background-image: url('/img/tabletennis1.jpg ');
+    background-image: url("{{$footer_image.RelPermalink}}");
 
 }
 

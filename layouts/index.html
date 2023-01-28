@@ -21,32 +21,25 @@
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatibe" content="IE=edge,chrome=1">
-
-        <meta content='ttc teneramonda' property='og:site_name'>
-        <meta content='ttc teneramonda' property='og:title'>
-        <meta property="og:description" content="tafeltennisclub TTC Teneramonda">
-        <meta property="og:title" content="ttcteneramonda">
-        <meta property="og:site_name" content="ttcteneramonda.be">
-        <meta name="robots" content="index,follow,noodp">
-
-        <meta name="classification" content="sport">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="author" content="ttc teneramonda">
-        <meta name="application-name" content="TTC  Teneramonda">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Welkom bij Tafeltennisclub Teneramonda gelegen te Ouburg 61 9200 Dendermonde. Op deze site vindt u informatie over onze club TTC Teneramonda."/>
-        <meta property="og:description" content="tafeltennisclub TTC Teneramonda">
-        <meta name="keywords" content="TTC Teneramonda,tafeltennis,welkom,kalender,bestuur,locatie,varia,contact,training,Oudegem,Teneramonda,teneramonda,Tafeltennis,Sport,Pingpong,Recreatie,Recreatief,Competitie,Dendermonde,"/>
-        <meta name="subject" content="tafeltennisclub TTC Teneramonda">
-        <meta name="summary" content="tafeltennisclub TTC Teneramonda">
-        <meta content='http://www.ttcteneramonda.be/' property='og:url'>
-        <meta name="format-detection" content="telephone=no">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta name="apple-mobile-web-app-title" content="TTC Teneramonda">
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="msapplication-tap-highlight" content="no">
-		<title>TTC Teneramonda</title>
+        <meta name=”robots” content="index, follow">
+        <meta property="og:type" content="website"/>
+
+        <title>{{ .Site.Title }}</title>
+        <meta property="og:title" content="{{ .Site.Title }}">
+
+        <meta property="og:description" content="{{ .Site.Params.Description }}">
+        <meta name="description" content="{{ .Site.Params.Description }}"/>
+
+        <meta name="keywords" content="TTC Teneramonda,tafeltennis,Oudegem,Teneramonda,teneramonda,Tafeltennis,Sport,Pingpong,Recreatie,Recreatief,Competitie,Dendermonde,"/>
+
+        <meta content='{{ .Site.BaseURL }}' property='og:url'>
+
+        {{ with resources.Get "favicon.png" }}
+        {{ with .Resize "15x webp" }}
+        <link rel="icon" href="{{ .RelPermalink }}" />
+        {{ end }}
+        {{ end }}
 
 
         <!-- MAIN CSS -->
