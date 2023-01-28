@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<!----------------------------------------------------------------------------------------------------------------------------------
+<
+< author: Sebastiaan Van Hoecke
+< mail: sebastiaan@sevaho.io
+<
+< NOTE:
+<
+---------------------------------------------------------------------------------------------------------------------------------->
+
+<html lang="nl">
+
+<!----------------------------------------------------------------------------------------------------------------------------------
+<
+< HEAD
+<
+---------------------------------------------------------------------------------------------------------------------------------->
+
+	<head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatibe" content="IE=edge,chrome=1">
+
+        <meta content='ttc teneramonda' property='og:site_name'>
+        <meta content='ttc teneramonda' property='og:title'>
+        <meta property="og:description" content="tafeltennisclub TTC Teneramonda">
+        <meta property="og:title" content="ttcteneramonda">
+        <meta property="og:site_name" content="ttcteneramonda.be">
+        <meta name="robots" content="index,follow,noodp">
+
+        <meta name="classification" content="sport">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="author" content="ttc teneramonda">
+        <meta name="application-name" content="TTC  Teneramonda">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Welkom bij Tafeltennisclub Teneramonda gelegen te Ouburg 61 9200 Dendermonde. Op deze site vindt u informatie over onze club TTC Teneramonda."/>
+        <meta property="og:description" content="tafeltennisclub TTC Teneramonda">
+        <meta name="keywords" content="TTC Teneramonda,tafeltennis,welkom,kalender,bestuur,locatie,varia,contact,training,Oudegem,Teneramonda,teneramonda,Tafeltennis,Sport,Pingpong,Recreatie,Recreatief,Competitie,Dendermonde,"/>
+        <meta name="subject" content="tafeltennisclub TTC Teneramonda">
+        <meta name="summary" content="tafeltennisclub TTC Teneramonda">
+        <meta content='http://www.ttcteneramonda.be/' property='og:url'>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="TTC Teneramonda">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="msapplication-tap-highlight" content="no">
+		<title>TTC Teneramonda</title>
+
+
+        <!-- MAIN CSS -->
+        {{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-78158473-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+
+	</head>
+
+<!----------------------------------------------------------------------------------------------------------------------------------
+<
+< BODY
+<
+---------------------------------------------------------------------------------------------------------------------------------->
+
+	<body>
+
+        <navbar>
+            <ul>
+                <li><a href="#page-welcome">Welkom</a></li>
+                <li><a href="#page-teams">ploegen</a></li>
+                <li><a href="#page-leaders">bestuur</a></li>
+                <li><a href="#page-training">Training</a></li>
+                <li><a href="#page-location">locatie</a></li>
+            </ul>
+        </navbar>
+
+        <section id="background"></section>
+
+        <div id="main">
+        <section id="page-welcome">
+            <h2>Welkom bij</h2>
+            <h1>TTC Teneramonda</h1>
+        </section>
+
+        <section id="page-teams">
+            <h2>Ploegen</h2>
+            <p>A ploeg senioren speelt in 5de</p>
+            <p>A ploeg jeugd speelt in 3de </p>
+            <p>B ploeg jeugd speelt in 4de </p>
+            <p></p>
+            <p></p>
+        </section>
+
+        <section id="page-leaders">
+            <h2>Bestuur</h2>
+                <table>
+                    <tr><td >Voorzitter:</td><td>Paul Ceulemans</td><td>0477/71 54 03</td><td><a href="mailto:pol.ceulemans@telenet.be">pol.ceulemans@telenet.be</a></td></tr>
+
+                    <tr><td >Secretaris:</td><td>Sonja Hofmann</td><td>-</td><td rowspan="2"><a href="mailto:sonja.hofmann@telenet.be">sonja.hofmann@telenet.be</a></td></tr>
+                    <tr></tr>
+                    <tr><td >Penningmeester:</td><td >Marc Stallaert</td><td >0478/48 99 87</td><td ><a href="mailto:marc.stallaert3@telenet.be">marc.stallaert3@telenet.be</a></td></tr>
+                </table>
+        </section>
+
+        <section id="page-training">
+            <h2>Training</h2>
+
+            <h3>Jeugd</h3>
+            <br>
+
+            <table>
+              <th>Dag</th>
+              <th>Uur</th>
+              <th>Trainer</th>
+            <tr>
+              <td>Woensdag</td>
+              <td>19u00 - 20u30</td>
+              <td>Jan-Willen D'hondt</td>
+            <tr>
+              <td>Vrijdag</td>
+              <td>19u00 - 20u30</td>
+              <td>Jan-Willen D'hondt</td>
+            </tr>
+            </table>
+
+            <br>
+            <h3>Senioren</h3>
+            <br>
+
+            <table>
+              <th>Dag</th>
+              <th>Uur</th>
+              <th>Trainer</th>
+            <tr>
+              <td>Woensdag</td>
+              <td>20u30 - 22u00</td>
+              <td>Marc Stallaert</td>
+            <tr>
+              <td>Vrijdag</td>
+              <td>20u30 - 22u00</td>
+              <td>(vrije training)</td>
+            </tr>
+            </table>
+        </section>
+
+        <section class="no-mobile">
+        </section>
+
+        <section id="page-location">
+            <h2>Locatie</h2>
+            <p>Wij zijn gelegen te:</p>
+            <p>Ouburg 61</p>
+            <p>9200 Oudegem</p>
+            <br>
+            <p>U kan ook een routebeschrijving van Google Maps verkrijgen door op de volgende link te klikken: <a target="blank" href="https://www.google.com/maps?ll=51.004316,4.06056&z=15&t=m&hl=en&gl=US&mapclient=embed&daddr=Oudegem+Sporthal+9200+Dendermonde+Belgium@51.0043157,4.0605603">routebeschrijving</a> .</p>
+            <div id="gmap">
+                <iframe id ="mapsmobile" frameborder="0" style="border:0" scrolling="no" frameBorder="0" marginheight="0" marginwidth="0" width="100%" height="400px" src="https://maps.google.com/maps?hl=en&q=Sporthal Oudegem, Dendermonde&ie=UTF8&t=roadmap&z=15&iwloc=B&output=embed"></iframe>
+            </div>
+
+        </section>
+
+        <section id="page-footer">
+            <p> © 2023 | TTC Teneramonda</p>
+            <!-- <p>Developed by | <a href="https://sevaho.io/portfolio">Sebastiaan Van Hoecke</a></p> -->
+        </section>
+
+        </div>
+
+
+<!----------------------------------------------------------------------------------------------------------------------------------
+<
+< SCRIPTS
+<
+---------------------------------------------------------------------------------------------------------------------------------->
+
+        <!-- MAIN JS -->
+        {{ $js := resources.Get "js/main.js" | js.Build | resources.Minify | fingerprint -}}
+        <script src="{{ $js.RelPermalink }}"></script>
+
+	</body>
+
+</html>
