@@ -17,44 +17,44 @@ $green: #239123;
 $font-stack: "Roboto";
 
 // TEMPLATE VARIABLES
-{{ $image := resources.Get "images/tabletennis2.jpg" }}
+{{ $image := resources.Get "images/20230211_143406.jpg" }}
 {{ $background_image := $image.Resize "1900x webp q50" }}
 
-{{ $image := resources.Get "images/tabletennis1.jpg" }}
+{{ $image := resources.Get "images/kampioenschap.jpg" }}
 {{ $footer_image := $image.Resize "1900x webp q50" }}
 
 html {
 
-    overflow-y: scroll; 
+    overflow-y: scroll;
 
 
 }
 
-body { 
+body {
 
-    font: 100% $font-stack; 
-    margin: 0; 
+    font: 100% $font-stack;
+    margin: 0;
     font-size: 13px;
-    color: $grey; 
+    color: $grey;
 
 }
 
-h1{ 
+h1{
 
     color: $green;
     margin: 0;
-    font-size: 55px; 
+    font-size: 55px;
     text-transform: uppercase;
     line-height: 120%;
     padding: 0% 0% 2% 0;
 
 }
 
-h2{ 
+h2{
 
     color: $green;
     margin: 0;
-    font-size: 29px; 
+    font-size: 29px;
     text-transform: uppercase;
     line-height: 120%;
     padding: 0% 0% 2% 0;
@@ -63,92 +63,92 @@ h2{
 
 
 
-a { 
-    
-    color: $blue; 
-    text-align: center; 
-    text-decoration: none; 
-    border: 0; 
+a {
+
+    color: $blue;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
     outline: 0;
 
 }
 
-.notification { 
+.notification {
 
-    position: fixed; 
-    top: 50px; 
-    right: 0; 
-    border-radius: 4px; 
-    padding: 25px; 
-    margin-right: 1%; 
-    max-width: 17%; 
+    position: fixed;
+    top: 50px;
+    right: 0;
+    border-radius: 4px;
+    padding: 25px;
+    margin-right: 1%;
+    max-width: 17%;
     color: $white;
     width: 10%;
     z-index: 999;
 
 }
 
-.error { 
-    
+.error {
+
     background-color: $notification_red;
 
 }
 
-.message { 
-    
+.message {
+
     background-color: $notification_green;
 
 }
 
 navbar {
 
-    width: 100%; 
-    height: 50px; 
-    position: fixed; 
-    top: 0%; 
-    z-index: 5; 
-    background-color: transparent; 
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0%;
+    z-index: 5;
+    background-color: transparent;
     text-transform: uppercase;
-    -webkit-transition:all 0.5s; 
-    -moz-transition:all 0.5s; 
-    -o-transition:all 0.5s; 
-    transition:all 0.5s; 
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -o-transition:all 0.5s;
+    transition:all 0.5s;
     background-color: white;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 
     * {
 
-        -webkit-transition:all 1s; 
-        -moz-transition:all 1s; 
-        -o-transition:all 1s; 
-        transition:all 1s; 
+        -webkit-transition:all 1s;
+        -moz-transition:all 1s;
+        -o-transition:all 1s;
+        transition:all 1s;
 
     }
 
-    ul { 
+    ul {
 
-        list-style-type: none; 
-        text-align: center; 
-        padding-top: 2px; 
-        padding-left: 0; 
+        list-style-type: none;
+        text-align: center;
+        padding-top: 2px;
+        padding-left: 0;
 
-        li { 
+        li {
 
-            display: inline; 
-            padding: 1% 2% 1% 2%; 
-            text-decoration: none; 
+            display: inline;
+            padding: 1% 2% 1% 2%;
+            text-decoration: none;
 
-            a { 
+            a {
 
-                font-size: 1em; 
-                font-weight: 400;  
-                color: #656555; 
+                font-size: 1em;
+                font-weight: 400;
+                color: #656555;
                 text-decoration: none;
 
             }
 
-            a:hover { 
-            
+            a:hover {
+
                 cursor: pointer;
 
             }
@@ -165,21 +165,21 @@ navbar {
 
 }
 
-#background { 
-    
-    width: 100%; 
-    height: 100%; 
-    position: fixed; 
-    overflow: hidden; 
-    text-align: center;  
+#background {
+
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
     -webkit-background-size: cover;
-    -moz-background-size: cover;  
-    -o-background-size: cover; 
-    background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-image: url("{{$background_image.RelPermalink}}");
     top: 0;
-    opacity:0.2;
-  
+    opacity:0.15;
+
 }
 
 section {
@@ -192,15 +192,28 @@ section {
 }
 
 
-#page-welcome {
+#page-welcome-text-div {
+    background-color: white;
+    width: 3rem;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    background: rgba(235, 235, 235, 0.75);
+    border-radius: 1em;
 
-    padding: 13% 0% 13% 0%;
+}
+#page-welcome-text {
+    opacity: 1 !important;
+}
+
+#page-welcome {
+    padding: 23% 0% 13% 0%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover; 
-    background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover;
     background-image: url("{{$footer_image.RelPermalink}}");
-
 }
 
 #page-teams {
@@ -212,14 +225,14 @@ section {
 #page-leaders {
 
     table {
-    
+
         margin: 0px auto;
         min-width: 40%;
 
         tr {
-        
+
             td {
-            
+
                 padding: 2%;
 
             }
@@ -235,14 +248,15 @@ section {
     background-color: $white;
 
     table {
-    
+
         margin: 0px auto;
         min-width: 25%;
 
         tr {
-        
+
             td {
-            
+
+                width: 100px;
                 padding: 2%;
 
             }
@@ -258,7 +272,7 @@ section {
     background-color: $white;
 
     #gmap {
-    
+
         margin-top: 3%;
 
     }
@@ -270,21 +284,21 @@ section {
     background-color: $white;
 
     #contact_form {
-    
+
         form {
-        
+
             margin: auto;
             width: 30%;
 
-            label { 
+            label {
 
                 font-size: 1.2em;
                 margin-bottom:: 500px;
-            
+
             }
 
             input {
-            
+
                 padding: 1%;
                 width: 50%;
                 border: 1px solid #aaa;
@@ -294,7 +308,7 @@ section {
             }
 
             textarea {
-            
+
                 padding: 1%;
                 width: 60%;
                 height: 9vh;
@@ -305,29 +319,29 @@ section {
             }
 
             button {
-            
+
                 display: block;
                 margin: auto;
                 width: 30%; border: $black solid 4px; cursor: pointer;
-                background-color: $black; 
-                color: $white; 
-                font-size: 20px; 
-                padding-top: 8px; 
-                padding-bottom: 8px; 
+                background-color: $black;
+                color: $white;
+                font-size: 20px;
+                padding-top: 8px;
+                padding-bottom: 8px;
                 -webkit-transition: all 0.5s;
-                -moz-transition: all 0.5s; 
-                transition: all 0.5s; 
-                font-weight: 700; 
+                -moz-transition: all 0.5s;
+                transition: all 0.5s;
+                font-weight: 700;
                 border-radius: 0.4em;
 
             }
 
-            button:hover { 
-                
-                background-color: $white; 
-                color: $black; 
+            button:hover {
+
+                background-color: $white;
+                color: $black;
                 border: $white solid 4px;
-            
+
             }
 
         }
@@ -345,44 +359,44 @@ section {
 
 @media only screen and (max-width: 800px) {
 
-    body { 
+    body {
 
         font-size: 10px;
 
     }
 
-    h1 { 
+    h1 {
 
-        font-size: 40px; 
+        font-size: 40px;
 
     }
 
-    h2 { 
+    h2 {
 
-        font-size: 24px; 
+        font-size: 24px;
 
     }
 
     p {
-    
+
         padding: 0% 5% 0% 5%;
 
     }
 
     #page-leaders {
-    
+
         background-color: $white;
 
     }
 
     .no-mobile {
-    
+
         display: none;
 
     }
 
     navbar {
-    
+
         display: none;
 
     }
@@ -392,9 +406,9 @@ section {
         background-color: $white;
 
         #contact_form {
-        
+
             form {
-            
+
                 width: 90%;
 
             }
@@ -404,4 +418,3 @@ section {
     }
 
 }
-
