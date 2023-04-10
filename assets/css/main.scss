@@ -18,7 +18,7 @@ $font-stack: "Roboto";
 
 // TEMPLATE VARIABLES
 {{ $image := resources.Get "images/20230211_143406.jpg" }}
-{{ $background_image := $image.Resize "1900x webp q50" }}
+{{ $background_image := $image.Resize "1900x webp q95" }}
 
 {{ $image := resources.Get "images/kampioenschap.jpg" }}
 {{ $footer_image := $image.Resize "1900x webp q50" }}
@@ -43,7 +43,7 @@ h1{
 
     color: $green;
     margin: 0;
-    font-size: 55px;
+    font-size: 3vw;
     text-transform: uppercase;
     line-height: 120%;
     padding: 0% 0% 2% 0;
@@ -54,7 +54,7 @@ h2{
 
     color: $green;
     margin: 0;
-    font-size: 29px;
+    font-size: 2vw;
     text-transform: uppercase;
     line-height: 120%;
     padding: 0% 0% 2% 0;
@@ -201,6 +201,7 @@ section {
     padding: 10px;
     background: rgba(235, 235, 235, 0.75);
     border-radius: 1em;
+    margin-top: 7%;
 
 }
 #page-welcome-text {
@@ -208,7 +209,7 @@ section {
 }
 
 #page-welcome {
-    padding: 23% 0% 13% 0%;
+    padding: 10% 0% 18% 0%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -362,18 +363,6 @@ section {
     body {
 
         font-size: 10px;
-
-    }
-
-    h1 {
-
-        font-size: 40px;
-
-    }
-
-    h2 {
-
-        font-size: 24px;
 
     }
 
