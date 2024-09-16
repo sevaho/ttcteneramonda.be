@@ -11,7 +11,7 @@ help: ## Show this help message (default)
 	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z_-]+:.*?## / {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
 dev: ## Run development server
-	hugo server --disableFastRender
+	hugo server -D
 
 up: dev ## Alias to `make dev`
 run: dev ## Alias to `make dev`
