@@ -1,0 +1,17 @@
+{
+  "name": "hugoplate",
+  "description": "hugo tailwindcss boilerplate",
+  "version": "1.15.2",
+  "license": "MIT",
+  "author": "zeon.studio",
+  "scripts": {},
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.13",
+    "daisyui": "^4.7.2",
+    "prettier": "^3.3.2",
+    "prettier-plugin-go-template": "0.0.15",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwindcss": "^3.4.4"
+  }
+}

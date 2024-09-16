@@ -1,0 +1,43 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'TTC Teneramonda'
+
+enableRobotsTXT = true
+
+############################## Menu #############################
+
+[menu]
+  [[menu.main]]
+  name = "Over"
+  URL = "#about"
+  weight = 1
+
+
+[outputs]
+    home = ["html"]
+
+[module]
+    [module.hugoVersion]
+        min = "0.128.0"
+    [[module.mounts]]
+        source = "assets"
+        target = "assets"
+    [[module.mounts]]
+        source = "content"
+        target = "content"
+    [[module.mounts]]
+        source       = "hugo_stats.json"
+        target       = "assets/notwatching/hugo_stats.json"
+        disableWatch = true
+[build.buildStats]
+    enable = true
+[[build.cachebusters]]
+    source = "assets/notwatching/hugo_stats\\.json"
+    target = "css"
+[[build.cachebusters]]
+    source = "(postcss|tailwind)\\.config\\.js"
+    target = "css"
+
+[markup]
+    [markup.highlight]
+        style = 'github'

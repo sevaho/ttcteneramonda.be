@@ -1,1 +1,0 @@
-# ttcteneramonda-v2
