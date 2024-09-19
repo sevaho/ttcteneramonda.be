@@ -4,14 +4,12 @@ let
 in pkgs.mkShell {
 
   packages = with pkgs; [
-    hugo
     nodejs
+    hugo
     tailwindcss
     tailwindcss-language-server
     htmx-lsp
-    prettierd
     nodePackages.prettier
     vscode-langservers-extracted
-    # vscode-html-languageserver-bin
   ];
 }

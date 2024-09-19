@@ -8,13 +8,39 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-  name = "Over"
-  URL = "#about"
+  name = "Over ons"
+  URL = "/over"
   weight = 1
+
+  [[menu.main]]
+  name = "Sponsers"
+  URL = "/sponsers"
+  weight = 2
+
+  [[menu.main]]
+  name = "Kalender"
+  URL = "/kalender"
+  weight = 3
+
+  [[menu.main]]
+  name = "Kledij"
+  URL = "/kledij"
+  weight = 4
+
+  [[menu.main]]
+  name = "Leden"
+  URL = "/leden"
+  weight = 5
+
+  [[menu.main]]
+  name = "Contact"
+  URL = "/contact"
+  weight = 6
 
 
 [outputs]
-    home = ["html"]
+    home = ["html", "json"]
+    section = ["HTML", "JSON"]
 
 [module]
     [module.hugoVersion]

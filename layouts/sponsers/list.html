@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="m-30">
+    <h1 class="text-h2 text-center m-5">Sponsers</h1>
+</section>
+
+<section class="m-30">
+    {{ range seq 4 }}
+    <div class="hero even:bg-green-100">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+            <figure class="max-w-[100rem]">
+                <img src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp" alt="Album" />
+            </figure>
+            <div>
+                <h1 class="text-5xl font-bold">Box Office News!</h1>
+                <p class="py-6">
+                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.
+                    In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+                <button class="btn btn-ghost">Link</button>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</section>
+{{ end }}

@@ -1,23 +1,275 @@
-<!doctype html>
-<html lang="nl">
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-        <section>
-            SECTION
-            <div class="card bg-base-100 w-96 shadow-xl">
+{{ define "main" }}
+<!-- HERO PAGE -->
+<!-- HERO PAGE -->
+<section class="m-30 bg-red-100">
+    <div class="hero bg-base-200">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+            <figure class="max-w-[100rem]">
+                <img src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp" alt="Album" />
+            </figure>
+            <div>
+                <h1 class="text-5xl font-bold">Box Office News!</h1>
+                <p class="py-6">
+                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.
+                    In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="m-30 bg-green-600 pt-10 pb-10">
+    <h1 class="text-3xl text-center m-5">Events en nieuws</h1>
+    <div class="hero">
+        <div class="lg:flex bg-base-200 rounded p-10">
+            <div class="flex-1 card bg-base-200">
+
+                {{ range seq 4 }}
+                <div class="card bg-base-100 w-fit shadow-xl mb-5 last:mb-0">
+                    <div class="card-body">
+                        <div class="flex">
+                            <div>
+                                <h2 class="card-title">Card title!</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                            </div>
+                            <div class="m-5">
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+
+            </div>
+            <div class="grow-0 lg:w-32"></div>
+            <div class="card bg-base-100 lg:w-[50rem] shadow-xl m-0 p-0">
                 <figure>
                     <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
                 </figure>
                 <div class="card-body">
-                    <h2 class="card-title">Shoes!</h2>
+                    <h2 class="card-title">In de kijker!</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div class="card-actions justify-end">
                         <button class="btn btn-primary">Buy Now</button>
                     </div>
                 </div>
             </div>
-        </section>
-        {{- partial "footer.html" . -}}
-    </body>
-</html>
+        </div>
+    </div>
+</section>
+
+<section class="m-30 bg-red-100 pt-10">
+    <h1 class="text-3xl text-center m-5">Ploegen</h1>
+    <div class="hero overflow-x-auto">
+        <table class="table max-w-[100rem]">
+            <!-- head -->
+            <thead>
+                <tr>
+                    <th>
+                        <label>
+                            <input type="checkbox" class="checkbox" />
+                        </label>
+                    </th>
+                    <th>Name</th>
+                    <th>Job</th>
+                    <th>Favorite Color</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- row 1 -->
+                <tr>
+                    <th>
+                        <label>
+                            <input type="checkbox" class="checkbox" />
+                        </label>
+                    </th>
+                    <td>
+                        <div class="flex items-center gap-3">
+                            <div class="avatar">
+                                <div class="mask mask-squircle h-12 w-12">
+                                    <img
+                                        src="https://img.daisyui.com/images/profile/demo/2@94.webp"
+                                        alt="Avatar Tailwind CSS Component"
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="font-bold">Hart Hagerty</div>
+                                <div class="text-sm opacity-50">United States</div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        Zemlak, Daniel and Leannon
+                        <br />
+                        <span class="badge badge-ghost badge-sm">Desktop Support Technician</span>
+                    </td>
+                    <td>Purple</td>
+                    <th>
+                        <button class="btn btn-ghost btn-xs">details</button>
+                    </th>
+                </tr>
+                <!-- row 2 -->
+                <tr>
+                    <th>
+                        <label>
+                            <input type="checkbox" class="checkbox" />
+                        </label>
+                    </th>
+                    <td>
+                        <div class="flex items-center gap-3">
+                            <div class="avatar">
+                                <div class="mask mask-squircle h-12 w-12">
+                                    <img
+                                        src="https://img.daisyui.com/images/profile/demo/3@94.webp"
+                                        alt="Avatar Tailwind CSS Component"
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="font-bold">Brice Swyre</div>
+                                <div class="text-sm opacity-50">China</div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        Carroll Group
+                        <br />
+                        <span class="badge badge-ghost badge-sm">Tax Accountant</span>
+                    </td>
+                    <td>Red</td>
+                    <th>
+                        <button class="btn btn-ghost btn-xs">details</button>
+                    </th>
+                </tr>
+                <!-- row 3 -->
+                <tr>
+                    <th>
+                        <label>
+                            <input type="checkbox" class="checkbox" />
+                        </label>
+                    </th>
+                    <td>
+                        <div class="flex items-center gap-3">
+                            <div class="avatar">
+                                <div class="mask mask-squircle h-12 w-12">
+                                    <img
+                                        src="https://img.daisyui.com/images/profile/demo/4@94.webp"
+                                        alt="Avatar Tailwind CSS Component"
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="font-bold">Marjy Ferencz</div>
+                                <div class="text-sm opacity-50">Russia</div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        Rowe-Schoen
+                        <br />
+                        <span class="badge badge-ghost badge-sm">Office Assistant I</span>
+                    </td>
+                    <td>Crimson</td>
+                    <th>
+                        <button class="btn btn-ghost btn-xs">details</button>
+                    </th>
+                </tr>
+                <!-- row 4 -->
+                <tr>
+                    <th>
+                        <label>
+                            <input type="checkbox" class="checkbox" />
+                        </label>
+                    </th>
+                    <td>
+                        <div class="flex items-center gap-3">
+                            <div class="avatar">
+                                <div class="mask mask-squircle h-12 w-12">
+                                    <img
+                                        src="https://img.daisyui.com/images/profile/demo/5@94.webp"
+                                        alt="Avatar Tailwind CSS Component"
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="font-bold">Yancy Tear</div>
+                                <div class="text-sm opacity-50">Brazil</div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        Wyman-Ledner
+                        <br />
+                        <span class="badge badge-ghost badge-sm">Community Outreach Specialist</span>
+                    </td>
+                    <td>Indigo</td>
+                    <th>
+                        <button class="btn btn-ghost btn-xs">details</button>
+                    </th>
+                </tr>
+            </tbody>
+            <!-- foot -->
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Job</th>
+                    <th>Favorite Color</th>
+                    <th></th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</section>
+
+<section class="pt-10 pb-10">
+    <h1 class="text-3xl text-center m-5">Sponsers</h1>
+    <div class="hero">
+        <div class="carousel carousel-center rounded-box max-w-[100rem]">
+            <div class="carousel-item">
+                <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp" alt="Pizza" />
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp" alt="Pizza" />
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp" alt="Pizza" />
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp" alt="Pizza" />
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp" alt="Pizza" />
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp" alt="Pizza" />
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp" alt="Pizza" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pt-10">
+    <h1 class="text-3xl text-center m-5">Locatie</h1>
+    <div class="hero">
+        <div class="w-full">
+            <iframe
+                frameborder="0"
+                style="border: 0"
+                scrolling="no"
+                frameborder="0"
+                marginheight="0"
+                marginwidth="0"
+                width="100%"
+                height="400px"
+                src="https://maps.google.com/maps?hl=en&q=Sporthal Oudegem, Dendermonde&ie=UTF8&t=roadmap&z=15&iwloc=B&output=embed"
+            ></iframe>
+        </div>
+    </div>
+</section>
+{{ end }}

@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="m-30">
+    <h1 class="text-h2 text-center m-5">Leden</h1>
+</section>
+<section>
+    <div class="flex">
+        <div class="grow-0 lg:w-96"></div>
+        <div class="flex flex-wrap justify-evenly">
+            {{ range seq 20}}
+            <div class="card bg-base-100 w-96 shadow-xl m-2 lg:m-5">
+                <figure>
+                    <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Shoes!</h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div class="card-actions justify-end">
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="grow-0 lg:w-96"></div>
+    </div>
+</section>
+{{ end }}
