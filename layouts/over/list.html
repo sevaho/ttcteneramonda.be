@@ -1,63 +1,15 @@
-{{ define "main" }}
+{{ define "main" }} {{ $js := resources.Get "js/app.js" | js.Build | resources.Minify | fingerprint -}}
+<script src="{{ $js.RelPermalink }}"></script>
+
 <div class="container mx-auto mb-10">
+
+    <h1 class="text-h2 text-center m-5">Over ons</h1>
     <div>
-        <div class="relative mb-xl m:mb-2xl">
-            <div class="grid grid-cols-12 mt-2xl">
-                <div class="col-span-12 m:col-span-12">
-                    <div class="flex flex-col relative items-center text-center">
-                        <h1 class="text-h2 max-w-[62.5rem] text-balance">About</h1>
-                        <div class="mt-xs m:grid m:grid-cols-12">
-                            <p class="col-span-12 m:col-span-8 m:col-start-3 text-subhead text-balance">
-                                OpenAI is an AI research and deployment company. Our mission is to ensure that
-                                artificial general intelligence benefits all of humanity.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-l m:mt-xl relative w-full grid grid-cols-12">
-                <div class="col-span-12">
-                    <div
-                        class="w-full mx-auto transition-opacity ease-curve-c duration-normal max-w-media relative"
-                        data-caption-height="0"
-                        data-caption-open="false"
-                    >
-                        <div class="relative w-full" style="aspect-ratio: 16 / 9">
-                            <div
-                                class="relative h-full w-full overflow-hidden rounded-md aspect-16/9 bg-transparent transition-[background] ease-curve-d duration-normal"
-                            >
-                                <img
-                                    alt="A bright, plant-filled office space with large windows, where four individuals engage in a discussion; three are seated with laptops, and one stands with a laptop."
-                                    loading="lazy"
-                                    decoding="async"
-                                    data-nimg="fill"
-                                    class="object-cover object-center"
-                                    sizes="(min-width: 1728px) 1728px, 100vw"
-                                    srcset="
-                                        https://images.ctfassets.net/kftzwdyauwt9/32cmTSUIF5POX5FMuoHJwO/be8b42b8016957ca28e07274f05f1d3d/stangel-2022-0527.webp?w=640&amp;q=90&amp;fm=webp   640w,
-                                        https://images.ctfassets.net/kftzwdyauwt9/32cmTSUIF5POX5FMuoHJwO/be8b42b8016957ca28e07274f05f1d3d/stangel-2022-0527.webp?w=750&amp;q=90&amp;fm=webp   750w,
-                                        https://images.ctfassets.net/kftzwdyauwt9/32cmTSUIF5POX5FMuoHJwO/be8b42b8016957ca28e07274f05f1d3d/stangel-2022-0527.webp?w=828&amp;q=90&amp;fm=webp   828w,
-                                        https://images.ctfassets.net/kftzwdyauwt9/32cmTSUIF5POX5FMuoHJwO/be8b42b8016957ca28e07274f05f1d3d/stangel-2022-0527.webp?w=1080&amp;q=90&amp;fm=webp 1080w,
-                                        https://images.ctfassets.net/kftzwdyauwt9/32cmTSUIF5POX5FMuoHJwO/be8b42b8016957ca28e07274f05f1d3d/stangel-2022-0527.webp?w=1200&amp;q=90&amp;fm=webp 1200w,
-                                        https://images.ctfassets.net/kftzwdyauwt9/32cmTSUIF5POX5FMuoHJwO/be8b42b8016957ca28e07274f05f1d3d/stangel-2022-0527.webp?w=1920&amp;q=90&amp;fm=webp 1920w,
-                                        https://images.ctfassets.net/kftzwdyauwt9/32cmTSUIF5POX5FMuoHJwO/be8b42b8016957ca28e07274f05f1d3d/stangel-2022-0527.webp?w=2048&amp;q=90&amp;fm=webp 2048w,
-                                        https://images.ctfassets.net/kftzwdyauwt9/32cmTSUIF5POX5FMuoHJwO/be8b42b8016957ca28e07274f05f1d3d/stangel-2022-0527.webp?w=3840&amp;q=90&amp;fm=webp 3840w
-                                    "
-                                    src="https://images.ctfassets.net/kftzwdyauwt9/32cmTSUIF5POX5FMuoHJwO/be8b42b8016957ca28e07274f05f1d3d/stangel-2022-0527.webp?w=3840&amp;q=90&amp;fm=webp"
-                                    style="
-                                        position: absolute;
-                                        height: 100%;
-                                        width: 100%;
-                                        inset: 0px;
-                                        color: transparent;
-                                    "
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <p class="text-center text-balance">
+            OpenAI is an AI research and deployment company. Our mission is to ensure that
+            artificial general intelligence benefits all of humanity.
+        </p>
+
         <div class="card lg:card-side bg-base-100 shadow-xl mt-10">
             <figure>
                 <img src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp" alt="Album" />
@@ -70,6 +22,26 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <h1 class="text-h2 text-center m-5">Sfeerbeelden</h1>
+
+    {{ $gallery := (print .Params.gallery_folder "/*") }}
+    <div id="gallery" class="flex flex-wrap justify-evenly">
+        {{ range $k, $v := resources.Match $gallery }} {{ $image := resources.Get $v }} {{ $resized := $image.Resize
+        "2500x webp q95" }}
+        <div>
+            <a
+                href="{{$resized.RelPermalink}}"
+                target="_blank"
+            >
+                {{ $thumbnail := $image.Resize "750x webp q85" }}
+                <figure class="text-center w-[19vw] p-2">
+                    <img class="rounded" src="{{ $thumbnail.RelPermalink }}" alt="" />
+                </figure>
+            </a>
+        </div>
+        {{ end }}
     </div>
 </div>
 {{ end }}

@@ -2,12 +2,16 @@
 <!-- HERO PAGE -->
 <!-- HERO PAGE -->
 <section class="m-30 bg-red-100">
-    <div class="hero bg-base-200">
+    <div class="hero">
         <div class="hero-content flex-col lg:flex-row-reverse">
-            <figure class="max-w-[100rem]">
-                <img src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp" alt="Album" />
+            <figure class="w-full lg:w-1/2 lg:max-w-full">
+                <img
+                    src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+                    alt="Album"
+                    class="w-full h-auto"
+                />
             </figure>
-            <div>
+            <div class="lg:w-1/2">
                 <h1 class="text-5xl font-bold">Box Office News!</h1>
                 <p class="py-6">
                     Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.
@@ -20,32 +24,30 @@
 </section>
 
 <section class="m-30 bg-green-600 pt-10 pb-10">
-    <h1 class="text-3xl text-center m-5">Events en nieuws</h1>
+    <h1 class="text-h2 text-center m-5">Events en nieuws</h1>
     <div class="hero">
         <div class="lg:flex bg-base-200 rounded p-10">
-            <div class="flex-1 card bg-base-200">
-
-                {{ range seq 4 }}
-                <div class="card bg-base-100 w-fit shadow-xl mb-5 last:mb-0">
+            <div class="lg:w-1/3 card bg-base-200 my-5">
+                {{ range seq 5 }}
+                <div class="card bg-base-100 w-full shadow-xl mb-5 last:mb-0">
                     <div class="card-body">
-                        <div class="flex">
+                        <div class="flex justify-between">
                             <div>
                                 <h2 class="card-title">Card title!</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
                             </div>
-                            <div class="m-5">
-                                <button class="btn btn-primary">Buy Now</button>
+                            <div class="my-4">
+                                <button class="btn btn-primary float-end">Buy Now</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 {{ end }}
-
             </div>
-            <div class="grow-0 lg:w-32"></div>
-            <div class="card bg-base-100 lg:w-[50rem] shadow-xl m-0 p-0">
+            <div class="lg:w-2/3 card bg-base-100 lg:ml-5 shadow-xl m-0 p-0 my-5">
+
                 <figure>
-                    <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
+                    <img class="w-full" src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
                 </figure>
                 <div class="card-body">
                     <h2 class="card-title">In de kijker!</h2>
@@ -60,7 +62,7 @@
 </section>
 
 <section class="m-30 bg-red-100 pt-10">
-    <h1 class="text-3xl text-center m-5">Ploegen</h1>
+    <h1 class="text-h2 text-center m-5">Ploegen</h1>
     <div class="hero overflow-x-auto">
         <table class="table max-w-[100rem]">
             <!-- head -->
@@ -226,7 +228,7 @@
 </section>
 
 <section class="pt-10 pb-10">
-    <h1 class="text-3xl text-center m-5">Sponsers</h1>
+    <h1 class="text-h2 text-center m-5">Sponsers</h1>
     <div class="hero">
         <div class="carousel carousel-center rounded-box max-w-[100rem]">
             <div class="carousel-item">
@@ -255,7 +257,7 @@
 </section>
 
 <section class="pt-10">
-    <h1 class="text-3xl text-center m-5">Locatie</h1>
+    <h1 class="text-h2 text-center m-5">Locatie</h1>
     <div class="hero">
         <div class="w-full">
             <iframe
