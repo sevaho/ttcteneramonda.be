@@ -3,22 +3,26 @@
     <h1 class="text-h2 text-center m-5">Sponsers</h1>
 </section>
 
-<section class="m-30">
+<section class="">
     {{ range seq 4 }}
-    <div class="hero even:bg-base-100">
-        <div class="hero-content flex-col lg:flex-row-reverse">
-            <figure class="max-w-[100rem]">
-                <img src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp" alt="Album" />
-            </figure>
-            <div>
-                <h1 class="text-5xl font-bold">Box Office News!</h1>
-                <p class="py-6">
-                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.
-                    In deleniti eaque aut repudiandae et a id nisi.
-                </p>
-                <button class="btn btn-ghost">Link</button>
-            </div>
+    <div class="flex flex-col lg:even:flex-row lg:odd:flex-row-reverse even:bg-white lg:py-5">
+        <div class="w-1/5"></div>
+        <figure class="w-full lg:w-1/5 lg:max-w-full">
+            <img
+                src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+                alt="Album"
+                class="w-full h-auto"
+            />
+        </figure>
+        <div class="p-2 lg:w-2/5 m-1 lg:m-10">
+            <h1 class="text-5xl font-bold">Box Office News!</h1>
+            <p class="py-6">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In
+                deleniti eaque aut repudiandae et a id nisi.
+            </p>
+            <button class="btn btn-ghost text-blue-400">Link</button>
         </div>
+        <div class="w-1/5"></div>
     </div>
     {{ end }}
 </section>

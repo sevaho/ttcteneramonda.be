@@ -1,6 +1,6 @@
 <!-- Navigation-->
 <nav class="">
-    <div class="navbar bg-base-300 p-0">
+    <div class="navbar bg-green-950 p-0">
         <div class="navbar-start lg:ml-24">
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -29,12 +29,12 @@
                     {{ end }}
                 </ul>
             </div>
-            <a class="btn btn-ghost text-xl" href="/">{{ .Site.Title }}</a>
+            <a class="btn btn-ghost text-xl text-sky-50" href="/">{{ .Site.Title }}</a>
         </div>
         <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
                 {{ range site.Menus.main }}
-                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                <li><a class="text-white" href="{{ .URL }}">{{ .Name }}</a></li>
                 {{ end }}
             </ul>
         </div>

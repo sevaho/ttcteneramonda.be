@@ -13,6 +13,10 @@ help: ## Show this help message (default)
 dev: ## Run development server
 	hugo server -D
 
+local: ## Run local
+	hugo server -D --bind 192.168.0.195 --port 8080 --baseURL http://192.168.0.195:8080
+
+
 up: dev ## Alias to `make dev`
 run: dev ## Alias to `make dev`
 
