@@ -1,7 +1,7 @@
 {{ define "main" }}
 <!-- HERO PAGE -->
 <!-- HERO PAGE -->
-<section class="m-30">
+<section class="m-30 z-0">
     <div class="hero">
         <div class="hero-content flex-col lg:flex-row-reverse">
             <figure class="w-full lg:w-1/2 lg:max-w-full">
@@ -12,18 +12,18 @@
                 />
             </figure>
             <div class="lg:w-1/2">
-                <h1 class="text-5xl font-bold">Box Office News!</h1>
+                <h1 class="text-4xl font-bold">Welkom bij TTC Teneramonda!</h1>
                 <p class="py-6">
                     Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.
                     In deleniti eaque aut repudiandae et a id nisi.
                 </p>
-                <button class="btn btn-primary">Get Started</button>
+                <button class="btn btn-primary"><a href="/lid-worden">Lid worden</a></button>
             </div>
         </div>
     </div>
 </section>
 
-<section class="m-30 bg-green-600 pt-10 pb-10">
+<section class="m-30 pt-10 pb-10 bg-gray-50">
     <h1 class="text-h2 text-center m-5">Events en nieuws</h1>
     <div class="hero">
         <div class="lg:flex bg-base-200 rounded p-10">
@@ -31,8 +31,11 @@
                 {{ range seq 5 }}
                 <div class="card bg-base-100 w-full shadow-xl mb-5 last:mb-0">
                     <div class="card-body">
-                        <div class="flex justify-between">
-                            <div>
+                        <div>
+                            <h2 class="text-gray-500 text-2xl font-bold underline">24/02/2024</h2>
+                        </div>
+                        <div class="lg:flex justify-between">
+                            <div class="mt-2 lg:mt-0">
                                 <h2 class="card-title">Card title!</h2>
                                 <p>If a dog chews shoes whose shoes does he choose?</p>
                             </div>
@@ -53,6 +56,9 @@
                     />
                 </figure>
                 <div class="card-body">
+                    <div>
+                        <h2 class="text-gray-500 text-2xl font-bold underline">24/02/2024</h2>
+                    </div>
                     <h2 class="card-title">In de kijker!</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div class="card-actions justify-end">
@@ -64,7 +70,7 @@
     </div>
 </section>
 
-<section class="m-30 bg-red-100 pt-10">
+<section class="m-30 bg-gray-100 pt-10">
     <h1 class="text-h2 text-center m-5">Ploegen</h1>
     <div class="hero overflow-x-auto">
         <table class="table max-w-[100rem]">
@@ -230,8 +236,8 @@
     </div>
 </section>
 
-<section class="pt-10 pb-10">
-    <h1 class="text-h2 text-center m-5">Sponsers</h1>
+<section class="pt-10 pb-10 bg-gray-50">
+    <h1 class="text-h2 text-center m-5">Wij danken onze Sponsers</h1>
 
     <div class="container mx-auto">
         <div class="flex flex-wrap justify-center gap-10">

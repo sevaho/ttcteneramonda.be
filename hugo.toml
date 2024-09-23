@@ -8,6 +8,11 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
+  name = "Home"
+  URL = "/"
+  weight = 1
+
+  [[menu.main]]
   name = "Over ons"
   URL = "/over"
   weight = 1
@@ -33,9 +38,19 @@ enableRobotsTXT = true
   weight = 5
 
   [[menu.main]]
+  name = "Lid worden"
+  URL = "/lid-worden"
+  weight = 6
+
+  [[menu.main]]
+  name = "Documenten"
+  URL = "/documenten"
+  weight = 7
+
+  [[menu.main]]
   name = "Contact"
   URL = "/contact"
-  weight = 6
+  weight = 8
 
 
 [outputs]

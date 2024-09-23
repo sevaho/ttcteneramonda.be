@@ -1,45 +1,44 @@
 <!-- Footer-->
 
-<section class="bg-green-950">
+<section class="bg-green-600">
     <div class="container mx-auto py-4 lg:px-5">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="mb-3 md:mb-0 bg-blue-100">
+            <div class="mb-3 md:mb-0 bg-green-700 rounded">
                 <div class="card py-4 h-full">
                     <div class="card-body text-center">
-                        <i class="fas fa-map-marked-alt text-secondary mb-2"></i>
-                        <h4 class="uppercase m-0">Adres</h4>
+                        <i class="fas fa-map-marked-alt text-gray-300 mb-2"></i>
+                        <h4 class="uppercase m-0 text-gray-300">Adres</h4>
                         <hr class="my-4 mx-auto w-1/4" />
-                        <div class="text-sm text-gray-500">{{ .Params.address }}</div>
+                        <div class="text-sm text-lime-300">{{ .Params.address }}</div>
                     </div>
                 </div>
             </div>
-            <div class="mb-3 md:mb-0 bg-blue-100">
+            <div class="mb-3 md:mb-0 bg-green-700 rounded">
                 <div class="card py-4 h-full">
                     <div class="card-body text-center">
-                        <i class="fas fa-envelope text-secondary mb-2"></i>
-                        <h4 class="uppercase m-0">E-mail</h4>
+                        <i class="fas fa-envelope text-gray-300 mb-2"></i>
+                        <h4 class="uppercase m-0 text-gray-300">E-mail</h4>
                         <hr class="my-4 mx-auto w-1/4" />
                         <div class="text-sm">
-                            <a class="text-secondary" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+                            <a class="text-lime-300" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="mb-3 md:mb-0 bg-blue-100">
+            <div class="mb-3 md:mb-0 bg-green-700 rounded">
                 <div class="card py-4 h-full">
                     <div class="card-body text-center">
-                        <i class="fas fa-mobile-alt text-secondary mb-2"></i>
-                        <h4 class="uppercase m-0">GSM</h4>
+                        <i class="fas fa-mobile-alt text-gray-300 mb-2"></i>
+                        <h4 class="uppercase m-0 text-gray-300">GSM</h4>
                         <hr class="my-4 mx-auto w-1/4" />
                         <div class="text-sm">
-                            <a class="text-secondary" href="tel:{{ .Params.phone }}">{{ .Params.phone }}</a>
+                            <a class="text-lime-300" href="tel:{{ .Params.phone }}">{{ .Params.phone }}</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <h1 class="text-center">Socials</h1>
-        <div class="flex justify-center mt-5 space-x-4">
+        <div class="flex justify-center mt-10 gap-7 text-gray-100 text-3xl">
             <a class="mx-2" href="{{ .Params.pinterest }}"><i class="fab fa-pinterest"></i></a>
             <a class="mx-2" href="{{ .Params.facebook }}"><i class="fab fa-facebook-f"></i></a>
             <a class="mx-2" href="{{ .Params.linkedin }}"><i class="fab fa-linkedin"></i></a>
@@ -47,8 +46,8 @@
     </div>
 </section>
 
-<footer class="footer bg-green-950 py-5">
+<footer class="bg-green-600 py-5">
     <div class="container mx-auto text-center text-white">
-        <p class="text-center">Copyright &copy; {{ .Site.Title }} {{ now.Format "2006"}}</p>
+        <p class="text-center text-gray-200">Copyright &copy; {{ .Site.Title }} {{ now.Format "2006"}}</p>
     </div>
 </footer>

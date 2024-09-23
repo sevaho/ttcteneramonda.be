@@ -1,20 +1,17 @@
 {{ define "main" }}
-<section class="m-30 container mx-auto">
-    <h1 class="text-h2 text-center m-5">Sponsers</h1>
+<section class="m-30">
+    <h1 class="text-h2 text-center m-5">Lid worden</h1>
 </section>
-
-<section class="">
-    {{ range seq 4 }}
-    <div class="flex flex-col lg:even:flex-row lg:odd:flex-row-reverse even:bg-white lg:py-5">
-        <div class="w-1/5"></div>
-        <figure class="w-full lg:w-1/5 lg:max-w-full">
+<section class="h-screen container mx-auto">
+    <div class="flex flex-col lg:flex-row-reverse lg:py-5">
+        <figure class="w-full lg:max-w-full">
             <img
                 src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
                 alt="Album"
                 class="w-full h-auto rounded"
             />
         </figure>
-        <div class="p-2 lg:w-2/5 m-1 lg:m-10">
+        <div class="p-2 m-1 lg:m-10">
             <h1 class="text-5xl font-bold">Box Office News!</h1>
             <p class="py-6">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In
@@ -22,8 +19,6 @@
             </p>
             <button class="btn btn-ghost text-blue-400">Link</button>
         </div>
-        <div class="w-1/5"></div>
     </div>
-    {{ end }}
 </section>
 {{ end }}
