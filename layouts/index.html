@@ -45,9 +45,12 @@
                 {{ end }}
             </div>
             <div class="lg:w-2/3 card bg-base-100 lg:ml-5 shadow-xl m-0 p-0 my-5">
-
                 <figure>
-                    <img class="w-full" src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
+                    <img
+                        class="w-full"
+                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        alt="Shoes"
+                    />
                 </figure>
                 <div class="card-body">
                     <h2 class="card-title">In de kijker!</h2>
@@ -229,29 +232,20 @@
 
 <section class="pt-10 pb-10">
     <h1 class="text-h2 text-center m-5">Sponsers</h1>
-    <div class="hero">
-        <div class="carousel carousel-center rounded-box max-w-[100rem]">
-            <div class="carousel-item">
-                <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp" alt="Pizza" />
+
+    <div class="container mx-auto">
+        <div class="flex flex-wrap justify-center gap-10">
+            {{ range seq 4}}
+
+            <div class="">
+                <img
+                    class="w-full rounded"
+                    src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
+                    alt="Pizza"
+                />
             </div>
-            <div class="carousel-item">
-                <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp" alt="Pizza" />
-            </div>
-            <div class="carousel-item">
-                <img src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp" alt="Pizza" />
-            </div>
-            <div class="carousel-item">
-                <img src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp" alt="Pizza" />
-            </div>
-            <div class="carousel-item">
-                <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp" alt="Pizza" />
-            </div>
-            <div class="carousel-item">
-                <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp" alt="Pizza" />
-            </div>
-            <div class="carousel-item">
-                <img src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp" alt="Pizza" />
-            </div>
+
+            {{ end }}
         </div>
     </div>
 </section>
