@@ -1,9 +1,9 @@
 <!-- Navigation-->
-<nav class="pb-20">
-    <div class="navbar bg-primary-green-1 fixed top-0 z-50">
+<nav class="pb-20 border">
+    <div class="navbar bg-white fixed top-0 z-50 border-solid border-white border-b-primary-green-1/85">
         <div class="navbar-start">
             <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost text-white lg:hidden">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5"
@@ -29,12 +29,12 @@
                     {{ end }}
                 </ul>
             </div>
-            <a class="btn btn-ghost text-xl text-sky-50" href="/">{{ .Site.Title }}</a>
+            <a class="btn btn-ghost text-xl text-sky-900 font-bold" href="/">{{ .Site.Title }}</a>
         </div>
         <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
                 {{ range site.Menus.main }}
-                <li><a class="text-white" href="{{ .URL }}">{{ .Name }}</a></li>
+                <li><a class="font-bold text-sky-900" href="{{ .URL }}">{{ .Name }}</a></li>
                 {{ end }}
             </ul>
         </div>

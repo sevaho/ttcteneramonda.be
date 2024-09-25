@@ -4,8 +4,7 @@
 </section>
 <section>
     <div class="flex">
-        <div class="grow-0 lg:w-1/5"></div>
-        <div class="flex flex-wrap justify-evenly lg:w-3/5">
+        <div class="flex flex-wrap justify-evenly">
             {{ range seq 20}}
             <div class="card bg-base-100 md:w-96 shadow-xl m-2 lg:m-5">
                 <figure>
@@ -15,13 +14,12 @@
                     <h2 class="card-title">Shoes!</h2>
                     <p>If a dog chews shoes whose shoes does he choose?</p>
                     <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn btn-accent">Buy Now</button>
                     </div>
                 </div>
             </div>
             {{ end }}
         </div>
-        <div class="grow-0 lg:w-1/5"></div>
     </div>
 </section>
 {{ end }}
