@@ -5,27 +5,28 @@
 @import "components/markdown.css";
 
 @layer components {
-  .max-w-container {
-      @apply max-w-[60vw];
-      display: grid;
-      @apply text-center;
+    .max-w-container {
+        @apply max-w-[60vw];
+        display: grid;
+        @apply text-center;
 
-  }
+    }
 
-  .text-h1 {
-      font-size: 4rem;
-  }
+    .text-h1 {
+        font-size: 4rem;
+    }
 
-  .text-h2 {
-      font-size: 3rem;
-  }
+    .text-h2 {
+        font-size: 3rem;
+    }
 
-  .btn-accent {
-    background-color: theme('colors.primary-green-2');
-    color: theme('colors.lime.50');
-    @apply border-0
-  }
-  .btn-accent:hover {
-    background-color: theme('colors.primary-green-1');
-  }
+    .btn-accent {
+        background-color: theme('colors.primary-green-2');
+        color: theme('colors.lime.50');
+        @apply border-0
+    }
+    .btn-accent:hover {
+        background-color: theme('colors.primary-green-1');
+    }
+
 }

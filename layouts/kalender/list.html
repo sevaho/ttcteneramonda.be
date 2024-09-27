@@ -1,11 +1,50 @@
 {{ define "main" }}
 
 <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
-<script src='https://cdn.jsdelivr.net/npm/fullcalendar@3.10.5/dist/locale-all.min.js'></script>
+
+<!-- STYLE the calendar -->
+<style type="text/css" media="screen">
+    .fc-daygrid-event {
+        display: block !important;
+        padding-left: 15px !important;
+    }
+    .fc-daygrid-event {
+        white-space: normal !important;
+        align-items: normal !important;
+    }
+    .fc-daygrid-event-dot {
+        display: inline-flex;
+        position: absolute;
+        left: 0px;
+        top: 6px;
+    }
+    .fc-event-time,
+    .fc-event-title {
+        display: inline;
+    }
+    .fc-event {
+        cursor: pointer;
+    }
+</style>
 
 <div class="container mx-auto mt-10 mb-10">
     <div id="calendar" class="bg-sky-50 p-2 rounded"></div>
 </div>
+
+<!-- Modal Template (Hidden initially) -->
+
+<dialog id="x-modal-1" class="modal">
+    <div class="modal-box">
+        <h3 id="x-modal-1-title" class="text-lg font-bold">Hello!</h3>
+        <p id="x-modal-1-description" class="py-4">Press ESC key or click the button below to close</p>
+        <div class="modal-action">
+            <form method="dialog">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn btn-accent">Close</button>
+            </form>
+        </div>
+    </div>
+</dialog>
 
 <script>
       let events = [
@@ -20,20 +59,32 @@
       ]
 
     document.addEventListener('DOMContentLoaded', function() {
-      var calendarEl = document.getElementById('calendar');
+        var calendarEl = document.getElementById('calendar');
 
-      var calendar = new FullCalendar.Calendar(calendarEl, {
-          locale: 'nl',
-          initialView: 'dayGridMonth',
-          weekNumberCalculation: 'ISO',
-          // initialDate: '2024-08-07',
-          headerToolbar: {
-              left: 'prev,next today',
-              center: 'title',
-              right: 'dayGridMonth,timeGridWeek,timeGridDay'
-          },
-          events: events
-      });
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            locale: 'nl',
+            initialView: 'dayGridMonth',
+            weekNumberCalculation: 'ISO',
+            // initialDate: '2024-08-07',
+            headerToolbar: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
+            },
+            events: events,
+            // Event click handler
+            eventClick: function(info) {
+                info.jsEvent.preventDefault(); // don't let the browser navigate
+
+                // Populate the modal with event details
+                document.getElementById('x-modal-1-title').innerText = info.event.title;
+                document.getElementById('x-modal-1-description').innerText = `Event starts at: ${info.event.start}`;
+                document.getElementById('x-modal-1').showModal()
+
+
+            }
+        });
+
 
       calendar.render();
     });
