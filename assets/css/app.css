@@ -13,20 +13,24 @@
     }
 
     .text-h1 {
-        font-size: 4rem;
+        font-size: 3rem;
+        color: theme('colors.primary-100');
     }
 
     .text-h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
+        color: theme('colors.primary-200');
     }
 
     .btn-accent {
-        background-color: theme('colors.primary-green-2');
+        background-color: theme('colors.primary-100');
         color: theme('colors.lime.50');
-        @apply border-0
+        @apply border-0;
+        @apply cursor-pointer;
     }
     .btn-accent:hover {
-        background-color: theme('colors.primary-green-1');
+        background-color: theme('colors.primary-200');
+
     }
 
 }

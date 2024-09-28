@@ -1,18 +1,20 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./hugo_stats.json"],
   theme: {
     extend: {
       colors: {
+        // PRIMARY (base: 2b6daf)
 
-        // PRIMARY
-        'primary-green-1': '#51a37a',
-        'primary-green-2': '#408362',
-        // SECONDARY
-        'secondary-green-1': '#b7d0c4',
-        // ACCENT
-        'accent-1': '#89b29e',
-        'accent-2': '#5e905f',
+        // PRIMARY (base: #011a32)
+        'primary-50': '#b2cae2',
+        'primary-100': '#2b6daf',
+        'primary-200': '#023464',
+
+        // ACCENT (base: #9f302c)
+        'accent-100': '#CD4F4A',
+        'accent-200': '#c73c37',
       }
     },
   },

@@ -18,8 +18,8 @@ enableRobotsTXT = true
   weight = 1
 
   [[menu.main]]
-  name = "Sponsers"
-  URL = "/sponsers"
+  name = "Sponsors"
+  URL = "/sponsors"
   weight = 2
 
   [[menu.main]]
@@ -43,14 +43,9 @@ enableRobotsTXT = true
   weight = 6
 
   [[menu.main]]
-  name = "Documenten"
-  URL = "/documenten"
-  weight = 7
-
-  [[menu.main]]
   name = "Contact"
   URL = "/contact"
-  weight = 8
+  weight = 7
 
 
 [outputs]
