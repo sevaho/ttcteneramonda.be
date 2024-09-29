@@ -1,27 +1,30 @@
 <!-- Footer-->
 
 <section class="bg-gradient-to-r from-sky-600 to-red-400">
-
     <div class="container mx-auto py-4 lg:px-5">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div class="mb-3 md:mb-0 bg-sky-950 rounded">
                 <div class="card h-full">
                     <div class="card-body text-center">
-                        <i class="fas fa-map-marked-alt mb-2  text-white"></i>
+                        <i class="fas fa-map-marked-alt mb-2 text-white"></i>
                         <h4 class="uppercase m-0 text-white">Adres</h4>
                         <hr class="my-2 mx-auto w-1/4" />
-                        <div class="text-sm  text-sky-200">{{ .Params.address }}</div>
+                        {{ with site.GetPage "" }}
+                        <div class="text-sm text-sky-200">{{ .Params.address }}</div>
+                        {{ end }}
                     </div>
                 </div>
             </div>
             <div class="mb-3 md:mb-0 bg-sky-950 rounded">
                 <div class="card h-full">
                     <div class="card-body text-center">
-                        <i class="fas fa-envelope  text-white mb-2"></i>
+                        <i class="fas fa-envelope text-white mb-2"></i>
                         <h4 class="uppercase m-0 text-white">E-mail</h4>
                         <hr class="my-2 mx-auto w-1/4" />
                         <div class="text-sm">
+                            {{ with site.GetPage "" }}
                             <a class="text-sky-200" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+                            {{ end }}
                         </div>
                     </div>
                 </div>
@@ -33,15 +36,17 @@
                         <h4 class="uppercase m-0 text-white">GSM</h4>
                         <hr class="my-2 mx-auto w-1/4" />
                         <div class="text-sm">
+                            {{ with site.GetPage "" }}
                             <a class="text-sky-200" href="tel:{{ .Params.phone }}">{{ .Params.phone }}</a>
+                            {{ end }}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="flex justify-center mt-10 gap-7 text-gray-50 text-3xl">
-            <a class="mx-2" href="{{ .Params.instagram }}"><i class="fab fa-innstagram"></i></a>
-            <a class="mx-2" href="{{ .Params.facebook }}"><i class="fab fa-facebook-f"></i></a>
+            <a class="mx-2" href="{{ .Params.instagram }}"><i class="fab fa-brands fa-instagram"></i></a>
+            <a class="mx-2" href="{{ .Params.facebook }}"><i class="fab fa-brands fa-facebook-f"></i></a>
         </div>
     </div>
 </section>

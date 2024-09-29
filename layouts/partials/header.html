@@ -1,51 +1,10 @@
-<!-- Navigation-->
-<!-- <nav class="pb-20 border"> -->
-<!--     <div class="navbar bg-white fixed top-0 z-50 border-solid border-white border-b-primary-green-1/85"> -->
-<!--         <div class="navbar-start"> -->
-<!--             <div class="dropdown"> -->
-<!--                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden"> -->
-<!--                     <svg -->
-<!--                         xmlns="http://www.w3.org/2000/svg" -->
-<!--                         class="h-5 w-5" -->
-<!--                         fill="none" -->
-<!--                         viewBox="0 0 24 24" -->
-<!--                         stroke="currentColor" -->
-<!--                     > -->
-<!--                         <path -->
-<!--                             stroke-linecap="round" -->
-<!--                             stroke-linejoin="round" -->
-<!--                             stroke-width="2" -->
-<!--                             d="M4 6h16M4 12h8m-8 6h16" -->
-<!--                         /> -->
-<!--                     </svg> -->
-<!--                 </div> -->
-<!--  -->
-<!--                 <ul -->
-<!--                     tabindex="0" -->
-<!--                     class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow" -->
-<!--                 > -->
-<!--                     {{ range site.Menus.main }} -->
-<!--                     <li><a href="{{ .URL }}">{{ .Name }}</a></li> -->
-<!--                     {{ end }} -->
-<!--                 </ul> -->
-<!--             </div> -->
-<!--             <a class="btn btn-ghost text-xl text-sky-900 font-bold" href="/">{{ .Site.Title }}</a> -->
-<!--         </div> -->
-<!--         <div class="navbar-center hidden lg:flex"> -->
-<!--             <ul class="menu menu-horizontal px-1"> -->
-<!--                 {{ range site.Menus.main }} -->
-<!--                 <li><a class="font-bold text-sky-900" href="{{ .URL }}">{{ .Name }}</a></li> -->
-<!--                 {{ end }} -->
-<!--             </ul> -->
-<!--         </div> -->
-<!--     </div> -->
-<!-- </nav> -->
-
 <div class="drawer z-50 pb-20">
     <input id="x-drawer-1" type="checkbox" class="drawer-toggle" />
     <div class="drawer-content flex flex-col">
         <!-- Navbar -->
-        <div class="navbar w-full bg-white fixed top-0 z-50 border-solid border-white border-b-primary-100/85">
+        <div
+            class="navbar w-full bg-white fixed top-0 z-50 border-solid border-white border-b-primary-100/85 m-0 p-0 pb-2 pt-1"
+        >
             <div class="flex-none lg:hidden">
                 <label for="x-drawer-1" aria-label="open sidebar" class="btn btn-square btn-ghost">
                     <svg
@@ -64,7 +23,14 @@
                 </label>
             </div>
             <div class="mx-2 flex-1 px-2">
-                <a class="btn btn-ghost text-xl text-sky-900 font-bold" href="/">{{ .Site.Title }}</a>
+                <a class="btn btn-ghost text-xl text-sky-900 font-bold" href="/">
+                    <span>
+                        {{ with resources.Get "logo_kleur.png" }}
+                        <img src="{{ .RelPermalink }}" alt="logo" class="w-16" />
+                        {{ end }}
+                    </span>
+                    {{ .Site.Title }}
+                </a>
             </div>
             <div class="hidden flex-none lg:block lg:mr-20">
                 <ul class="menu menu-horizontal">

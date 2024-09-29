@@ -1,35 +1,34 @@
 {{ define "main" }}
 <!-- HERO PAGE -->
 <!-- HERO PAGE -->
-<section class="m-30 lg:p-20 z-0 bg-gradient-to-b from-sky-200 to-sky-700">
+<section class="m-30 lg:p-20 z-0 bg-gradient-to-b from-sky-700 to-rose-300">
     <div class="hero">
         <div class="hero-content flex-col lg:flex-row-reverse">
             <figure class="w-full lg:w-1/2 lg:max-w-full">
-                <img
-                    src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
-                    alt="Album"
-                    class="w-full h-auto rounded"
-                />
+                {{ with resources.Get "logo_kleur.png" }}
+                <img src="{{ .RelPermalink }}" alt="Album" class="w-full h-auto rounded" />
+                {{ end }}
             </figure>
             <div class="lg:w-1/2">
                 <h1 class="text-h1 font-bold text-sky-50">Welkom bij</h1>
-                <h1 class="text-h1 font-bold text-sky-50">TTC Teneramonda!</h1>
-                <p class="py-6 text-sky-50">
-                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.
-                    In deleniti eaque aut repudiandae et a id nisi.
-                </p>
-                <button class="btn btn-accent"><a href="/lid-worden">Lid worden</a></button>
+                <h1 class="text-h1 font-bold text-cyan-50">TTC Teneramonda!</h1>
+                <div class="py-6 text-cyan-50">{{ .Content }}</div>
+                <button
+                    class="btn btn-outline text-cyan-50 border-solid border-cyan-50 border-2 hover:bg-sky-800 hover:border-sky-800"
+                >
+                    <a href="/lid-worden" class="font-bold text-lg">Lid worden </a>
+                </button>
             </div>
         </div>
     </div>
 </section>
 
 <section class="m-30 pt-10 pb-10 bg-gray-50">
-    <h1 class="text-h2 text-center mt-5 ">Events en nieuws</h1>
+    <h1 class="text-h2 text-center mt-5">Events en nieuws</h1>
     <div class="hero">
         <div class="lg:flex rounded p-1 lg:p-10">
             <div class="lg:w-1/3 card my-5">
-                {{ range seq 5 }}
+                {{ range $event := .Params.events }} {{ if $event.enabled }}
                 <div class="card bg-base-100 w-full shadow-xl mb-5 last:mb-0">
                     <div class="card-body">
                         <div>
@@ -37,8 +36,8 @@
                         </div>
                         <div class="lg:flex justify-between gap-1">
                             <div class="mt-2 lg:m-0">
-                                <h2 class="card-title">Card title!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <h2 class="card-title"></h2>
+                                <p>If a dog chews shoes whose shoes does he choose? {{ $event.title }}</p>
                             </div>
                             <div class="my-4">
                                 <button class="btn btn-accent float-end w-24">Buy Now</button>
@@ -46,7 +45,7 @@
                         </div>
                     </div>
                 </div>
-                {{ end }}
+                {{ end }} {{ end }}
             </div>
             <div class="lg:w-2/3 card bg-base-100 lg:ml-5 shadow-xl m-0 p-0 my-5">
                 <figure>
