@@ -8,21 +8,27 @@ title: "Portfolio Sofie D'heer"
 
 events:
     -   enabled: true
-        dfsdf: dfs
-        title: Hallo
         date: 11/05/2024
-        description: 11/05/2024
+        action_button_content: klik hier
+        content: Dit is een event
+        action_button_link: #
     -   enabled: true
-        title: Hallo
         date: 11/05/2024
-        description: 11/05/2024
+        content: Dit is een event
+        action_button_content: klik hier
+        action_button_link: #
     -   enabled: true
-        title: wie daar
         date: 11/05/2024
-        description: 11/05/2024
+        content: Dit is een event
+        action_button_content:
+        action_button_link:
 
 event_in_de_kijker:
+    date: 11/05/2024
     title: xx
+    content: Dit is een event
+    action_button_content:
+    action_button_link:
 
 email: info@ttcteneramonda.be
 

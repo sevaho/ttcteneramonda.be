@@ -66,10 +66,17 @@
             initialView: 'dayGridMonth',
             weekNumberCalculation: 'ISO',
             // initialDate: '2024-08-07',
+            buttonText: {
+                today:    'vandaag',
+                month:    'maand',
+                week:     'week',
+                day:      'dag',
+                list:     'lijst'
+            },
             headerToolbar: {
                 left: 'prev,next today',
                 center: 'title',
-                right: 'dayGridMonth,timeGridWeek,timeGridDay,listMonth'
+                right: 'listMonth,dayGridMonth,timeGridWeek,timeGridDay'
             },
             events: events,
             // Event click handler

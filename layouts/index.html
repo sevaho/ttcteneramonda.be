@@ -32,16 +32,20 @@
                 <div class="card bg-base-100 w-full shadow-xl mb-5 last:mb-0">
                     <div class="card-body">
                         <div>
-                            <h2 class="text-gray-500 text-2xl font-bold underline">24/02/2024</h2>
+                            <h2 class="text-gray-500 text-2xl font-bold underline">{{ $event.date }}</h2>
                         </div>
                         <div class="lg:flex justify-between gap-1">
                             <div class="mt-2 lg:m-0">
                                 <h2 class="card-title"></h2>
-                                <p>If a dog chews shoes whose shoes does he choose? {{ $event.title }}</p>
+                                <p>{{ $event.content }}</p>
                             </div>
-                            <div class="my-4">
-                                <button class="btn btn-accent float-end w-24">Buy Now</button>
+                            {{ if $event.action_button_content }}
+                            <div class="my-3">
+                                <button class="btn btn-accent float-end p-2 m-0">
+                                    <a href="{{ $event.action_button_link }}" class="">{{ $event.action_button_content }} </a>
+                                    </button>
                             </div>
+                            {{ end }}
                         </div>
                     </div>
                 </div>
@@ -57,10 +61,10 @@
                 </figure>
                 <div class="card-body">
                     <div>
-                        <h2 class="text-gray-500 text-2xl font-bold underline">24/02/2024</h2>
+                        <h2 class="text-gray-500 text-2xl font-bold underline">{{ .Params.event_in_de_kijker.date }}</h2>
                     </div>
-                    <h2 class="card-title">In de kijker!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <h2 class="card-title">{{ .Params.event_in_de_kijker.title }}</h2>
+                    <p>{{ .Params.event_in_de_kijker.content }}</p>
                     <div class="card-actions justify-end">
                         <button class="btn btn-accent">Buy Now</button>
                     </div>
