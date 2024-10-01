@@ -16,3 +16,12 @@ collections:
       - { label: 'Email', name: 'email', widget: 'string' }
       - { label: 'Facebook', name: 'facebook', widget: 'string' }
       - { label: 'Instagram', name: 'instagram', widget: 'string' }
+  - label: "sponsors"
+    name: "sponsors"
+    fields:
+      - label: "Sponser lijst"
+        name: "sponsers"
+        widget: "list"
+        fields:
+          - {label: "Naam", name: "name", widget: "string"}
+          - {label: "Afbeelding", name: "image", widget: "image"}
