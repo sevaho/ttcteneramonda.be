@@ -4,11 +4,15 @@ backend:
 media_folder: static/images
 public_folder: /images
 collections:
-  - name: 'Index'
-    label: 'Index'
+  - name: 'Algemeen'
+    label: 'Algemeen'
     folder: 'content'
     file: '_index.md'
     editor:
       preview: true
     fields:
       - { label: 'Adres', name: 'address', widget: 'string' }
+      - { label: 'Telefoon', name: 'phone', widget: 'string' }
+      - { label: 'Email', name: 'email', widget: 'string' }
+      - { label: 'Facebook', name: 'facebook', widget: 'string' }
+      - { label: 'Instagram', name: 'instagram', widget: 'string' }
