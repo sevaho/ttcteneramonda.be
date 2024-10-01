@@ -10,23 +10,16 @@
                 <img src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp" alt="Album" />
             </figure>
             <div class="card-body">
-                <h2 class="card-title">New album is released!</h2>
-                <p>Click the button to listen on Spotiwhy app.</p>
+                <h2 class="card-title">{{ .Title }}</h2>
+                {{ .Content }}
+
+                {{ if .Params.has_action_button }}
                 <div class="card-actions justify-end">
-                    <button class="btn btn-accent">Listen</button>
+                    <button class="btn btn-accent">
+                        <a href="{{ .Params.action_button_link }}" class="">{{ .Params.action_button_content }} </a>
+                    </button>
                 </div>
-            </div>
-        </div>
-        <div class="card lg:card-side bg-base-100 shadow-xl mt-10">
-            <figure>
-                <img src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp" alt="Album" />
-            </figure>
-            <div class="card-body">
-                <h2 class="card-title">New album is released!</h2>
-                <p>Click the button to listen on Spotiwhy app.</p>
-                <div class="card-actions justify-end">
-                    <button class="btn btn-accent">Listen</button>
-                </div>
+                {{ end }}
             </div>
         </div>
     </div>

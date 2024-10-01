@@ -1,23 +1,25 @@
 {{ define "main" }}
-<section class="m-30">
-    <h1 class="text-h2 text-center m-5">Lid worden</h1>
-</section>
-<section class="h-screen container mx-auto">
+<section class="h-screen container mx-auto mt-10 lg:mt-32">
     <div class="flex flex-col lg:flex-row-reverse lg:py-5">
-        <figure class="w-full lg:max-w-full">
+        <figure class="xl:w-2/3 lg:max-w-full">
             <img
                 src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
                 alt="Album"
                 class="w-full h-auto rounded"
             />
         </figure>
-        <div class="p-2 m-1 lg:m-10">
-            <h1 class="text-h1 font-bold">Box Office News!</h1>
-            <p class="py-6">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In
-                deleniti eaque aut repudiandae et a id nisi.
-            </p>
-            <button class="btn btn-ghost text-blue-400">Link</button>
+        <div class="xl:w-1/3 p-2 m-1 lg:m-10">
+            <h1 class="text-h1 font-bold">{{ .Title }}</h1>
+            <div class="py-6">
+                {{ .Content }}
+            </div>
+            {{ if .Params.has_action_button }}
+            <div class="card-actions justify-start">
+                <button class="btn btn-accent">
+                    <a href="{{ .Params.action_button_link }}" class="">{{ .Params.action_button_content }} </a>
+                </button>
+            </div>
+            {{ end }}
         </div>
     </div>
 </section>

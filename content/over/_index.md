@@ -1,5 +1,6 @@
 ---
 gallery_folder: images/sfeerbeelden
+title: Over ons
 ---
-yow this is good
+Dit is de over ons pagina content.
 

@@ -37,6 +37,7 @@
                     {{ range site.Menus.main }}
                     <li><a class="font-bold text-sky-900" href="{{ .URL }}">{{ .Name }}</a></li>
                     {{ end }}
+                    <li><a class="font-bold text-sky-900" href="/admin">login</a></li>
                 </ul>
             </div>
         </div>
@@ -47,6 +48,7 @@
             {{ range site.Menus.main }}
             <li><a class="font-bold text-sky-900 p-5" href="{{ .URL }}">{{ .Name }}</a></li>
             {{ end }}
+            <li><a class="font-bold text-sky-900" href="/admin">login</a></li>
         </ul>
     </div>
 </div>

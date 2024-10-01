@@ -1,25 +1,67 @@
 {{ define "main" }}
+
+<section class="m-30">
+    <h1 class="text-h2 text-center m-5">Bestuur</h1>
+</section>
+<section>
+    <div class="flex flex-wrap justify-center">
+        {{ range seq 3}}
+        <div class="card bg-base-200 md:w-96 shadow-xl m-2 lg:m-5">
+            <figure>
+                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">Sebastiaan Van Hoecke</h2>
+                <div class="flex gap-3">
+                    <span class="badge badge-accent badge-sm">Bestuur</span>
+                    <span class="badge badge-accent badge-sm">Bestuur</span>
+                </div>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+<section class="m-30">
+    <h1 class="text-h2 text-center m-5">Trainers</h1>
+</section>
+<section>
+    <div class="flex flex-wrap justify-center">
+        {{ range seq 3}}
+        <div class="card bg-base-200 md:w-96 shadow-xl m-2 lg:m-5">
+            <figure>
+                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-accent">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
 <section class="m-30">
     <h1 class="text-h2 text-center m-5">Leden</h1>
 </section>
 <section>
-    <div class="flex">
-        <div class="flex flex-wrap justify-evenly">
-            {{ range seq 20}}
-            <div class="card bg-base-200 md:w-96 shadow-xl m-2 lg:m-5">
-                <figure>
-                    <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
-                </figure>
-                <div class="card-body">
-                    <h2 class="card-title">Shoes!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                    <div class="card-actions justify-end">
-                        <button class="btn btn-accent">Buy Now</button>
-                    </div>
+    <div class="flex flex-wrap justify-evenly">
+        {{ range seq 20}}
+        <div class="card bg-base-200 md:w-96 shadow-xl m-2 lg:m-5">
+            <figure>
+                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-accent">Buy Now</button>
                 </div>
             </div>
-            {{ end }}
         </div>
+        {{ end }}
     </div>
 </section>
 {{ end }}
