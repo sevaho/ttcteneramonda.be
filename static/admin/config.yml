@@ -3,4 +3,12 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: static/images
 public_folder: /images
-collections: {}
+collections:
+  - name: 'Index'
+    label: 'Index'
+    folder: 'content'
+    file: '_index.md'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Adres', name: 'address', widget: 'string' }
