@@ -63,11 +63,11 @@ collections:
         fields:
           - { label: 'Titel', name: 'title', widget: 'string' }
           - { label: 'Afbeelding', name: 'image', widget: 'image' }
-          - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
-          - { media_folder: /assets/images/sfeerbeelden, name: 'Sfeerbeelden', widget: 'image', choose_url: true, media_library: {config: {multiple: true, max_files: 999}}}
+          - { label: 'Content', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
           - label: 'Sfeerbeelden'
             name: 'sfeerbeelden'
             widget: 'list'
+            collapsed: false
             fields:
               - { media_folder: /assets/images/sfeerbeelden, name: 'Sfeerbeelden', widget: 'image', choose_url: true}
 
@@ -78,8 +78,8 @@ collections:
           preview: true
         fields:
           - { label: 'Titel', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
           - { label: 'Afbeelding', name: 'image', widget: 'image' }
+          - { label: 'Content', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
 
       - label: 'Leden'
         name: 'leden'
@@ -92,21 +92,21 @@ collections:
             widget: 'list'
             fields:
               - { label: 'Naam', name: 'name', widget: 'string' }
-              - { label: 'Afbeelding', name: 'image', widget: 'image' }
+              - { label: 'Afbeelding', name: 'image', widget: 'image', required: false}
               - { label: 'Rol', name: 'role', widget: 'string' }
           - label: 'Trainers'
             name: 'trainers'
             widget: 'list'
             fields:
               - { label: 'Naam', name: 'name', widget: 'string' }
-              - { label: 'Afbeelding', name: 'image', widget: 'image' }
+              - { label: 'Afbeelding', name: 'image', widget: 'image', required: false}
               - { label: 'Rol', name: 'role', widget: 'string' }
           - label: 'Leden'
             name: 'leden'
             widget: 'list'
             fields:
               - { label: 'Naam', name: 'name', widget: 'string' }
-              - { label: 'Afbeelding', name: 'image', widget: 'image' }
+              - { label: 'Afbeelding', name: 'image', widget: 'image', required: false}
               - { label: 'Rol', name: 'role', widget: 'string' }
 
       - label: 'Lid worden'
