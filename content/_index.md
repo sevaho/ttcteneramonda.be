@@ -1,9 +1,11 @@
 ---
+title: test
 facebook: https://www.facebook.com/sofie.dheer
 phone: +32 485 43 28 10
 date: 2024-10-02T07:15:09.750Z
 instagram: https://www.linkedin.com/in/sofie-d-heer-43987717b
 address: Leopoldlaan 30, 9200 Dendermonde
+email: info@ttcteneramonda.be
 event_in_de_kijker:
   date: 12/05/2024
   title: xx
@@ -11,7 +13,6 @@ event_in_de_kijker:
   action_button_content: null
   action_button_link: null
   has_action_button: false
-title: test
 sponsors:
   - name: test 1
     image: /images/wegroup-avatar.png
@@ -34,7 +35,6 @@ events:
     action_button_content: null
     action_button_link: null
     has_action_button: false
-email: info@ttcteneramonda.be
 ploegen:
   - link_naar_sporta: https://sevaho.io
     name: A ploeg

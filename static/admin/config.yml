@@ -18,12 +18,41 @@ collections:
           - { label: 'Email', name: 'email', widget: 'string' }
           - { label: 'Facebook', name: 'facebook', widget: 'string' }
           - { label: 'Instagram', name: 'instagram', widget: 'string' }
+          - { label: 'Beschrijving', name: 'body', widget: 'markdown', hint: 'Beschrijving.' }
+          - label: 'Ploegen'
+            name: 'ploegen'
+            widget: 'list'
+            fields:
+              - { label: 'Link naar sporta', name: 'link_naar_sporta', widget: 'string' }
+              - { label: 'Naam', name: 'name', widget: 'string' }
+              - { label: 'Afdeling', name: 'division', widget: 'string' }
           - label: 'Sponsor lijst'
             name: 'sponsors'
             widget: 'list'
             fields:
               - { label: 'Naam', name: 'name', widget: 'string' }
+              - { label: 'Beschrijving', name: 'description', widget: 'markdown' }
               - { label: 'Afbeelding', name: 'image', widget: 'image' }
+          - label: 'Events en nieuws linkse blokjes'
+            name: 'events'
+            widget: 'list'
+            fields:
+              - { label: 'Actief?', name: 'enabled', widget: 'boolean' }
+              - { label: "Datum", name: "date", widget: "datetime", "date_format": "DD/MM/YYYY" }
+              - { label: 'Actie knop link', name: 'action_button_link', widget: 'string' }
+              - { label: 'Actie knop content', name: 'action_button_content', widget: 'string' }
+              - { label: 'Actie knop?', name: 'has_action_button', widget: 'boolean' }
+              - { label: 'Content', name: 'content', widget: 'string' }
+          - label: 'Event in de kijker'
+            name: 'event_in_de_kijker'
+            widget: 'object'
+            fields: 
+              - {label: 'Titel', name: 'title', widget: 'string'}
+              - {label: 'Actie knop link', name: 'action_button_link', widget: 'string'}
+              - {label: 'Actie knop content', name: 'action_button_content', widget: 'string'}
+              - {label: 'Actie knop?', name: 'has_action_button', widget: 'boolean'}
+              - {label: "Datum", name: "date", widget: "datetime", "date_format": "DD/MM/YYYY"}
+              - {label: 'Afbeelding', name: 'image', widget: 'image'}
       - label: 'Kledij'
         name: 'kledij'
         file: 'content/kledij/_index.md'
@@ -32,6 +61,36 @@ collections:
         fields:
           - { label: 'Titel', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+
+  - name: 'calendar'
+    label: 'Kalender'
+    label_singular: 'Kalender item' # Used in the UI, ie: "New Post"
+    description: >
+      The description is a great place for tone setting, high level information, and editing
+      guidelines that are specific to a collection.
+    folder: 'content/Kalender'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
+    create: true # Allow users to create new documents in this collection
+    view_filters:
+      - label: Posts With Index
+        field: title
+        pattern: 'This is post #'
+      - label: Posts Without Index
+        field: title
+        pattern: front matter post
+      - label: Drafts
+        field: draft
+        pattern: true
+    view_groups:
+      - label: Year
+        field: date
+        pattern: \d{4}
+      - label: Drafts
+        field: draft
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string'}
+      - { label: 'Datum', name: 'startdate', widget: 'datetime'}
 
   # - name: 'Algemeen'
   #   label: 'Algemeen'
