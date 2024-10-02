@@ -91,6 +91,7 @@ collections:
           - label: 'Bestuurders'
             name: 'bestuurders'
             widget: 'list'
+            collapsed: false
             fields:
               - { label: 'Naam', name: 'name', widget: 'string' }
               - { label: 'Afbeelding', name: 'image', widget: 'image', required: false}
@@ -99,6 +100,7 @@ collections:
           - label: 'Trainers'
             name: 'trainers'
             widget: 'list'
+            collapsed: false
             fields:
               - { label: 'Naam', name: 'name', widget: 'string' }
               - { label: 'Afbeelding', name: 'image', widget: 'image', required: false}
@@ -107,6 +109,7 @@ collections:
           - label: 'Leden'
             name: 'leden'
             widget: 'list'
+            collapsed: false
             fields:
               - { label: 'Naam', name: 'name', widget: 'string' }
               - { label: 'Afbeelding', name: 'image', widget: 'image', required: false}
