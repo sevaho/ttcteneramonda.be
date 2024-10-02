@@ -5,18 +5,17 @@
 </section>
 <section>
     <div class="flex flex-wrap justify-center">
-        {{ range seq 3}}
-        <div class="card bg-base-200 md:w-96 shadow-xl m-2 lg:m-5">
-            <figure>
-                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
+        {{ range $e := .Params.bestuurders }}
+        <div class="card bg-base-200 min-h-96 md:w-96 shadow-xl m-2 lg:m-5">
+            <figure class="h-56">
+                <img src="{{$e.image}}" alt="Foto van bestuurder {{$e.name}}." />
             </figure>
             <div class="card-body">
-                <h2 class="card-title">Sebastiaan Van Hoecke</h2>
+                <h2 class="card-title">{{ $e.name }}</h2>
                 <div class="flex gap-3">
-                    <span class="badge badge-accent badge-sm">Bestuur</span>
-                    <span class="badge badge-accent badge-sm">Bestuur</span>
+                    <span class="badge badge-accent badge-sm">{{ $e.role }}</span>
                 </div>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p>{{ $e.content }}</p>
             </div>
         </div>
         {{ end }}
@@ -27,17 +26,17 @@
 </section>
 <section>
     <div class="flex flex-wrap justify-center">
-        {{ range seq 3}}
-        <div class="card bg-base-200 md:w-96 shadow-xl m-2 lg:m-5">
-            <figure>
-                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
+        {{ range $e := .Params.trainers }}
+        <div class="card bg-base-200 min-h-96 md:w-96 shadow-xl m-2 lg:m-5">
+            <figure class="lg:h-56">
+                <img src="{{$e.image}}" alt="Foto van trainer {{$e.name}}." />
             </figure>
             <div class="card-body">
-                <h2 class="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                    <button class="btn btn-accent">Buy Now</button>
+                <h2 class="card-title">{{ $e.name }}</h2>
+                <div class="flex gap-3">
+                    <span class="badge badge-accent badge-sm">{{ $e.role }}</span>
                 </div>
+                <p>{{ $e.content }}</p>
             </div>
         </div>
         {{ end }}
@@ -47,18 +46,15 @@
     <h1 class="text-h2 text-center m-5">Leden</h1>
 </section>
 <section>
-    <div class="flex flex-wrap justify-evenly">
-        {{ range seq 20}}
-        <div class="card bg-base-200 md:w-96 shadow-xl m-2 lg:m-5">
-            <figure>
-                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
+    <div class="flex flex-wrap justify-center">
+        {{ range $e := .Params.leden }}
+        <div class="card bg-base-200 min-h-96 md:w-96 shadow-xl m-2 lg:m-5">
+            <figure class="lg:h-56">
+                <img src="{{$e.image}}" alt="Foto van lid {{$e.name}}." />
             </figure>
             <div class="card-body">
-                <h2 class="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                    <button class="btn btn-accent">Buy Now</button>
-                </div>
+                <h2 class="card-title">{{ $e.name }}</h2>
+                <p>{{ $e.content }}</p>
             </div>
         </div>
         {{ end }}
