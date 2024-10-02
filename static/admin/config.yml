@@ -6,8 +6,7 @@ public_folder: /images
 collections:
   - name: 'Algemeen'
     label: 'Algemeen'
-    folder: 'content'
-    file: '_index.md'
+    file: 'content/_index.md'
     editor:
       preview: true
     fields:
@@ -35,9 +34,7 @@ collections:
 
   - label: "Event in de kijker"
     name: "event_in_de_kijker"
-    folder: 'content'
-    file: '_index.md'
-    collapsed: false
+    file: 'content/_index.md'
     fields:
       - label: 'Event in de kijker'
         name: 'event_in_de_kijker'
