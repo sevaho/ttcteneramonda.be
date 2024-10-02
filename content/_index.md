@@ -13,7 +13,12 @@ event_in_de_kijker:
   action_button_content: null
   action_button_link: null
   has_action_button: false
+  image: /images/wegroup-avatar.png
 sponsors:
+  - name: test 1
+    image: /images/wegroup-avatar.png
+  - name: test 1
+    image: /images/wegroup-avatar.png
   - name: test 1
     image: /images/wegroup-avatar.png
 events:

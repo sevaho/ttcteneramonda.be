@@ -13,11 +13,14 @@
                 <h1 class="text-h1 font-bold text-sky-50">Welkom bij</h1>
                 <h1 class="text-h1 font-bold text-cyan-50">TTC Teneramonda!</h1>
                 <div class="py-6 text-cyan-50">{{ .Content }}</div>
-                <button
-                    class="btn btn-outline text-cyan-50 border-solid border-cyan-50 border-2 hover:bg-sky-800 hover:border-sky-800"
+
+                <a
+                    href="/lid-worden"
+                    role="button"
+                    class="btn btn-outline text-cyan-50 border-solid border-cyan-50 border-2 hover:bg-sky-800 hover:border-sky-800 font-bold text-lg"
                 >
-                    <a href="/lid-worden" class="font-bold text-lg">Lid worden </a>
-                </button>
+                    Lid worden
+                </a>
             </div>
         </div>
     </div>
@@ -56,8 +59,8 @@
             <div class="lg:w-2/3 card bg-base-100 lg:ml-5 shadow-xl m-0 p-0 my-5">
                 <figure>
                     <img
-                        class="w-full"
-                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        class="w-full lg:max-w-[30vw] lg:max-h-[30vw]"
+                        src="{{ .Params.event_in_de_kijker.image }}"
                         alt="Shoes"
                     />
                 </figure>
@@ -124,14 +127,12 @@
 
     <div class="container mx-auto">
         <div class="flex flex-wrap justify-center gap-10">
-            {{ range seq 4}}
+            {{ range $e := .Params.sponsors }}
 
             <div class="">
-                <img
-                    class="w-full rounded"
-                    src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-                    alt="Pizza"
-                />
+                <a href="/sponsors">
+                    <img class="max-w-96 rounded" src="{{ $e.image }}" alt="Pizza" />
+                </a>
             </div>
 
             {{ end }}
