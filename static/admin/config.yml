@@ -71,11 +71,11 @@ collections:
       guidelines that are specific to a collection.
     folder: 'content/kalender'
     slug: '{{event_date}}-{{year}}-{{month}}-{{day}}-{{slug}}'
-    summary: '{{title}} -- {{event_date}}'
+    summary: '{{event_date}} -- {{title}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string'}
-      - { label: 'Datum', name: 'event_date', widget: 'datetime', format: 'DD.MM.YYYY', date_format: 'DD.MM.YYYY'}
+      - { label: 'Datum', name: 'event_date', widget: 'datetime', format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD'}
 
   # - name: 'Algemeen'
   #   label: 'Algemeen'
