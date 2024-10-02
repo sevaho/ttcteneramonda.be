@@ -52,7 +52,7 @@
           {{ if $index }}, {{ end }}
           {
               "title": "{{ .Title }}",
-              "start": "{{ .Params.Startdate }}",
+              "start": "{{ .Params.event_date }}",
               "end": "{{ .Params.Enddate }}",
           }
           {{ end }}
@@ -84,8 +84,15 @@
                 info.jsEvent.preventDefault(); // don't let the browser navigate
 
                 // Populate the modal with event details
-                document.getElementById('x-modal-1-title').innerText = info.event.title;
-                document.getElementById('x-modal-1-description').innerText = `Event starts at: ${info.event.start}`;
+                const timestamp = Date.parse(info.event.start);
+                const date = new Date(timestamp);
+                const day = String(date.getDate()).padStart(2, '0'); // Pad with '0' if necessary
+                const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed, so add 1
+                const year = date.getFullYear(); // Get the full year (e.g., 2024)
+
+                document.getElementById('x-modal-1-title').innerText = `${day}/${month}/${year}`;
+                document.getElementById('x-modal-1-description').innerText = info.event.title;
+
                 document.getElementById('x-modal-1').showModal()
 
 

@@ -54,9 +54,25 @@ collections:
               - {label: 'Actie knop?', name: 'has_action_button', widget: 'boolean'}
               - {label: "Datum", name: "date", widget: "datetime", "date_format": "DD/MM/YYYY"}
               - {label: 'Afbeelding', name: 'image', widget: 'image'}
+      - label: 'Over ons'
+        name: 'over'
+        file: 'content/over/_index.md'
+        editor:
+          preview: true
+        fields:
+          - { label: 'Titel', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
       - label: 'Kledij'
         name: 'kledij'
         file: 'content/kledij/_index.md'
+        editor:
+          preview: true
+        fields:
+          - { label: 'Titel', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+      - label: 'Lid worden'
+        name: 'lid-worden'
+        file: 'content/lid-worden/_index.md'
         editor:
           preview: true
         fields:
