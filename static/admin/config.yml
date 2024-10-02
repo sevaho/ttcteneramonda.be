@@ -123,8 +123,7 @@ collections:
     label: 'Kalender'
     label_singular: 'Kalender item' # Used in the UI, ie: "New Post"
     description: >
-      The description is a great place for tone setting, high level information, and editing
-      guidelines that are specific to a collection.
+      Voeg een kalender item toe, deze komt dan in de kalender te staan op de datum dat je gekozen hebt.
     folder: 'content/kalender'
     slug: '{{event_date}}-{{year}}-{{month}}-{{day}}-{{slug}}'
     summary: '{{event_date}} -- {{title}}'

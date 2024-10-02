@@ -43,12 +43,14 @@
                                 <p>{{ $event.content }}</p>
                             </div>
                             {{ if $event.has_action_button }}
-                            <div class="my-3">
-                                <button class="btn btn-accent float-end p-2 m-0">
-                                    <a href="{{ $event.action_button_link }}" class=""
-                                        >{{ $event.action_button_content }}
-                                    </a>
-                                </button>
+                            <div class="my-3 float-end">
+                                <a
+                                    href="{{ $event.action_button_link }}"
+                                    role="button"
+                                    class="btn btn-accent"
+                                >
+                                    {{ $event.action_button_content }}
+                                </a>
                             </div>
                             {{ end }}
                         </div>
@@ -114,7 +116,7 @@
                             role="button"
                             class="btn btn-outline text-primary-100 border-solid border-primary-100 border-2 hover:bg-sky-800 hover:border-sky-800"
                         >
-                          Link naar sporta
+                            Link naar sporta
                         </a>
                     </td>
                 </tr>

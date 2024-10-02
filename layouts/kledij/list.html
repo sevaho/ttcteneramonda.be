@@ -13,9 +13,9 @@
                 <h2 class="card-title">{{ .Title }}</h2>
                 {{ .Content }} {{ if .Params.has_action_button }}
                 <div class="card-actions justify-end">
-                    <button class="btn btn-accent">
-                        <a href="{{ .Params.action_button_link }}" class="">{{ .Params.action_button_content }} </a>
-                    </button>
+                    <a href="{{ .Params.action_button_link }}" role="button" class="btn btn-accent">
+                        {{ .Params.action_button_content }}
+                    </a>
                 </div>
                 {{ end }}
             </div>
