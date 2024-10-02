@@ -1,7 +1,7 @@
 ---
 title: test
 facebook: https://www.facebook.com/sofie.dheer
-phone: +32 485 43 28 10
+phone: +32 485 43 28 20
 date: 2024-10-02T07:15:09.750Z
 instagram: https://www.linkedin.com/in/sofie-d-heer-43987717b
 address: Leopoldlaan 30, 9200 Dendermonde
@@ -47,6 +47,9 @@ ploegen:
   - link_naar_sporta: https://sevaho.io
     name: B ploeg
     division: afdeling 3
+  - link_naar_sporta: https://sevaho.io
+    name: C ploeg
+    division: afdeling 4
 ---
 
 De mooiste tafeltennis club van het land!
