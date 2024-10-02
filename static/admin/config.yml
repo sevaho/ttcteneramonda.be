@@ -20,7 +20,7 @@ collections:
     name: 'sponsors'
     folder: 'content'
     file: '_index.md'
-    create: true # Allow the creation of new files
+    create: false # Allow the creation of new files
     fields:
       - label: 'Sponsor lijst'
         name: 'sponsors'
@@ -33,9 +33,12 @@ collections:
     name: "event_in_de_kijker"
     folder: 'content'
     file: '_index.md'
-    widget: "object"
-    collapsed: true
-    fields: 
-      - {label: 'Titel', name: 'title', widget: 'string'}
-      - {label: "Datum", name: "date", widget: "datetime", "date_format": "DD/MM/YYYY"}
-      - {label: 'Afbeelding', name: 'image', widget: 'image'}
+    collapsed: false
+    fields:
+      - label: 'Event in de kijker'
+        name: 'event_in_de_kijker'
+        widget: 'object'
+        fields: 
+          - {label: 'Titel', name: 'title', widget: 'string'}
+          - {label: "Datum", name: "date", widget: "datetime", "date_format": "DD/MM/YYYY"}
+          - {label: 'Afbeelding', name: 'image', widget: 'image'}
