@@ -71,7 +71,7 @@ collections:
             name: 'sfeerbeelden'
             widget: 'list'
             fields:
-              - { media_folder: assets/images/sfeerbeelden, name: 'Sfeerbeelden', widget: 'image', choose_url: true}}
+              - { media_folder: /assets/images/sfeerbeelden, name: 'Sfeerbeelden', widget: 'image', choose_url: true}}
 
       - label: 'Kledij'
         name: 'kledij'
