@@ -23,8 +23,8 @@ collections:
             name: 'ploegen'
             widget: 'list'
             fields:
-              - { label: 'Link naar sporta', name: 'link_naar_sporta', widget: 'string' }
               - { label: 'Naam', name: 'name', widget: 'string' }
+              - { label: 'Link naar sporta', name: 'link_naar_sporta', widget: 'string' }
               - { label: 'Afdeling', name: 'division', widget: 'string' }
           - label: 'Sponsor lijst'
             name: 'sponsors'
@@ -37,17 +37,18 @@ collections:
             name: 'events'
             widget: 'list'
             fields:
+              - { label: 'Content', name: 'content', widget: 'string' }
               - { label: 'Actief?', name: 'enabled', widget: 'boolean' }
               - { label: "Datum", name: "date", widget: "datetime", "date_format": "DD/MM/YYYY" }
               - { label: 'Actie knop link', name: 'action_button_link', widget: 'string' }
               - { label: 'Actie knop content', name: 'action_button_content', widget: 'string' }
               - { label: 'Actie knop?', name: 'has_action_button', widget: 'boolean' }
-              - { label: 'Content', name: 'content', widget: 'string' }
           - label: 'Event in de kijker'
             name: 'event_in_de_kijker'
             widget: 'object'
             fields: 
               - {label: 'Titel', name: 'title', widget: 'string'}
+              - {label: 'Contenbt', name: 'content', widget: 'string'}
               - {label: 'Actie knop link', name: 'action_button_link', widget: 'string'}
               - {label: 'Actie knop content', name: 'action_button_content', widget: 'string'}
               - {label: 'Actie knop?', name: 'has_action_button', widget: 'boolean'}
@@ -68,7 +69,7 @@ collections:
     description: >
       The description is a great place for tone setting, high level information, and editing
       guidelines that are specific to a collection.
-    folder: 'content/Kalender'
+    folder: 'content/kalender'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
     create: true # Allow users to create new documents in this collection
