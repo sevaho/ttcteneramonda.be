@@ -1,6 +1,7 @@
 ---
 facebook: https://www.facebook.com/sofie.dheer
 phone: +32 485 43 28 10
+date: 2024-10-02T07:15:09.750Z
 instagram: https://www.linkedin.com/in/sofie-d-heer-43987717b
 address: Leopoldlaan 30, 9200 Dendermonde
 event_in_de_kijker:
@@ -10,7 +11,7 @@ event_in_de_kijker:
   action_button_content: null
   action_button_link: null
   has_action_button: false
-title: Portfolio Sofie D'heer
+title: test
 sponsors:
   - name: test
     image: /images/wegroup-avatar.png
@@ -33,6 +34,7 @@ events:
     action_button_content: null
     action_button_link: null
     has_action_button: false
+image: /images/wegroup-avatar.png
 email: info@ttcteneramonda.be
 ploegen:
   - link_naar_sporta: https://sevaho.io
