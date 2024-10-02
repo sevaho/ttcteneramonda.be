@@ -3,28 +3,35 @@
     <h1 class="text-h2 text-center m-5">Sponsors</h1>
 </section>
 
+{{ with site.GetPage "" }}
 <section class="">
-    {{ range seq 4 }}
+    {{ range $e := .Params.sponsors }}
     <div class="flex flex-col lg:even:flex-row lg:odd:flex-row-reverse even:bg-white lg:py-5">
         <div class="w-1/5"></div>
         <figure class="w-full lg:w-1/5 lg:max-w-full">
             <img
-                src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
-                alt="Album"
+            src="{{ $e.image }}"
+            alt="Afbeelding van sponser {{$e.name}}"
                 class="w-full h-auto rounded"
             />
         </figure>
         <div class="p-2 lg:w-2/5 m-1 lg:m-10">
-            <h1 class="text-h1 font-bold">Box Office News!</h1>
+          <h1 class="text-h1 font-bold">{{ $e.name }}</h1>
             <p class="py-6">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In
-                deleniti eaque aut repudiandae et a id nisi.
+                {{ $e.content }}
             </p>
-            <button class="btn btn-ghost text-blue-400">Link</button>
+            <a
+                href="{{ $e.href }}"
+                role="button"
+                class="btn btn-outline text-primary-100 border-solid border-primary-100 border-2 hover:bg-sky-800 hover:border-sky-800"
+            >
+              Link
+            </a>
         </div>
         <div class="w-1/5"></div>
     </div>
     {{ end }}
 </section>
+{{ end }}
 <section class="mt-10"></section>
 {{ end }}

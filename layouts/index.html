@@ -109,11 +109,13 @@
                         <p>{{ $ploeg.division }}</p>
                     </td>
                     <td class="w-1/3">
-                        <button
+                        <a
+                            href="{{ $ploeg.link_naar_sporta }}"
+                            role="button"
                             class="btn btn-outline text-primary-100 border-solid border-primary-100 border-2 hover:bg-sky-800 hover:border-sky-800"
                         >
-                            <a href="{{ $ploeg.link_naar_sporta }}">Link naar sport</a>
-                        </button>
+                          Link naar sporta
+                        </a>
                     </td>
                 </tr>
                 {{ end }}

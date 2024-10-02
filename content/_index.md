@@ -16,11 +16,17 @@ event_in_de_kijker:
   image: /images/wegroup-avatar.png
 sponsors:
   - name: test 1
+    content: foobar
     image: /images/wegroup-avatar.png
+    href: https://sevaho.io
   - name: test 1
     image: /images/wegroup-avatar.png
+    content: barfoo
+    href: https://sevaho.io
   - name: test 1
     image: /images/wegroup-avatar.png
+    content: foofoo
+    href: https://sevaho.io
 events:
   - enabled: true
     date: 11/05/2024

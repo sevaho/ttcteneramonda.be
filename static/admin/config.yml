@@ -31,7 +31,8 @@ collections:
             widget: 'list'
             fields:
               - { label: 'Naam', name: 'name', widget: 'string' }
-              - { label: 'Beschrijving', name: 'description', widget: 'markdown' }
+              - { label: 'Beschrijving', name: 'content', widget: 'markdown' }
+              - { label: 'Link', name: 'href', widget: 'string' }
               - { label: 'Afbeelding', name: 'image', widget: 'image' }
           - label: 'Events en nieuws linkse blokjes'
             name: 'events'
@@ -48,7 +49,7 @@ collections:
             widget: 'object'
             fields: 
               - {label: 'Titel', name: 'title', widget: 'string'}
-              - {label: 'Contenbt', name: 'content', widget: 'string'}
+              - {label: 'Content', name: 'content', widget: 'string'}
               - {label: 'Actie knop link', name: 'action_button_link', widget: 'string'}
               - {label: 'Actie knop content', name: 'action_button_content', widget: 'string'}
               - {label: 'Actie knop?', name: 'has_action_button', widget: 'boolean'}
@@ -63,7 +64,15 @@ collections:
           - { label: 'Titel', name: 'title', widget: 'string' }
           - { label: 'Afbeelding', name: 'image', widget: 'image' }
           - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+
           - { media_folder: assets/images/sfeerbeelden, name: 'Sfeerbeelden', widget: 'image', choose_url: true, media_library: {config: {multiple: true, max_files: 999}}}
+
+          - label: 'Sfeerbeelden'
+            name: 'sfeerbeelden'
+            widget: 'list'
+            fields:
+              - { media_folder: assets/images/sfeerbeelden, name: 'Sfeerbeelden', widget: 'image', choose_url: true}}
+
       - label: 'Kledij'
         name: 'kledij'
         file: 'content/kledij/_index.md'
@@ -72,6 +81,7 @@ collections:
         fields:
           - { label: 'Titel', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+          - { label: 'Afbeelding', name: 'image', widget: 'image' }
       - label: 'Lid worden'
         name: 'lid-worden'
         file: 'content/lid-worden/_index.md'
@@ -80,6 +90,7 @@ collections:
         fields:
           - { label: 'Titel', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+          - { label: 'Afbeelding', name: 'image', widget: 'image' }
 
   - name: 'calendar'
     label: 'Kalender'

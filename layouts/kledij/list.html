@@ -7,13 +7,11 @@
     <div class="container mx-auto">
         <div class="card lg:card-side bg-base-100 shadow-xl mt-10">
             <figure>
-                <img src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp" alt="Album" />
+                <img src="{{.Params.image}}" alt="Album" class="w-full lg:max-w-[30vw] lg:max-h-[30vw]" />
             </figure>
             <div class="card-body">
                 <h2 class="card-title">{{ .Title }}</h2>
-                {{ .Content }}
-
-                {{ if .Params.has_action_button }}
+                {{ .Content }} {{ if .Params.has_action_button }}
                 <div class="card-actions justify-end">
                     <button class="btn btn-accent">
                         <a href="{{ .Params.action_button_link }}" class="">{{ .Params.action_button_content }} </a>
