@@ -75,7 +75,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string'}
-      - { label: 'Datum', name: 'event_date', widget: 'datetime'}
+      - { label: 'Datum', name: 'event_date', widget: 'datetime', format: 'DD.MM.YYYY', date_format: 'DD.MM.YYYY'}
 
   # - name: 'Algemeen'
   #   label: 'Algemeen'
