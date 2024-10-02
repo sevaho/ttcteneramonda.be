@@ -16,12 +16,26 @@ collections:
       - { label: 'Email', name: 'email', widget: 'string' }
       - { label: 'Facebook', name: 'facebook', widget: 'string' }
       - { label: 'Instagram', name: 'instagram', widget: 'string' }
-  - label: "sponsors"
-    name: "sponsors"
+  - label: 'Sponsors'
+    name: 'sponsors'
+    folder: 'content'
+    file: '_index.md'
+    create: true # Allow the creation of new files
     fields:
-      - label: "Sponser lijst"
-        name: "sponsers"
-        widget: "list"
+      - label: 'Sponsor lijst'
+        name: 'sponsors'
+        widget: 'list'
         fields:
-          - {label: "Naam", name: "name", widget: "string"}
-          - {label: "Afbeelding", name: "image", widget: "image"}
+          - { label: 'Naam', name: 'name', widget: 'string' }
+          - { label: 'Afbeelding', name: 'image', widget: 'image' }
+
+  - label: "Event in de kijker"
+    name: "event_in_de_kijker"
+    folder: 'content'
+    file: '_index.md'
+    widget: "object"
+    collapsed: true
+    fields: 
+      - {label: 'Titel', name: 'title', widget: 'string'}
+      - {label: "Datum", name: "date", widget: "datetime", "date_format": "DD/MM/YYYY"}
+      - {label: 'Afbeelding', name: 'image', widget: 'image'}
