@@ -24,8 +24,8 @@ collections:
             fields:
               - { label: 'Naam', name: 'name', widget: 'string' }
               - { label: 'Afbeelding', name: 'image', widget: 'image' }
-      - label: 'Index'
-        name: 'index'
+      - label: 'Kledij'
+        name: 'kledij'
         file: 'content/kledij/_index.md'
         editor:
           preview: true
