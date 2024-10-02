@@ -82,6 +82,35 @@ collections:
           - { label: 'Titel', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
           - { label: 'Afbeelding', name: 'image', widget: 'image' }
+
+      - label: 'Leden'
+        name: 'leden'
+        file: 'content/leden/_index.md'
+        editor:
+          preview: true
+        fields:
+          - label: 'Bestuurders'
+            name: 'bestuurders'
+            widget: 'list'
+            fields:
+              - { label: 'Naam', name: 'name', widget: 'string' }
+              - { label: 'Afbeelding', name: 'image', widget: 'image' }
+              - { label: 'Rol', name: 'role', widget: 'string' }
+          - label: 'Trainers'
+            name: 'trainers'
+            widget: 'list'
+            fields:
+              - { label: 'Naam', name: 'name', widget: 'string' }
+              - { label: 'Afbeelding', name: 'image', widget: 'image' }
+              - { label: 'Rol', name: 'role', widget: 'string' }
+          - label: 'Leden'
+            name: 'leden'
+            widget: 'list'
+            fields:
+              - { label: 'Naam', name: 'name', widget: 'string' }
+              - { label: 'Afbeelding', name: 'image', widget: 'image' }
+              - { label: 'Rol', name: 'role', widget: 'string' }
+
       - label: 'Lid worden'
         name: 'lid-worden'
         file: 'content/lid-worden/_index.md'
