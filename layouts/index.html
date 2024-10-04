@@ -1,6 +1,4 @@
 {{ define "main" }}
-<!-- HERO PAGE -->
-<!-- HERO PAGE -->
 <section class="m-30 lg:p-20 z-0 bg-gradient-to-b from-sky-700 to-rose-300">
     <div class="hero">
         <div class="hero-content flex-col lg:flex-row-reverse">
@@ -10,8 +8,8 @@
                 {{ end }}
             </figure>
             <div class="lg:w-1/2">
-                <h1 class="text-h1 font-bold text-sky-50">Welkom bij</h1>
-                <h1 class="text-h1 font-bold text-cyan-50">TTC Teneramonda!</h1>
+                <h1 class="text-h2 lg:text-h1 font-bold text-sky-50">Welkom bij</h1>
+                <h1 class="text-h2 lg:text-h1 font-bold text-cyan-50">TTC Teneramonda!</h1>
                 <div class="py-6 text-cyan-50">{{ .Content }}</div>
 
                 <a
@@ -135,7 +133,7 @@
 
             <div class="">
                 <a href="/sponsors">
-                    <img class="max-w-96 rounded" src="{{ $e.image }}" alt="Pizza" />
+                    <img class="lg:max-w-96 rounded" src="{{ $e.image }}" alt="Pizza" />
                 </a>
             </div>
 
