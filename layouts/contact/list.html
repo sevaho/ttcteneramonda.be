@@ -21,12 +21,12 @@
             </div>
         </div>
 
-        <form class="space-y-4 mx-auto w-full">
-            <input type="text" placeholder="E-mail" class="input input-bordered w-full text-center px-0" />
-            <input type="text" placeholder="Onderwerp" class="input input-bordered w-full px-0 text-center" />
-            <textarea class="textarea textarea-bordered w-full px-0 text-center" placeholder="Bericht"></textarea>
+        <form class="space-y-4 mx-auto w-full" name="contact" netlify>
+            <input name="e-mail" type="email" placeholder="E-mail" class="input input-bordered w-full text-center px-0" />
+            <input name="onderwerp" type="text" placeholder="Onderwerp" class="input input-bordered w-full px-0 text-center" />
+            <textarea name="mail" class="textarea textarea-bordered w-full px-0 text-center" placeholder="Bericht"></textarea>
 
-            <button class="mx-auto btn btn-accent w-full">Send</button>
+            <button class="mx-auto btn btn-accent w-full" type="submit">Send</button>
         </form>
     </div>
 </section>
