@@ -137,8 +137,8 @@ collections:
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string'}
-      - { label: 'Datum', name: 'event_date', widget: 'datetime', format: 'YYYY-MM-DDTHH:mm:ssZ[Z]', date_format: 'YYYY-MM-DDTHH:mm:ssZ[Z]'}
-      - { label: 'Eind Datum', name: 'end_date', widget: 'datetime', format: 'YYYY-MM-DDTHH:mm:ssZ[Z]', date_format: 'YYYY-MM-DDTHH:mm:ssZ[Z]', required: false }
+      - { label: 'Datum', name: 'event_date', widget: 'datetime', format: 'LLL', date_format: 'YYYY-MM-DD', time_format: "HH:mm"}
+      - { label: 'Eind Datum', name: 'end_date', widget: 'datetime', format: 'LLL', date_format: 'YYYY-MM-DD', time_format: "HH:mm", required: false }
 
   # - name: 'Algemeen'
   #   label: 'Algemeen'
