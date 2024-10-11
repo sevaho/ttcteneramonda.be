@@ -45,8 +45,10 @@
             </div>
         </div>
         <div class="flex justify-center mt-10 gap-7 text-gray-50 text-3xl">
+            {{ with site.GetPage "" }}
             <a class="mx-2" href="{{ .Params.instagram }}" aria-label="Link to Instagram page."><i class="fab fa-brands fa-instagram"></i></a>
             <a class="mx-2" href="{{ .Params.facebook }}" aria-label="Link to the facebook page."><i class="fab fa-brands fa-facebook-f"></i></a>
+            {{ end }}
         </div>
     </div>
 </section>
