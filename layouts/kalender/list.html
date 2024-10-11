@@ -53,7 +53,7 @@
           {
               "title": "{{ .Title }}",
               "start": "{{ .Params.event_date }}",
-              "end": "{{ .Params.Enddate }}",
+              "end": "{{ .Params.end_date }}",
           }
           {{ end }}
       ]
@@ -85,12 +85,40 @@
 
                 // Populate the modal with event details
                 const timestamp = Date.parse(info.event.start);
-                const date = new Date(timestamp);
-                const day = String(date.getDate()).padStart(2, '0'); // Pad with '0' if necessary
-                const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed, so add 1
-                const year = date.getFullYear(); // Get the full year (e.g., 2024)
+                const startdate = new Date(timestamp);
 
-                document.getElementById('x-modal-1-title').innerText = `${day}/${month}/${year}`;
+                const from_year = startdate.getFullYear(); // Get the full year (e.g., 2024)
+                const from_day = String(startdate.getDate()).padStart(2, '0'); // Pad with '0' if necessary
+                const from_month = String(startdate.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed, so add 1
+                const from_hour = String(startdate.getHours()).padStart(2, '0'); // Hour
+                const from_minute = String(startdate.getMinutes()).padStart(2, '0'); // Minute
+
+                const dayInDutch = startdate.toLocaleDateString('nl-NL', { weekday: 'long' });
+                console.log(dayInDutch)
+
+
+                if (info.event.end) {
+                    const enddate = new Date(Date.parse(info.event.end));
+                    const to_hour = String(enddate.getHours()).padStart(2, '0'); // Hour
+                    const to_minute = String(enddate.getMinutes()).padStart(2, '0'); // Minute
+
+                    const to_year = enddate.getFullYear(); // Get the full year (e.g., 2024)
+                    const to_day = String(enddate.getDate()).padStart(2, '0'); // Pad with '0' if necessary
+                    const to_month = String(enddate.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed, so add 1
+                    const toDayInDutch = enddate.toLocaleDateString('nl-NL', { weekday: 'long' });
+
+
+                    if (`${from_day}/${from_month}/${from_year}` == `${to_day}/${to_month}/${to_year}`) {
+                        document.getElementById('x-modal-1-title').innerText = `${dayInDutch} ${from_day}/${from_month}/${from_year} ${from_hour}:${from_minute} - ${to_hour}:${to_minute}`;
+                    } else {
+                        document.getElementById('x-modal-1-title').innerText = `${dayInDutch} ${from_day}/${from_month}/${from_year} ${from_hour}:${from_minute} - ${toDayInDutch} ${to_day}/${to_month}/${to_year} ${to_hour}:${to_minute}`;
+
+                    }
+                } else {
+                    document.getElementById('x-modal-1-title').innerText = `${dayInDutch} ${from_day}/${from_month}/${from_year}`;
+                }
+
+
                 document.getElementById('x-modal-1-description').innerText = info.event.title;
 
                 document.getElementById('x-modal-1').showModal()

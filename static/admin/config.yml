@@ -130,13 +130,15 @@ collections:
     label_singular: 'Kalender item' # Used in the UI, ie: "New Post"
     description: >
       Voeg een kalender item toe, deze komt dan in de kalender te staan op de datum dat je gekozen hebt.
+      Indien je enkel 'Datum' invult dan slaat dit op de volledige dag, indien je ook een eind datum invult wordt er rekening gehouden met de uren.
     folder: 'content/kalender'
     slug: '{{event_date}}-{{year}}-{{month}}-{{day}}-{{slug}}'
     summary: '{{event_date}} -- {{title}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string'}
-      - { label: 'Datum', name: 'event_date', widget: 'datetime', format: 'YYYY-MM-DD', date_format: 'YYYY-MM-DD'}
+      - { label: 'Datum', name: 'event_date', widget: 'datetime', format: 'YYYY-MM-DDTHH:mm:ssZ[Z]', date_format: 'YYYY-MM-DDTHH:mm:ssZ[Z]'}
+      - { label: 'Eind Datum', name: 'end_date', widget: 'datetime', format: 'YYYY-MM-DDTHH:mm:ssZ[Z]', date_format: 'YYYY-MM-DDTHH:mm:ssZ[Z]', required: false }
 
   # - name: 'Algemeen'
   #   label: 'Algemeen'
