@@ -1,20 +1,23 @@
 ---
-phone: +32 485 43 28 20
-facebook: https://www.facebook.com/sofie.dheer
+phone: +32 474 83 24 86
+facebook: https://www.facebook.com/profile.php?id=61560026226483
 date: 2024-10-02T07:15:09.750Z
-address: Leopoldlaan 30, 9200 Dendermonde
+address: "Sporthal Oudegem, Ouburg 61 - 9200 Oudegem "
 email: info@ttcteneramonda.be
 instagram: https://www.linkedin.com/in/sofie-d-heer-43987717b
 ploegen:
-  - link_naar_sporta: https://sevaho.io
-    name: A ploeg
-    division: afdeling 2
-  - link_naar_sporta: https://sevaho.io
-    name: B ploeg
-    division: afdeling 3
-  - link_naar_sporta: https://sevaho.io
-    name: C ploeg
-    division: afdeling 4
+  - name: A-ploeg (Senioren)
+    division: " 6de afdeling Oost Vlaanderen"
+    link_naar_sporta: https://ttonline.sporta.be/?div_id=1726&menu=5&withres=1&week_name=05&divcat=0&club_id=0&club_id=34
+  - name: B-ploeg (Senioren)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1754_B
+    division: 7de afdeling Oost Vlaanderen
+  - name: A-ploeg (jeugd)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1763_A
+    division: 2de afdeling Oost Vlaanderen
+  - name: B-ploeg (jeugd)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1765_B
+    division: 4de afdeling Oost-Vlaanderen
 sponsors:
   - name: test 1
     content: foobar
