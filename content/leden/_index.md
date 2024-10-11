@@ -1,21 +1,29 @@
 ---
 bestuurders:
-  - name: jef
+  - name: Tim Vinck
     image: /images/sun.jpg
-    role: Patron
+    role: Voorzitter
+  - name: Tamara Van Paepeghem
+    role: Secretaris + jeugdverantwoordelijke
+  - name: Marc Stallaert
+    role: Penningmeester
+  - name: Rune Velleman
+    role: Bestuurslid + webmaster
 trainers:
-  - name: Patrick
-    role: Trainer van de jeugd
+  - name: Marc Stallaert
+    role: Trainer jeugd + volwassenen
     image: /images/sun.jpg
-  - name: Patrick
+  - name: Jan-Willem Dhondt
     image: /images/sun.jpg
-  - name: Patrick
-    image: /images/sun.jpg
+    role: Trainer jeugd
 leden:
-  - name: Patrick
+  - name: Jean-Pierre D'Haeseleer
     image: /images/sun.jpg
-  - name: Patrick
+    role: A-ploeg Senioren
+  - name: Tim Vinck
     image: /images/sun.jpg
-  - name: Patrick
+    role: B-ploeg Senioren
+  - name: Luc Lermytte
     image: /images/sun.jpg
+    role: A-ploeg Senioren
 ---
