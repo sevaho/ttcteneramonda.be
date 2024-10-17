@@ -122,8 +122,17 @@ collections:
           preview: true
         fields:
           - { label: 'Titel', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+          - { label: 'Content', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
           - { label: 'Afbeelding', name: 'image', widget: 'image' }
+
+      - label: 'Contact'
+        name: 'contact'
+        file: 'content/contact/_index.md'
+        editor:
+          preview: true
+        fields:
+          - { label: 'Titel', name: 'title', widget: 'string' }
+          - { label: 'Content', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
 
   - name: 'calendar'
     label: 'Kalender'

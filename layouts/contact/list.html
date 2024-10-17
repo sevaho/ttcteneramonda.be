@@ -2,22 +2,20 @@
 <section class="h-screen flex h-screen justify-center items-center">
     <div class="grid sm:grid-cols-2 items-start gap-16 p-2 lg:p-20 mx-auto max-w-4xl bg-white rounded">
         <div>
-            <h1 class="text-gray-800 text-3xl font-extrabold">Neem contact met ons op</h1>
-            <p class="text-sm text-gray-500 mt-4">
-                Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your
-                project and provide help.
-            </p>
+            <h1 class="text-gray-800 text-3xl font-extrabold">{{ .Title }}</h1>
+            <p class="text-sm text-gray-500 mt-4">{{ .Content }}</p>
 
-            <div class="mt-12">
-                <h2 class="text-gray-800 text-base font-bold">Email</h2>
-                <ul class="mt-4">
-                    <li class="flex justify-star">
-                        <i class="fas fa-envelope text-primary-200 mx-2"></i>
-                        <div class="text-sm">
-                            <a class="text-lime-900" href="mailto:{{ .Params.email }}">todo</a>
-                        </div>
-                    </li>
-                </ul>
+            <div class="mt-5">
+                <div class="flex justify-star">
+                    <div class="flex items-center">
+                        <i class="fas fa-envelope text-primary-200 mr-2"></i>
+                    </div>
+                    <div class="text-sm">
+                        {{ with site.GetPage "" }}
+                        <a class="text-sky-500" href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+                        {{ end }}
+                    </div>
+                </div>
             </div>
         </div>
 
