@@ -60,5 +60,4 @@ event_in_de_kijker:
   image: /images/wegroup-avatar.png
 title: test
 ---
-
-De mooiste tafeltennis club van het land!
+Welkom op de website van TTC Teneramonda!
