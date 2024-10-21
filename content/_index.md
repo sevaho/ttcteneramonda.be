@@ -4,7 +4,7 @@ facebook: https://www.facebook.com/profile.php?id=61560026226483
 date: 2024-10-02T07:15:09.750Z
 address: "Sporthal Oudegem, Ouburg 61 - 9200 Oudegem "
 email: info@ttcteneramonda.be
-instagram: https://www.linkedin.com/in/sofie-d-heer-43987717b
+instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share_sheet
 ploegen:
   - name: A-ploeg (Senioren)
     division: " 6de afdeling Oost Vlaanderen"
