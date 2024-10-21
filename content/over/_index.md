@@ -15,4 +15,8 @@ sfeerbeelden:
   - title: nog 1
     image: /assets/images/sfeerbeelden/tabletennis2.jpg
 ---
-Dit is de over ons pagina content. test
+Welkom bij Teneramonda, dé tafeltennisclub te Oudegem. Onze club biedt zowel jeugd- als volwassenwerking aan waarbij we iedereen de kans geven om op zijn eigen tempo te groeien. Al jarenlang kent onze club leden van verschillende niveaus en leeftijden. Of je nu graag competitief speelt, of puur recreatief wilt genieten van de sport, bij TTC Teneramonda is er een plaats voor jou!
+
+Als club zetten we een toegankelijke sfeer met aandacht voor sportiviteit en samenhorigheid voorop. Van sportplezier kunnen zowel recreanten als competitiespelers bij ons genieten.
+
+Neem gerust een kijkje op onze kanalen, en aarzel niet om contact op te nemen bij vragen of opmerkingen!
