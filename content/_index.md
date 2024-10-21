@@ -19,18 +19,10 @@ ploegen:
     link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1765_B
     division: 4de afdeling Oost-Vlaanderen
 sponsors:
-  - name: test 1
-    content: foobar
-    image: /images/wegroup-avatar.png
-    href: https://sevaho.io
-  - name: test 1
-    image: /images/wegroup-avatar.png
-    content: barfoo
-    href: https://sevaho.io
-  - name: test 1
-    image: /images/wegroup-avatar.png
-    content: foofoo
-    href: https://sevaho.io
+  - name: RuitenwasseRaf
+    content: Ruitenwasser
+    href: https://ruitenwasseraf.be/
+    image: /images/ruitenwasser-raf-2-.svg
 events:
   - enabled: true
     date: 11/05/2024
