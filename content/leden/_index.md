@@ -17,6 +17,7 @@ trainers:
   - name: Marc Stallaert
     role: Trainer jeugd + volwassenen
     image: ""
+    content: 0478/48 99 87
   - name: Jan-Willem Dhondt
     image: /images/sun.jpg
     role: Trainer jeugd
