@@ -23,6 +23,10 @@ sponsors:
     content: Ruitenwasser
     href: https://ruitenwasseraf.be/
     image: /images/ruitenwasser-raf-2-.svg
+  - name: ILESAN
+    content: F﻿inancieel adviseur
+    href: https://ilesan.be/
+    image: /images/ilesan-_2_-_1_.jpg
 events:
   - enabled: true
     date: 11/05/2024
