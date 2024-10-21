@@ -1,5 +1,5 @@
 ---
-title: kledij
+title: Kledij
 action_button_content: klik hier
 action_button_link: null
 has_action_button: true
