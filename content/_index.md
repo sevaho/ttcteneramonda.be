@@ -27,6 +27,10 @@ sponsors:
     content: Financieel adviseur
     href: https://ilesan.be/
     image: /images/ilesan-_2_-_1_.jpg
+  - name: Garage De Vuyst Dirk
+    content: A﻿utogarage
+    href: https://www.eurorepar.be/garage-de-vuyst-bvba-berlare-8100.html
+    image: /images/schermopname_21-10-2024_213517_.jpeg
 events:
   - enabled: true
     date: 11/05/2024
