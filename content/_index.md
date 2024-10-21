@@ -24,7 +24,7 @@ sponsors:
     href: https://ruitenwasseraf.be/
     image: /images/ruitenwasser-raf-2-.svg
   - name: ILESAN
-    content: F﻿inancieel adviseur
+    content: Financieel adviseur
     href: https://ilesan.be/
     image: /images/ilesan-_2_-_1_.jpg
 events:
