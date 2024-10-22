@@ -116,5 +116,16 @@ sponsors:
       info@praktijksolid.be
     href: https://www.praktijksolid.be
     image: /images/black_logo_transparent_background.jpg
+  - name: Delaware
+    content: |-
+      ICT-bedrijf
+
+
+
+      Kapel ter Bede 86
+
+      8500 Kortrijk
+    href: https://www.delaware.pro/en-be
+    image: /images/delaware-logo-rgb.jpg
 ---
 Welkom op de website van TTC Teneramonda!
