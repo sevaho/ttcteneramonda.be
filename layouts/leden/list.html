@@ -8,7 +8,11 @@
         {{ range $e := .Params.bestuurders }}
         <div class="card bg-base-200 min-h-96 md:w-96 shadow-xl m-2 lg:m-5">
             <figure class="h-56">
+                {{ if $e.image }}
                 <img src="{{$e.image}}" alt="Foto van bestuurder {{$e.name}}." />
+                {{ else }}
+                <img src="/images/stockavatar.jpg" alt="Stockfoto van een avatar." />
+                {{ end }}
             </figure>
             <div class="card-body">
                 <h2 class="card-title">{{ $e.name }}</h2>
@@ -29,7 +33,11 @@
         {{ range $e := .Params.trainers }}
         <div class="card bg-base-200 min-h-96 md:w-96 shadow-xl m-2 lg:m-5">
             <figure class="lg:h-56">
+                {{ if $e.image }}
                 <img src="{{$e.image}}" alt="Foto van trainer {{$e.name}}." />
+                {{ else }}
+                <img src="/images/stockavatar.jpg" alt="Stockfoto van een avatar." />
+                {{ end }}
             </figure>
             <div class="card-body">
                 <h2 class="card-title">{{ $e.name }}</h2>
@@ -50,7 +58,11 @@
         {{ range $e := .Params.leden }}
         <div class="card bg-base-200 min-h-96 md:w-96 shadow-xl m-2 lg:m-5">
             <figure class="lg:h-56">
+                {{ if $e.image }}
                 <img src="{{$e.image}}" alt="Foto van lid {{$e.name}}." />
+                {{ else }}
+                <img src="/images/stockavatar.jpg" alt="Stockfoto van een avatar." />
+                {{ end }}
             </figure>
             <div class="card-body">
                 <h2 class="card-title">{{ $e.name }}</h2>

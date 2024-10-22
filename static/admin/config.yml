@@ -80,6 +80,9 @@ collections:
           - { label: 'Titel', name: 'title', widget: 'string' }
           - { label: 'Afbeelding', name: 'image', widget: 'image' }
           - { label: 'Content', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+          - {label: 'Actie knop link', name: 'action_button_link', widget: 'string', required: false}
+          - {label: 'Actie knop content', name: 'action_button_content', widget: 'string', required: false}
+          - {label: 'Actie knop?', name: 'has_action_button', widget: 'boolean', required: false}
 
       - label: 'Leden'
         name: 'leden'
