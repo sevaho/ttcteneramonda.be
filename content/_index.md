@@ -101,7 +101,7 @@ sponsors:
     image: /images/delaware-logo-rgb.jpg
 events: []
 event_in_de_kijker:
-  date: 15/12/2024
+  date: 18/12/2024
   title: Wijnverkoop
   content: Onze jaarlijkse wijnverkoop komt er weer stilaan aan! Meer informatie volgt.
   action_button_content: null
