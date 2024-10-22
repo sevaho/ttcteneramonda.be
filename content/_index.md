@@ -99,7 +99,9 @@ sponsors:
       8500 Kortrijk
     href: https://www.delaware.pro/en-be
     image: /images/delaware-logo-rgb.jpg
-events: []
+events:
+  - content: Quiz
+    date: 22/10/2024
 event_in_de_kijker:
   date: 18/12/2024
   title: Wijnverkoop
