@@ -23,8 +23,6 @@ sponsors:
     content: |-
       Schoonmaakbedrijf & glazenwasserij
 
-
-
       Steenweg Naar Oudegem 52
 
       9308 Gijzegem
