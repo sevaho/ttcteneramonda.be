@@ -1,9 +1,9 @@
 ---
+address: "Sporthal Oudegem, Ouburg 61 - 9200 Oudegem "
 phone: +32 474 83 24 86
+email: ttcteneramonda@outlook.be
 facebook: https://www.facebook.com/profile.php?id=61560026226483
 date: 2024-10-02T07:15:09.750Z
-address: "Sporthal Oudegem, Ouburg 61 - 9200 Oudegem "
-email: ttcteneramonda@outlook.be
 instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share_sheet
 ploegen:
   - name: A-ploeg (Senioren)
@@ -18,6 +18,16 @@ ploegen:
   - name: B-ploeg (jeugd)
     link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1765_B
     division: 4de afdeling Oost-Vlaanderen
+events: []
+event_in_de_kijker:
+  date: 18/12/2024
+  title: Wijnverkoop
+  content: Onze jaarlijkse wijnverkoop komt er weer aan! Meer informatie volgt.
+  action_button_content: null
+  action_button_link: null
+  has_action_button: false
+  image: /images/tth-sint-niklaas-lanceert-wijnverkoop.jpg
+title: test
 sponsors:
   - name: RuitenwasseRaf
     content: |-
@@ -97,15 +107,18 @@ sponsors:
       8500 Kortrijk
     href: https://www.delaware.pro/en-be
     image: /images/delaware-logo-rgb.jpg
-events: []
-event_in_de_kijker:
-  date: 18/12/2024
-  title: Wijnverkoop
-  content: Onze jaarlijkse wijnverkoop komt er weer aan! Meer informatie volgt.
-  action_button_content: null
-  action_button_link: null
-  has_action_button: false
-  image: /images/tth-sint-niklaas-lanceert-wijnverkoop.jpg
-title: test
+  - name: Meirdam
+    content: |-
+      Sport - Food - Drinks - Bowl
+
+
+
+      Sint-Onolfsdijk 12A
+
+      9200 Dendermonde
+
+      dendermonde@meirdam.be
+    href: https://meirdam.be/
+    image: /images/meirdam.png
 ---
 Welkom op de website van TTC Teneramonda!
