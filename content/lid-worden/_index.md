@@ -3,7 +3,7 @@ title: Wordt nu lid!
 action_button_content: klik hier
 action_button_link: /contact
 has_action_button: true
-image: /images/wegroup-avatar.png
+image: /images/tekening.svg
 ---
 Wil je graag aansluiten bij onze club? Wij verwelkomen je met plezier op één van de volgende momenten:
 
