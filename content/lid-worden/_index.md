@@ -7,7 +7,7 @@ image: /images/wegroup-avatar.png
 ---
 Wil je graag aansluiten bij onze club? Wij verwelkomen je met plezier op één van de volgende momenten:
 
-Trainingstijden:
+**Trainingstijden:**
 
 \- Jeugdtraining: Woensdag en vrijdag van 19u tot 20u15
 
@@ -21,10 +21,20 @@ Onze geleide trainingen worden verzorgd door twee gediplomeerde trainers die je 
 
 
 
-Het lidmaatschap bedraagt € 105,00 voor sportjaar 2024-2025, zowel voor jeugd als volwassenen. Dit bedrag is inclusief:
+Wil je eerst kennismaken? Geen probleem! We bieden nieuwkomers de mogelijkheid om enkele keren gratis mee te doen voordat je besluit lid te worden.
+
+
+
+Het **lidmaatschap** bedraagt **€ 105,00** voor sportjaar **2024-2025**, zowel voor jeugd als volwassenen. Dit bedrag is inclusief:
 
 \- Aansluiting bij de Sporta Federatie als recreant of competitiespeler
 
-\- Sportverz
+\- Sportverzekering van Ethias (Lichamelijke ongevallen, hartfalen en beroertes,  burgerlijke aansprakelijkheid en rechtsbijstand.
 
-Via onderstaande knop kun je contact met ons opnemen en helpen we jou graag verder. Ook is onze club op trainings- en matchdagen steeds open om eens een kijkje te komen nemen, of van een training te proeven voor je aansluit.
+\- Wedstrijdpolo (ook voor recreanten)
+
+\- Bijdrage huur zaal en andere onkosten
+
+
+
+**Interesse?** Via onderstaande knop kun je contact met ons opnemen en helpen we jou graag verder.
