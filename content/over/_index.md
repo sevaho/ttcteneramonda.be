@@ -1,7 +1,7 @@
 ---
 gallery_folder: /images/sfeerbeelden
 title: Over ons
-image: /images/nu-tafeltennis-700x350.png
+image: /images/kampioenschap.jpg
 sfeerbeelden:
   - name: /images/sfeerbeelden/tabletennis1.jpg
     title: foto
