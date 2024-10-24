@@ -96,4 +96,5 @@ leden:
     content: NG
   - name: Xander Van Reeth
     role: Recreant
+    content: NG
 ---
