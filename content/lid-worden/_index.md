@@ -17,17 +17,11 @@ Onze geleide trainingen worden verzorgd door twee gediplomeerde trainers die je 
 
 Wil je eerst kennismaken? Geen probleem! We bieden nieuwkomers de mogelijkheid om enkele keren gratis mee te doen voordat je besluit lid te worden.
 
-
-
 Het **lidmaatschap** bedraagt **€ 105,00** voor sportjaar **2024-2025**, zowel voor jeugd als volwassenen. Dit bedrag is inclusief:
 
 * Aansluiting bij de Sporta Federatie als recreant of competitiespeler
-* Sportverzekering van Ethias (Lichamelijke ongevallen, hartfalen en beroertes,  burgerlijke aansprakelijkheid en rechtsbijstand.
+* Sportverzekering van Ethias (Lichamelijke ongevallen, hartfalen en beroertes,  burgerlijke aansprakelijkheid en rechtsbijstand)
 * Wedstrijdpolo (ook voor recreanten)
 * Bijdrage huur zaal en andere onkosten
-
-
-
-
 
 **Interesse?** Via onderstaande knop kun je contact met ons opnemen en helpen we jou graag verder.
