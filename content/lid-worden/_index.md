@@ -3,7 +3,7 @@ title: Wordt nu lid!
 action_button_content: klik hier
 action_button_link: /contact
 has_action_button: true
-image: /images/tekening.svg
+image: /images/goed-logo.jpg
 ---
 Wil je graag aansluiten bij onze club? Wij verwelkomen je met plezier op één van de volgende momenten:
 
