@@ -120,5 +120,16 @@ sponsors:
       dendermonde@meirdam.be
     href: https://meirdam.be/
     image: /images/meirdam.png
+  - name: Hof ter Meyghem
+    content: |-
+      Salons & feestzalen
+
+      Hofstraat 143
+
+      9200 Oudegem
+
+      info@hoftermeyghem.be
+    href: https://www.hoftermeyghem.be/
+    image: /images/logo-hof-ter-meyghem.jpg
 ---
 Welkom op de website van TTC Teneramonda!
