@@ -1,7 +1,7 @@
 ---
 gallery_folder: /images/sfeerbeelden
 title: Over ons
-image: /images/tekening.svg
+image: /images/tafeltennis-700x350.jpg
 sfeerbeelden:
   - name: /images/sfeerbeelden/tabletennis1.jpg
     title: foto
