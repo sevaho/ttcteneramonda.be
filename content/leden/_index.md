@@ -85,4 +85,15 @@ leden:
   - name: Nand Van Schepdael
     role: B-ploeg Jeugd
     content: NG
+  - name: Gino Coppens
+    role: Recreant
+    content: NG
+  - name: Tom Coppens
+    role: Recreant
+    content: NG
+  - name: Johan Raedemaeker
+    role: Recreant
+    content: NG
+  - name: Xander Van Reeth
+    role: Recreant
 ---
