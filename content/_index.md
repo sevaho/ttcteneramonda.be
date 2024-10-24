@@ -1,5 +1,5 @@
 ---
-address: "Sporthal Oudegem, Ouburg 61 - 9200 Oudegem "
+address: "Sporthal Oudegem, Ouburg 63 - 9200 Oudegem "
 phone: +32 474 83 24 86
 email: ttcteneramonda@outlook.be
 facebook: https://www.facebook.com/profile.php?id=61560026226483
