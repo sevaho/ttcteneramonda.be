@@ -1,9 +1,9 @@
 ---
-address: "Sporthal Oudegem, Ouburg 63 - 9200 Oudegem "
 phone: +32 474 83 24 86
-email: ttcteneramonda@outlook.be
 facebook: https://www.facebook.com/profile.php?id=61560026226483
 date: 2024-10-02T07:15:09.750Z
+address: "Sporthal Oudegem, Ouburg 63 - 9200 Oudegem "
+email: ttcteneramonda@outlook.be
 instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share_sheet
 ploegen:
   - name: A-ploeg (Senioren)
@@ -18,16 +18,6 @@ ploegen:
   - name: B-ploeg (jeugd)
     link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1765_B
     division: 4de afdeling Oost-Vlaanderen
-events: []
-event_in_de_kijker:
-  date: 18/12/2024
-  title: Wijnverkoop
-  content: Onze jaarlijkse wijnverkoop komt er weer aan! Meer informatie volgt.
-  action_button_content: null
-  action_button_link: null
-  has_action_button: false
-  image: /images/tth-sint-niklaas-lanceert-wijnverkoop.jpg
-title: test
 sponsors:
   - name: RuitenwasseRaf
     content: |-
@@ -131,5 +121,26 @@ sponsors:
       info@hoftermeyghem.be
     href: https://www.hoftermeyghem.be/
     image: /images/logo-hof-ter-meyghem.jpg
+  - name: Big Boom
+    href: https://www.bigboom.be/
+    image: /images/logo-papa-fee.png
+    content: |-
+      Grafisch ontwerper
+
+      Bareldonkdreef 2
+
+      9290 Berlare
+
+      tim@bigboom.be
+events: []
+event_in_de_kijker:
+  date: 18/12/2024
+  title: Wijnverkoop
+  content: Onze jaarlijkse wijnverkoop komt er weer aan! Meer informatie volgt.
+  action_button_content: null
+  action_button_link: null
+  has_action_button: false
+  image: /images/tth-sint-niklaas-lanceert-wijnverkoop.jpg
+title: test
 ---
 Welkom op de website van TTC Teneramonda!
