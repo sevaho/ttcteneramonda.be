@@ -19,7 +19,19 @@
             </div>
         </div>
 
-        <form class="space-y-4 mx-auto w-full" name="contact" action="https://forms.asic.li/forms" method="post">
+        <form class="space-y-4 mx-auto w-full" name="contact" action="https://forms.asic.li/forms?language=NL&country=BE" method="post">
+            {{ with site.GetPage "" }}
+            <input
+                name="mail_to_email"
+                type="hidden"
+                value="{{ .Params.email }}"
+            />
+            {{ end }}
+            <input
+                name="mail_to_name"
+                type="hidden"
+                value="Contact"
+            />
             <input
                 name="e-mail"
                 type="email"
