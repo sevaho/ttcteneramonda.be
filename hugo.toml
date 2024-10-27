@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'TTC Teneramonda'
+languageCode = 'nl-BE'
+title = 'TTC Teneramonda tafeltennis club te Oudegem'
 
 enableRobotsTXT = true
 
