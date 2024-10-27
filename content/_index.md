@@ -2,7 +2,7 @@
 phone: +32 474 83 24 86
 facebook: https://www.facebook.com/profile.php?id=61560026226483
 date: 2024-10-02T07:15:09.750Z
-description: Welkom bij Tafeltennisclub Teneramonda gelegen te Ouburg 61 9200 Dendermonde. Op deze site vindt u informatie over onze club TTC Teneramonda.
+description: Welkom bij Tafeltennisclub Teneramonda gelegen te Ouburg 63 9200 Dendermonde. Op deze site vindt u informatie over onze club TTC Teneramonda. Kom gerust langs!
 address: "Sporthal Oudegem, Ouburg 63 - 9200 Oudegem "
 email: ttcteneramonda@outlook.be
 instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share_sheet

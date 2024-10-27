@@ -2,7 +2,7 @@
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
 
-    <title>{{ $title }}</title>
+    <title>TTC Teneramonda tafeltennis club te Oudegem</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
@@ -14,12 +14,12 @@
     <meta property="og:type" content="website"/>
     <meta content='{{ .Site.BaseURL }}' property='og:url'>
 
-    <meta name="keywords" content="TTC Teneramonda,tafeltennis,Oudegem,Teneramonda,teneramonda,Tafeltennis,Sport,Pingpong,Recreatie,Recreatief,Competitie,Dendermonde,"/>
+    <meta name="keywords" content="TTC Teneramonda,tafeltennis,Oudegem,Teneramonda,teneramonda,Tafeltennis,Sport,Pingpong,Recreatie,Recreatief,Competitie,Dendermonde, Sporta"/>
 
 
     {{ with resources.Get "favicon.png" }}
     {{ with .Resize "15x webp" }}
-    <link rel="icon" href="{{ .RelPermalink }}" />
+    <link rel="icon" type="image/x-icon" href="{{ .RelPermalink }}" />
     {{ end }}
     {{ end }}
     <!-- Google fonts-->
