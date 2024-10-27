@@ -5,14 +5,16 @@
     <title>{{ $title }}</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="{{ .Site.Params.Description }}" />
 
-    <meta name="description" content="{{ .Site.Params.Description }}"/>
-    <meta name="og:description" content="{{ .Site.Params.Description }}"/>
+    {{ with site.GetPage "" }}
+    <meta name="description" content="{{ .Params.Description }}" />
+    <meta name="og:description" content="{{ .Params.Description }}"/>
+    {{ end }}
     <meta name="og:title" content="{{ $title }}"/>
     <meta property="og:type" content="website"/>
+    <meta content='{{ .Site.BaseURL }}' property='og:url'>
 
-        <meta name="keywords" content="Sofie D'heer, architectuur, portfolio, D'heer architect, architect."/>
+    <meta name="keywords" content="TTC Teneramonda,tafeltennis,Oudegem,Teneramonda,teneramonda,Tafeltennis,Sport,Pingpong,Recreatie,Recreatief,Competitie,Dendermonde,"/>
 
 
     {{ with resources.Get "favicon.png" }}
@@ -52,19 +54,26 @@
       {{ $t.Stop }}
     {{ end }}
 
-    <script defer data-domain="dheer.me" src="https://plausible.io/js/script.js"></script>
+    <script defer data-domain="ttcteneramonda.be" src="https://plausible.io/js/script.js"></script>
+    {{ with site.GetPage "" }}
     <script type="application/ld+json">
     {
     "@context": "https://schema.org/",
-    "@type": "Portfolio website",
+    "@type": "Website",
     "name": "{{ .Site.Title }}",
-    "author": {
-        "@type": "Person",
-        "name": "sofie@dheer.me"
+    "address": {
+    "@type": "PostalAddress", 
+    "addressCountry": "BE",
+    "addressLocality": "Dendermonde",
+    "streetAddress": "Ouburg 63",
+    "postalCode": "9200"
     },
-    "description": "{{ .Site.Params.Description }}"
+
+    "telephone": "{{ .Params.phone }}",
+    "description": "{{ .Params.Description }}"
     }
     </script>
+    {{ end }}
 
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous" async></script>
