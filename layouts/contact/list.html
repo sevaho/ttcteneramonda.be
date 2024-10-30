@@ -19,7 +19,14 @@
             </div>
         </div>
 
-        <form class="space-y-4 mx-auto w-full" name="contact" action="https://forms.asic.li/forms?language=NL&country=BE" method="post">
+        <form
+            class="space-y-4 mx-auto w-full"
+            name="contact"
+            action="https://forms.asic.li/forms?language=NL&country=BE"
+            method="post"
+            data-netlify-recaptcha="true"
+            data-netlify="true"
+        >
             {{ with site.GetPage "" }}
             <input
                 name="mail_to_email"
