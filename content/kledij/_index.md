@@ -7,4 +7,4 @@ has_action_button: true
 ---
 C﻿lubkledij aan-/bijkopen is perfect mogelijk! Via onderstaande knop kan je volledig zelf de gewenste kledingstukken bestellen. Dankzij deze outfit blijf je volledig in de dresscode van Teneramonda en representeer met trots onze club tijdens matchen. 
 
-(﻿De 'Polo Challenge' wordt gebruikt als verplichte wedstrijdtenue)
+(﻿De 'Polo Challenge' wordt gebruikt als verplichte wedstrijdtenue.)
