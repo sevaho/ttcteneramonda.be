@@ -6,6 +6,15 @@
 
 # Website for TTC Teneramonda
 
-```
+This is the 3rd iteration of the website, previous versions:
 
-```
+- [V1](https://github.com/sevaho/ttcteneramonda.be-old-v1)
+- [V2](https://github.com/sevaho/ttcteneramonda.be-old-v2)
+
+## How it's build
+
+- [GitHub](https://github.com/ttc-teneramonda/ttc-teneramonda)
+- [Hugo](https://gohugo.io/)
+- [Netlify](https://netlify.com/)
+- [Tailwind](https://tailwindcss.com)
+- [DaisyUI](https://daisyui.com)
