@@ -24,8 +24,8 @@
             name="contact"
             action="https://forms.asic.li/forms?language=NL&country=BE"
             method="post"
+            onsubmit="return validateRecaptcha();"
         >
-            <div class="g-recaptcha" data-sitekey="6Ld_rXAqAAAAAI6-eCI0l7jn5-JTzTbe60lfdLGk"></div>
             {{ with site.GetPage "" }}
             <input
                 name="mail_to_email"
@@ -56,8 +56,23 @@
                 placeholder="Bericht"
             ></textarea>
 
+            <div class="g-recaptcha" data-sitekey="6Ld_rXAqAAAAAI6-eCI0l7jn5-JTzTbe60lfdLGk"></div>
+
             <button class="mx-auto btn btn-accent w-full" type="submit">Send</button>
         </form>
     </div>
 </section>
+<script>
+    function validateRecaptcha() {
+        // Get the value of the reCAPTCHA response token
+        var recaptchaResponse = document.querySelector('[name="g-recaptcha-response"]').value;
+        
+        if (!recaptchaResponse) {
+            // If no response, alert the user and prevent form submission
+            alert("CAPTCHA is verplicht.");
+            return false; // Prevent form submission
+        }
+        return true; // Allow form submission
+    }
+</script>
 {{ end }}
