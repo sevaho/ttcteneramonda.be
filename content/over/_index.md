@@ -5,21 +5,21 @@ image: /images/kampioenschap.jpg
 sfeerbeelden:
   - name: /images/sfeerbeelden/tabletennis1.jpg
     title: foto
-    image: /assets/images/sfeerbeelden/kampioenschap.jpg
+    image: /assets/images/sfeerbeelden/463217125_4026348377609424_1115888366068242411_n.jpg
   - title: foto
     image: /assets/images/sfeerbeelden/20230211_143429.jpg
   - title: foto
-    image: /assets/images/sfeerbeelden/whatsapp-image-2024-10-12-at-16.16.14-1-.jpeg
+    image: /assets/images/sfeerbeelden/462550101_895614135997614_7206083959592723579_n.jpg
   - title: foto
     image: /assets/images/sfeerbeelden/whatsapp-image-2024-10-12-at-16.16.15-1-.jpeg
   - title: foto
-    image: /assets/images/sfeerbeelden/whatsapp-image-2024-10-12-at-16.16.15-2-.jpeg
+    image: /assets/images/sfeerbeelden/462541943_1264459451542601_1736594717483185787_n.jpg
   - title: foto
     image: /assets/images/sfeerbeelden/whatsapp-image-2024-10-12-at-16.16.15-3-.jpeg
   - title: foto
     image: /assets/images/sfeerbeelden/whatsapp-image-2024-10-12-at-16.16.15-4-.jpeg
   - title: foto
-    image: /assets/images/sfeerbeelden/whatsapp-image-2024-10-12-at-16.16.16.jpeg
+    image: /assets/images/sfeerbeelden/462544049_1697836224093133_4079854882090494644_n.jpg
   - title: foto
     image: /assets/images/sfeerbeelden/462542463_4433636630196153_3772223620171339613_n.jpg
   - title: foto
