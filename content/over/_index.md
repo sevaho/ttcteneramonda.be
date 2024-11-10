@@ -15,7 +15,7 @@ sfeerbeelden:
   - title: foto
     image: /assets/images/sfeerbeelden/462541943_1264459451542601_1736594717483185787_n.jpg
   - title: foto
-    image: /assets/images/sfeerbeelden/whatsapp-image-2024-10-12-at-16.16.15-3-.jpeg
+    image: /assets/images/sfeerbeelden/465524276_903760368525117_5045240385820641767_n.jpg
   - title: foto
     image: /assets/images/sfeerbeelden/whatsapp-image-2024-10-12-at-16.16.15-4-.jpeg
   - title: foto
