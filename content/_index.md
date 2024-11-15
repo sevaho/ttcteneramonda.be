@@ -2,7 +2,6 @@
 phone: +32 474 83 24 86
 facebook: https://www.facebook.com/profile.php?id=61560026226483
 date: 2024-10-02T07:15:09.750Z
-description: Welkom bij Tafeltennisclub Teneramonda gelegen te Ouburg 63 9200 Dendermonde. Op deze site vindt u informatie over onze club TTC Teneramonda. Kom gerust langs!
 address: "Sporthal Oudegem, Ouburg 63 - 9200 Oudegem "
 email: ttcteneramonda@outlook.be
 instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share_sheet
@@ -135,13 +134,20 @@ sponsors:
       tim@bigboom.be
 events: []
 event_in_de_kijker:
-  date: 18/12/2024
-  title: Wijnverkoop
-  content: Onze jaarlijkse wijnverkoop komt er weer aan! Meer informatie volgt.
+  date: 08/12/2024
+  title: "Steun onze sportclub: Wijnverkoop / pralines 2024 "
+  content: Doe mee aan onze jaarlijkse wijnverkoop en steun de werking van onze
+    sportclub. We bieden een zorgvuldig geselecteerd assortiment wijnen aan,
+    perfect voor de feestdagen of om cadeau te geven. Met elke fles die je
+    koopt, draag je rechtstreeks bij aan de activiteiten en toekomst van onze
+    club! Bestellen kan tot 08/12/24!!!
   action_button_content: null
   action_button_link: null
   has_action_button: false
-  image: /images/tth-sint-niklaas-lanceert-wijnverkoop.jpg
+  image: /images/wijnverkoop.jpg
 title: test
+description: Welkom bij Tafeltennisclub Teneramonda gelegen te Ouburg 63 9200
+  Dendermonde. Op deze site vindt u informatie over onze club TTC Teneramonda.
+  Kom gerust langs!
 ---
 Welkom op de website van TTC Teneramonda!
