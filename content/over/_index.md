@@ -7,7 +7,7 @@ sfeerbeelden:
     title: foto
     image: /assets/images/sfeerbeelden/463217125_4026348377609424_1115888366068242411_n.jpg
   - title: foto
-    image: /assets/images/sfeerbeelden/20230211_143429.jpg
+    image: /assets/images/sfeerbeelden/462536254_856021523274585_3480590754978759908_n.jpg
   - title: foto
     image: /assets/images/sfeerbeelden/462550101_895614135997614_7206083959592723579_n.jpg
   - title: foto
@@ -17,7 +17,7 @@ sfeerbeelden:
   - title: foto
     image: /assets/images/sfeerbeelden/462540221_1090573898936909_151781282152213231_n.jpg
   - title: foto
-    image: /assets/images/sfeerbeelden/whatsapp-image-2024-10-12-at-16.16.15-4-.jpeg
+    image: /assets/images/sfeerbeelden/462553784_891082959418588_3757364426643922390_n.jpg
   - title: foto
     image: /assets/images/sfeerbeelden/462544049_1697836224093133_4079854882090494644_n.jpg
   - title: foto
