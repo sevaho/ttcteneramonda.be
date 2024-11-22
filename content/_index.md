@@ -132,7 +132,9 @@ sponsors:
       9290 Berlare
 
       tim@bigboom.be
-events: []
+events:
+  - content: Sporta Federaal Tornooi te Schelle
+    date: 01/12/2024
 event_in_de_kijker:
   date: 08/12/2024
   title: "Steun onze sportclub: Wijnverkoop / pralines 2024 "
