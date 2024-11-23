@@ -38,7 +38,7 @@ collections:
             name: 'events'
             widget: 'list'
             fields:
-              - { label: 'Content', name: 'content', widget: 'string' }
+              - { label: 'Content', name: 'content', widget: 'markdown' }
               - { label: "Datum", name: "date", widget: "datetime", "date_format": "DD/MM/YYYY" }
               - { label: 'Actie knop link', name: 'action_button_link', widget: 'string' , required: false}
               - { label: 'Actie knop content', name: 'action_button_content', widget: 'string' , required: false}
@@ -48,7 +48,7 @@ collections:
             widget: 'object'
             fields: 
               - {label: 'Titel', name: 'title', widget: 'string'}
-              - {label: 'Content', name: 'content', widget: 'string'}
+              - {label: 'Content', name: 'content', widget: 'markdown'}
               - {label: 'Actie knop link', name: 'action_button_link', widget: 'string', required: false}
               - {label: 'Actie knop content', name: 'action_button_content', widget: 'string', required: false}
               - {label: 'Actie knop?', name: 'has_action_button', widget: 'boolean', required: false}
