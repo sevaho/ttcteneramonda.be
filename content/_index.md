@@ -134,7 +134,7 @@ sponsors:
       tim@bigboom.be
 events:
   - content: Sporta Federaal Tornooi te Schelle, Inschrijven kan tot 25.11.24 via
-      ons. Mail naar [ttcteneramonda@outlook.be](ttcteneramonda@outlook.be)
+      ons. Mail naar [ttcteneramonda@outlook.be](mailto:ttcteneramonda@outlook.be)
     date: 01/12/2024
 event_in_de_kijker:
   date: 08/12/2024

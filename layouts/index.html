@@ -38,7 +38,7 @@
                         <div class="lg:flex justify-between gap-1">
                             <div class="mt-2 lg:m-0">
                                 <h2 class="card-title"></h2>
-                                <p>{{ $event.content }}</p>
+                                <div class="markdown">{{ $event.content | markdownify }}</div>
                             </div>
                             {{ if $event.has_action_button }}
                             <div class="my-3 float-end">
@@ -72,7 +72,7 @@
                         </h2>
                     </div>
                     <h2 class="card-title">{{ .Params.event_in_de_kijker.title }}</h2>
-                    <p>{{ .Params.event_in_de_kijker.content }}</p>
+                    <div class="markdown">{{ .Params.event_in_de_kijker.content | markdownify }}</div>
                     {{ if .Params.event_in_de_kijker.has_action_button }}
                     <div class="card-actions justify-end">
                         <button class="btn btn-accent">
