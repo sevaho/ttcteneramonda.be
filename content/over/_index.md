@@ -3,8 +3,7 @@ gallery_folder: /images/sfeerbeelden
 title: Over ons
 image: /images/kampioenschap.jpg
 sfeerbeelden:
-  - name: /images/sfeerbeelden/tabletennis1.jpg
-    title: foto
+  - title: foto
     image: /assets/images/sfeerbeelden/463217125_4026348377609424_1115888366068242411_n.jpg
   - title: foto
     image: /assets/images/sfeerbeelden/462536254_856021523274585_3480590754978759908_n.jpg

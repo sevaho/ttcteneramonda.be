@@ -23,11 +23,15 @@
 
     <h1 class="text-h2 text-center m-5">Sfeerbeelden</h1>
 
-    {{ $gallery := (print .Params.gallery_folder "/*") }}
     <div id="gallery" class="columns-1 md:columns-2 lg:columns-3 gap-3 space-y-4 pswp-gallery">
 
-        {{ range $k, $v := resources.Match $gallery }} {{ $image := resources.Get $v }} {{ $resized := $image.Resize
-        "2500x webp q99" }}
+        <!-- HUGO resouces.GET only works relative from /assets directory -->
+        {{ range $k, $v := .Params.sfeerbeelden }}
+        {{ if hasPrefix $v.image "/assets/images" }}
+        {{ $source := strings.SliceString $v.image 7 }}
+        {{ $image := resources.Get $source }}
+        {{ $resized := $image.Resize "2500x webp q99" }}
+
         <div>
               <a
                 href="{{$resized.RelPermalink}}"
@@ -42,6 +46,8 @@
                 </figure>
             </a>
         </div>
+
+        {{ end }}
         {{ end }}
     </div>
 </div>

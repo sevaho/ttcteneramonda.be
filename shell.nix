@@ -1,11 +1,14 @@
 # shell.nix
 let
-  pkgs = import <nixpkgs> {};
-in pkgs.mkShell {
+  # stable = import (fetchTarball https://nixos.org/channels/nixos-24.11/nixexprs.tar.xz) { };
+  unstable = import (fetchTarball https://nixos.org/channels/nixos-unstable/nixexprs.tar.xz) { };
 
+in
+{ nixpkgs ? import <nixpkgs> {} }:
+with nixpkgs; mkShell {
   packages = with pkgs; [
     nodejs
-    hugo
+    unstable.hugo
     tailwindcss
     tailwindcss-language-server
     htmx-lsp
