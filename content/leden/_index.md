@@ -97,4 +97,7 @@ leden:
   - name: Xander Van Reeth
     role: Recreant
     content: NG
+  - name: Rudy Keppens
+    role: Recreant
+    content: NG
 ---
