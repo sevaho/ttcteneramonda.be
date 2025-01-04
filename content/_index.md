@@ -138,18 +138,30 @@ events:
       [ttcteneramonda@outlook.be](mailto:ttcteneramonda@outlook.be)
     date: 01/12/2024
 event_in_de_kijker:
-  date: 08/12/2024
-  title: "Steun onze sportclub: Wijnverkoop / pralines 2024 "
-  content: Doe mee aan onze jaarlijkse wijnverkoop en steun de werking van onze
-    sportclub. We bieden een zorgvuldig geselecteerd assortiment wijnen aan,
-    perfect voor de feestdagen of om cadeau te geven. Met elke fles die je
-    koopt, draag je rechtstreeks bij aan de activiteiten en toekomst van onze
-    club! Bestellen kan tot 08/12/24!!! [Klik hier om de afbeelding te bekijken
-    .](https://ttcteneramonda.be/images/wijnverkoop.jpg)
+  date: 15/02/2025
+  title: "1e TeneraQuiz "
+  content: >-
+    Op zaterdag 15 februari 2025 organiseert TTC Teneramonda voor de 1e keer
+    zijn TeneraQuiz. In teams van maximaal 4 personen nemen jullie het op in
+    diverse rondes vragen over sport, muziek, algemene kennis, geschiedenis en
+    veel meer. \
+
+    Geen nood voor de niet-pingpongers onder ons, we beloven minder dan 1% vragen over tafeltennis te stellen ;)
+
+
+    Er is een prijzentafel voor iedereen. Hapjes en drankjes zijn te verkrijgen aan democratische prijzen.
+
+
+    De opbrengst gaat integraal naar onze werking van de club.
+
+
+
+
+    Inschrijven kan tot 7 februari 2025 via ttcteneramonda@outlook.be[](https://ttcteneramonda.be/images/wijnverkoop.jpg)
   action_button_content: null
   action_button_link: null
   has_action_button: false
-  image: /images/wijnverkoop.jpg
+  image: /images/facebook-foto-quiz-2.png
 title: test
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Ouburg 63 9200
   Dendermonde. Op deze site vindt u informatie over onze club TTC Teneramonda.
