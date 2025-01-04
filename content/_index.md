@@ -13,10 +13,10 @@ ploegen:
     link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1754_B
     division: 7de afdeling Oost Vlaanderen
   - name: A-ploeg (jeugd)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1763_A
-    division: 2de afdeling Oost Vlaanderen
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1804_A
+    division: 3de afdeling Oost Vlaanderen
   - name: B-ploeg (jeugd)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1765_B
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1805_B
     division: 4de afdeling Oost-Vlaanderen
 sponsors:
   - name: RuitenwasseRaf
@@ -134,7 +134,8 @@ sponsors:
       tim@bigboom.be
 events:
   - content: Sporta Federaal Tornooi te Schelle, Inschrijven kan tot 25.11.24 via
-      ons. Mail naar [ttcteneramonda@outlook.be](mailto:ttcteneramonda@outlook.be)
+      ons. Mail naar
+      [ttcteneramonda@outlook.be](mailto:ttcteneramonda@outlook.be)
     date: 01/12/2024
 event_in_de_kijker:
   date: 08/12/2024
