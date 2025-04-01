@@ -1,23 +1,11 @@
 ---
+address: "Sporthal Oudegem, Ouburg 63 - 9200 Oudegem "
 phone: +32 474 83 24 86
+email: ttcteneramonda@outlook.be
 facebook: https://www.facebook.com/profile.php?id=61560026226483
 date: 2024-10-02T07:15:09.750Z
-address: "Sporthal Oudegem, Ouburg 63 - 9200 Oudegem "
-email: ttcteneramonda@outlook.be
 instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share_sheet
-ploegen:
-  - name: A-ploeg (Senioren)
-    division: " 6de afdeling Oost Vlaanderen"
-    link_naar_sporta: https://ttonline.sporta.be/?div_id=1726&menu=5&withres=1&week_name=05&divcat=0&club_id=0&club_id=34
-  - name: B-ploeg (Senioren)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1754_B
-    division: 7de afdeling Oost Vlaanderen
-  - name: A-ploeg (jeugd)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1763_A
-    division: 2de afdeling Oost Vlaanderen
-  - name: B-ploeg (jeugd)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1765_B
-    division: 4de afdeling Oost-Vlaanderen
+title: test
 sponsors:
   - name: RuitenwasseRaf
     content: |-
@@ -133,16 +121,29 @@ sponsors:
 
       tim@bigboom.be
 events:
-  - content: Doe mee aan onze jaarlijkse wijnverkoop en steun de werking van onze sportclub. We bieden een zorgvuldig geselecteerd assortiment wijnen aan, perfect voor de feestdagen of om cadeau te geven. Met elke fles die je koopt, draag je rechtstreeks bij aan de activiteiten en toekomst van onze club! Bestellen kan tot 08/12/24!!! [Klik hier om de afbeelding te bekijken Doe mee aan onze jaarlijkse wijnverkoop en steun de werking van onze sportclub. We bieden een zorgvuldig geselecteerd assortiment wijnen aan, perfect voor de feestdagen of om cadeau te geven. Met elke fles die je koopt, draag je rechtstreeks bij aan de activiteiten en toekomst van onze club! Bestellen kan tot 08/12/24!!! [Klik hier om de afbeelding te bekijken.](https://ttcteneramonda.be/images/wijnverkoop.jpg)
+  - content: Doe mee aan onze jaarlijkse wijnverkoop en steun de werking van onze
+      sportclub. We bieden een zorgvuldig geselecteerd assortiment wijnen aan,
+      perfect voor de feestdagen of om cadeau te geven. Met elke fles die je
+      koopt, draag je rechtstreeks bij aan de activiteiten en toekomst van onze
+      club! Bestellen kan tot 08/12/24!!! [Klik hier om de afbeelding te
+      bekijken Doe mee aan onze jaarlijkse wijnverkoop en steun de werking van
+      onze sportclub. We bieden een zorgvuldig geselecteerd assortiment wijnen
+      aan, perfect voor de feestdagen of om cadeau te geven. Met elke fles die
+      je koopt, draag je rechtstreeks bij aan de activiteiten en toekomst van
+      onze club! Bestellen kan tot 08/12/24!!! [Klik hier om de afbeelding te
+      bekijken.](https://ttcteneramonda.be/images/wijnverkoop.jpg)
     action_button_content: null
     action_button_link: null
     has_action_button: false
     image: /assets/images/wijnverkoop.jpg
     date: 08/12/2024
     title: "Steun onze sportclub: Wijnverkoop / pralines 2024 "
-
-  - content: Op zaterdag 15 februari 2025 organiseert TTC Teneramonda voor de 1e keer zijn TeneraQuiz. In teams van maximaal 4 personen nemen jullie het op in diverse rondes vragen over sport, muziek, algemene kennis, geschiedenis en veel meer.
-      Geen nood voor de niet-pingpongers onder ons, we beloven minder dan 1% vragen over tafeltennis te stellen ;)
+  - content: >-
+      Op zaterdag 15 februari 2025 organiseert TTC Teneramonda voor de 1e keer
+      zijn TeneraQuiz. In teams van maximaal 4 personen nemen jullie het op in
+      diverse rondes vragen over sport, muziek, algemene kennis, geschiedenis en
+      veel meer. Geen nood voor de niet-pingpongers onder ons, we beloven minder
+      dan 1% vragen over tafeltennis te stellen ;)
 
       Er is een prijzentafel voor iedereen. Hapjes en drankjes zijn te verkrijgen aan democratische prijzen.
 
@@ -155,14 +156,26 @@ events:
     date: 15/02/2025
     title: "1e TeneraQuiz "
     image: /assets/images/facebook-foto-quiz-2.png
-
-  - content:
+  - content: Sporta Federaal Tornooi te Schelle
     date: 01/12/2024
-    title: "Sporta Federaal Tornooi te Schelle, Inschrijven kan tot 25.11.24 via ons. Mail naar ttcteneramonda@outlook.be"
-
-title: test
+    title: Sporta Federaal Tornooi te Schelle, Inschrijven kan tot 25.11.24 via ons.
+      Mail naar ttcteneramonda@outlook.be
+    image: /assets/images/sfeerbeelden/table-tennis-table.jpeg
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Ouburg 63 9200
   Dendermonde. Op deze site vindt u informatie over onze club TTC Teneramonda.
   Kom gerust langs!
+ploegen:
+  - name: A-ploeg (Senioren)
+    division: " 6de afdeling Oost Vlaanderen"
+    link_naar_sporta: https://ttonline.sporta.be/?div_id=1726&menu=5&withres=1&week_name=05&divcat=0&club_id=0&club_id=34
+  - name: B-ploeg (Senioren)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1754_B
+    division: 7de afdeling Oost Vlaanderen
+  - name: A-ploeg (jeugd)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1763_A
+    division: 2de afdeling Oost Vlaanderen
+  - name: B-ploeg (jeugd)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1765_B
+    division: 4de afdeling Oost-Vlaanderen
 ---
 Welkom op de website van TTC Teneramonda!
