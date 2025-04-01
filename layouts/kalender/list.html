@@ -28,7 +28,7 @@
 </style>
 
 <div class="container mx-auto mt-10 mb-10">
-    <div id="calendar" class=" p-2 rounded"></div>
+    <div id="calendar" class="p-2 rounded"></div>
 </div>
 
 <!-- Modal Template (Hidden initially) -->
@@ -57,13 +57,12 @@
           }
           {{ end }}
       ]
-
     document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
 
         var calendar = new FullCalendar.Calendar(calendarEl, {
             locale: 'nl',
-            initialView: 'dayGridMonth',
+            initialView:   window.innerWidth > 1200 ? 'dayGridMonth': 'listMonth',
             weekNumberCalculation: 'ISO',
             // initialDate: '2024-08-07',
             buttonText: {
