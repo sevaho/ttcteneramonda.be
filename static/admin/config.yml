@@ -39,9 +39,9 @@ collections:
             widget: 'list'
             fields:
               - {label: 'Titel', name: 'title', widget: 'string'}
-              - { label: 'Content', name: 'content', widget: 'markdown' }
               - { label: "Datum", name: "date", widget: "datetime", "date_format": "DD/MM/YYYY" }
-              - { label: 'Afbeelding', media_folder: /assets/images/sfeerbeelden, name: 'image', widget: 'image', choose_url: true}
+              - { label: 'Content', name: 'content', widget: 'markdown', required: false }
+              - { label: 'Afbeelding', media_folder: /assets/images/sfeerbeelden, name: 'image', widget: 'image', choose_url: true, required: false}
       - label: 'Over ons'
         name: 'over'
         file: 'content/over/_index.md'
