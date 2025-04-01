@@ -38,22 +38,24 @@ collections:
             name: 'events'
             widget: 'list'
             fields:
+              - {label: 'Titel', name: 'title', widget: 'string'}
               - { label: 'Content', name: 'content', widget: 'markdown' }
               - { label: "Datum", name: "date", widget: "datetime", "date_format": "DD/MM/YYYY" }
-              - { label: 'Actie knop link', name: 'action_button_link', widget: 'string' , required: false}
-              - { label: 'Actie knop content', name: 'action_button_content', widget: 'string' , required: false}
-              - { label: 'Actie knop?', name: 'has_action_button', widget: 'boolean' , required: false}
-          - label: 'Event in de kijker'
-            name: 'event_in_de_kijker'
-            widget: 'object'
-            fields: 
-              - {label: 'Titel', name: 'title', widget: 'string'}
-              - {label: 'Content', name: 'content', widget: 'markdown'}
-              - {label: 'Actie knop link', name: 'action_button_link', widget: 'string', required: false}
-              - {label: 'Actie knop content', name: 'action_button_content', widget: 'string', required: false}
-              - {label: 'Actie knop?', name: 'has_action_button', widget: 'boolean', required: false}
-              - {label: "Datum", name: "date", widget: "datetime", "date_format": "DD/MM/YYYY"}
-              - {label: 'Afbeelding', name: 'image', widget: 'image'}
+              # - { label: 'Actie knop link', name: 'action_button_link', widget: 'string' , required: false}
+              # - { label: 'Actie knop content', name: 'action_button_content', widget: 'string' , required: false}
+              # - { label: 'Actie knop?', name: 'has_action_button', widget: 'boolean' , required: false}
+              - { label: 'Afbeelding', media_folder: /assets/images/sfeerbeelden, name: 'image', widget: 'image', choose_url: true}
+          # - label: 'Event in de kijker'
+          #   name: 'event_in_de_kijker'
+          #   widget: 'object'
+          #   fields: 
+          #     - {label: 'Titel', name: 'title', widget: 'string'}
+          #     - {label: 'Content', name: 'content', widget: 'markdown'}
+          #     - {label: 'Actie knop link', name: 'action_button_link', widget: 'string', required: false}
+          #     - {label: 'Actie knop content', name: 'action_button_content', widget: 'string', required: false}
+          #     - {label: 'Actie knop?', name: 'has_action_button', widget: 'boolean', required: false}
+          #     - {label: "Datum", name: "date", widget: "datetime", "date_format": "DD/MM/YYYY"}
+          #     - {label: 'Afbeelding', name: 'image', widget: 'image'}
       - label: 'Over ons'
         name: 'over'
         file: 'content/over/_index.md'
