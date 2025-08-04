@@ -182,7 +182,7 @@ Welkom op de website van TTC Teneramonda!
 
 
 
-Let op! Tafeltennis tijdelijk op ander adres.
+## **Let op! Tafeltennis tijdelijk op ander adres.**
 
 Vanaf 21/8/25 spelen we tijdelijk op een nieuwe locatie 
 
