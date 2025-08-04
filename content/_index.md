@@ -8,17 +8,17 @@ instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share
 title: test
 ploegen:
   - name: A-ploeg (Senioren)
-    division: " 6de afdeling Oost Vlaanderen"
-    link_naar_sporta: https://ttonline.sporta.be/?div_id=1726&menu=5&withres=1&week_name=05&divcat=0&club_id=0&club_id=34
+    division: " 5de afdeling Oost Vlaanderen"
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1865_A
   - name: B-ploeg (Senioren)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1754_B
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1867_B
     division: 7de afdeling Oost Vlaanderen
   - name: A-ploeg (jeugd)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1763_A
-    division: 2de afdeling Oost Vlaanderen
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1878_A
+    division: 1e afdeling Oost Vlaanderen
   - name: B-ploeg (jeugd)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1765_B
-    division: 4de afdeling Oost-Vlaanderen
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1880_B
+    division: 3de afdeling Oost-Vlaanderen
 sponsors:
   - name: RuitenwasseRaf
     content: |-
