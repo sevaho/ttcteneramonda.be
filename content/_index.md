@@ -1,11 +1,24 @@
 ---
-address: "Sporthal Oudegem, Ouburg 63 - 9200 Oudegem "
 phone: +32 474 83 24 86
-email: ttcteneramonda@outlook.be
 facebook: https://www.facebook.com/profile.php?id=61560026226483
 date: 2024-10-02T07:15:09.750Z
+address: "Zaal Café Half Af, Hoofdstraat 9 - 9200 Appels "
+email: ttcteneramonda@outlook.be
 instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share_sheet
 title: test
+ploegen:
+  - name: A-ploeg (Senioren)
+    division: " 6de afdeling Oost Vlaanderen"
+    link_naar_sporta: https://ttonline.sporta.be/?div_id=1726&menu=5&withres=1&week_name=05&divcat=0&club_id=0&club_id=34
+  - name: B-ploeg (Senioren)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1754_B
+    division: 7de afdeling Oost Vlaanderen
+  - name: A-ploeg (jeugd)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1763_A
+    division: 2de afdeling Oost Vlaanderen
+  - name: B-ploeg (jeugd)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1765_B
+    division: 4de afdeling Oost-Vlaanderen
 sponsors:
   - name: RuitenwasseRaf
     content: |-
@@ -164,18 +177,16 @@ events:
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Ouburg 63 9200
   Dendermonde. Op deze site vindt u informatie over onze club TTC Teneramonda.
   Kom gerust langs!
-ploegen:
-  - name: A-ploeg (Senioren)
-    division: " 6de afdeling Oost Vlaanderen"
-    link_naar_sporta: https://ttonline.sporta.be/?div_id=1726&menu=5&withres=1&week_name=05&divcat=0&club_id=0&club_id=34
-  - name: B-ploeg (Senioren)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1754_B
-    division: 7de afdeling Oost Vlaanderen
-  - name: A-ploeg (jeugd)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1763_A
-    division: 2de afdeling Oost Vlaanderen
-  - name: B-ploeg (jeugd)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1765_B
-    division: 4de afdeling Oost-Vlaanderen
 ---
-Welkom op de website van TTC Teneramonda!
+Welkom op de website van TTC Teneramonda! 
+
+
+
+Let op! Tafeltennis tijdelijk op ander adres.
+
+Vanaf 21/8/25 spelen we tijdelijk op een nieuwe locatie 
+
+
+📍 Café Zaal Half Af - Hoofdstraat 9, 9200 Appels
+Dit i.v.m. renovatie van de sportzaal.\
+We houden je op de hoogte wanneer we terugkeren naar onze vaste locatie!
