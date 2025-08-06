@@ -38,7 +38,7 @@ sfeerbeelden:
   - title: foto
     image: /assets/images/sfeerbeelden/img_5739.jpg
   - title: foto
-    image: /assets/images/sfeerbeelden/img_5744.jpg
+    image: /assets/images/sfeerbeelden/img_5904.jpg
   - title: foto
     image: /assets/images/sfeerbeelden/img_5838.jpg
 ---
