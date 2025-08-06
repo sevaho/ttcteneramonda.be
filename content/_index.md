@@ -180,13 +180,12 @@ description: Welkom bij Tafeltennisclub Teneramonda gelegen te Ouburg 63 9200
 ---
 Welkom op de website van TTC Teneramonda! 
 
-
-
 ## **Let op! Tafeltennis tijdelijk op ander adres.**
 
 Vanaf 21/8/25 spelen we tijdelijk op een nieuwe locatie 
 
+# **📍 Café Zaal Half Af - Hoofdstraat 9, 9200 Appels**
 
-📍 Café Zaal Half Af - Hoofdstraat 9, 9200 Appels
+
 Dit i.v.m. renovatie van de sportzaal.\
 We houden je op de hoogte wanneer we terugkeren naar onze vaste locatie!
