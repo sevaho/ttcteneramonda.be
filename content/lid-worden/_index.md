@@ -9,13 +9,13 @@ Wil je graag aansluiten bij onze club? Wij verwelkomen je met plezier op één v
 
 **Trainingstijden:**
 
-* Jeugdtraining: Woensdag en vrijdag van 19u tot 20u15
-* Volwassenentraining: Woensdag van 20u15 tot 22u
-* Vrije training (zonder trainer): Vrijdag van 20u15 tot 22u
+* Jeugdtraining: woensdag en vrijdag van 19u tot 20u15
+* Volwassenentraining: vrijdag van 20u15 tot 22u
+* Vrije training (zonder trainer): woensdag van 20u15 tot 22u
 
 Onze geleide trainingen worden verzorgd door twee gediplomeerde trainers die je de basis van de sport leren en, indien gewenst, je klaarstomen voor competitieniveau.
 
-Wil je eerst kennismaken? Geen probleem! We bieden nieuwkomers de mogelijkheid om enkele keren gratis mee te doen voordat je besluit lid te worden.
+Wil je eerst kennismaken? Geen probleem! We bieden nieuwkomers de mogelijkheid om enkele keren gratis mee te doen voordat je besluit lid te worden. De gele Sportkaart van de stad Dendermonde wordt aanvaard.
 
 Het **lidmaatschap** bedraagt **€ 105,00** voor sportjaar **2024-2025**, zowel voor jeugd als volwassenen. Dit bedrag is inclusief:
 
