@@ -174,6 +174,25 @@ events:
     title: Sporta Federaal Tornooi te Schelle, Inschrijven kan tot 25.11.24 via ons.
       Mail naar ttcteneramonda@outlook.be
     image: /assets/images/sfeerbeelden/table-tennis-table.jpeg
+  - title: Initiatie- en kennismakingsdag zaterdag 21/08/25!
+    image: /assets/images/sfeerbeelden/initiatiedag.png
+    content: >-
+      **Op zoek naar een nieuwe sport? Probeer tafeltennis!**
+
+
+      TTC Teneramonda organiseert gratis initiatielessen voor jong en oud
+
+
+
+
+      📍 Kom langs op zaterdag 23 augustus tussen 14u en 17u in café Half-Af (Hoofdstraat 9, Appels)
+
+
+      🍹 Inclusief gratis consumptie!
+
+
+      Iedereen welkom — geen ervaring nodig!
+    date: 23/08/2025
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Ouburg 63 9200
   Dendermonde. Op deze site vindt u informatie over onze club TTC Teneramonda.
   Kom gerust langs!
