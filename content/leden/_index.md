@@ -15,12 +15,15 @@ bestuurders:
     content: +32 489 11 04 66
 trainers:
   - name: Marc Stallaert
-    role: Trainer jeugd + volwassenen
+    role: Trainer
     image: ""
     content: +32 478 48 99 87
   - name: Jan-Willem Dhondt
     image: ""
-    role: Trainer jeugd
+    role: Trainer jeugd + volwassenen
+  - content: +32 489 11 04 66
+    role: Trainer Jeugd
+    name: Rune Velleman
 leden:
   - name: Jean-Pierre D'Haeseleer
     image: ""
@@ -33,22 +36,16 @@ leden:
   - name: Tom De Bruyn
     content: E6
     role: B-ploeg Senioren
-  - name: Rune Heiremans
-    role: A/B-ploeg Senioren
-    content: E6
   - name: Ngole Sone Nsime
     role: A-ploeg Senioren
-    content: E6
+    content: E0
   - name: Rune Velleman
     role: A/B-ploeg Senioren & A-ploeg Jeugd
-    content: E6
+    content: E4
   - name: Tim Vinck
     image: ""
     role: B-ploeg Senioren
     content: E6
-  - name: Brian Thienpondt
-    content: F
-    role: Recreant
   - name: Arno Arents
     role: B-ploeg Jeugd
     content: NG
@@ -61,29 +58,17 @@ leden:
   - name: Ilias De Bisschop
     role: A-ploeg Jeugd
     content: NG
-  - name: Drago Diericks
-    role: B-ploeg Jeugd
-    content: NG
-  - name: Mauro Kluskens
-    role: B-ploeg Jeugd
-    content: NG
   - name: Frank Michta
     role: Recreant
     content: NG
   - name: Edward Raedemaeker
     role: A-ploeg Jeugd
     content: NG
-  - name: Stijn Rogiers
-    role: B-ploeg Senioren
-    content: NG
   - name: Wout Steeman
     role: B-ploeg Jeugd
     content: NG
   - name: Tamara Van Paepeghem
     role: B-ploeg Senioren
-    content: NG
-  - name: Nand Van Schepdael
-    role: B-ploeg Jeugd
     content: NG
   - name: Gino Coppens
     role: Recreant
@@ -96,5 +81,14 @@ leden:
     content: NG
   - name: Xander Van Reeth
     role: Recreant
+    content: NG
+  - name: Marc Stallaert
+    role: Recreant
+    content: C2
+  - name: Rudy Keppens
+    role: Recreant
+    content: NG
+  - name: Forkwa Tengweh
+    role: B-ploeg Senioren
     content: NG
 ---
