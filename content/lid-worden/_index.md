@@ -17,7 +17,7 @@ Onze geleide trainingen worden verzorgd door twee gediplomeerde trainers die je 
 
 Wil je eerst kennismaken? Geen probleem! We bieden nieuwkomers de mogelijkheid om enkele keren gratis mee te doen voordat je besluit lid te worden. De gele Sportkaart van de stad Dendermonde wordt aanvaard.
 
-Het **lidmaatschap** bedraagt **€ 105,00** voor sportjaar **2024-2025**, zowel voor jeugd als volwassenen. Dit bedrag is inclusief:
+Het **lidmaatschap** bedraagt **€ 105,00** voor sportjaar **2025-2026**, zowel voor jeugd als volwassenen. Dit bedrag is inclusief:
 
 * Aansluiting bij de Sporta Federatie als recreant of competitiespeler
 * Sportverzekering van Ethias (Lichamelijke ongevallen, hartfalen en beroertes,  burgerlijke aansprakelijkheid en rechtsbijstand)
