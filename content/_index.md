@@ -6,6 +6,7 @@ address: "Zaal Café Half Af, Hoofdstraat 9 - 9200 Appels "
 email: ttcteneramonda@outlook.be
 instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share_sheet
 title: test
+google_maps_link: https://maps.google.com/maps?hl=en&q=Sporthal Oudegem, Dendermonde&ie=UTF8&t=roadmap&z=15&iwloc=B&output=embed
 ploegen:
   - name: A-ploeg (Senioren)
     division: " 5de afdeling Oost Vlaanderen"
