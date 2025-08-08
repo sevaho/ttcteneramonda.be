@@ -4,7 +4,7 @@ facebook: https://www.facebook.com/profile.php?id=61560026226483
 date: 2024-10-02T07:15:09.750Z
 address: "Zaal Café Half Af, Hoofdstraat 9 - 9200 Appels "
 email: ttcteneramonda@outlook.be
-google_maps_link: https://www.google.com/maps/place/Caf%C3%A9+half+af/@51.0295782,4.0537901,17z/data=!4m14!1m7!3m6!1s0x47c3916b061ea935:0x7a5ea24ed2c6fd2!2sCaf%C3%A9+half+af!8m2!3d51.0295782!4d4.056365!16s%2Fg%2F11gy4_bg5x!3m5!1s0x47c3916b061ea935:0x7a5ea24ed2c6fd2!8m2!3d51.0295782!4d4.056365!16s%2Fg%2F11gy4_bg5x?entry=ttu&g_ep=EgoyMDI1MDgwNS4wIKXMDSoASAFQAw%3D%3D
+google_maps_link: https://www.google.com/maps/place/Caf%C3%A9+half+af/@51.0295782,4.0537901,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3916b061ea935:0x7a5ea24ed2c6fd2!8m2!3d51.0295782!4d4.056365!16s%2Fg%2F11gy4_bg5x?hl=en&entry=ttu&g_ep=EgoyMDI1MDgwNS4wIKXMDSoASAFQAw%3D%3D
 instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share_sheet
 title: test
 ploegen:
