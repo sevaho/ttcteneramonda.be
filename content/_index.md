@@ -143,7 +143,7 @@ sponsors:
       9280 Wieze
 
       tuinendw@hotmail.com
-    href: www.tuinen-dw.be
+    href: https://tuinen-dw.be/
     image: /images/tuinen-dw.png
 events:
   - content: Doe mee aan onze jaarlijkse wijnverkoop en steun de werking van onze
