@@ -134,6 +134,17 @@ sponsors:
       9290 Berlare
 
       tim@bigboom.be
+  - name: Tuinen DW
+    content: |-
+      Onderhoud en tuinaanleg
+
+      Pasbrugstraat 5
+
+      9280 Wieze
+
+      tuinendw@hotmail.com
+    href: www.tuinen-dw.be
+    image: /images/tuinen-dw.png
 events:
   - content: Doe mee aan onze jaarlijkse wijnverkoop en steun de werking van onze
       sportclub. We bieden een zorgvuldig geselecteerd assortiment wijnen aan,
