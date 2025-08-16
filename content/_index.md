@@ -192,7 +192,7 @@ events:
 
       Iedereen welkom — geen ervaring nodig!
     date: 23/08/2025
-description: Welkom bij Tafeltennisclub Teneramonda gelegen te Ouburg 63 9200
+description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9, 9200 Appels (dit is de nieuwe locatie)
   Dendermonde. Op deze site vindt u informatie over onze club TTC Teneramonda.
   Kom gerust langs!
 ploegen:
