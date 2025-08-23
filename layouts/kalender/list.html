@@ -26,6 +26,32 @@
         cursor: pointer;
     }
     
+    /* Mobile-responsive button styling only */
+    @media (max-width: 768px) {
+        .fc-toolbar {
+            flex-direction: column !important;
+            gap: 0.5rem;
+        }
+        .fc-toolbar-chunk {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.25rem;
+        }
+        .fc-button-group {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .fc-button {
+            font-size: 0.75rem !important;
+            padding: 0.25rem 0.5rem !important;
+        }
+        .fc-toolbar-title {
+            font-size: 1.1rem !important;
+            margin: 0.5rem 0;
+        }
+    }
+    
 </style>
 
 <div class="container mx-auto mt-10 mb-10">
