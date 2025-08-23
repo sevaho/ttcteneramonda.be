@@ -25,6 +25,7 @@
     .fc-event {
         cursor: pointer;
     }
+    
 </style>
 
 <div class="container mx-auto mt-10 mb-10">
@@ -47,16 +48,21 @@
 </dialog>
 
 <script>
-      let events = [
-          {{ range $index, $e := $.Pages }}
-          {{ if $index }}, {{ end }}
-          {
-              "title": "{{ .Title }}",
-              "start": "{{ .Params.event_date }}",
-              "end": "{{ .Params.end_date }}",
-          }
-          {{ end }}
-      ]
+    let events = [
+        {{ range $index, $e := $.Pages }}
+        {{ if $index }}, {{ end }}
+        {
+            "title": "{{ .Title }}",
+            "start": "{{ .Params.event_date }}",
+            "end": "{{ .Params.end_date }}",
+        }
+        {{ end }}
+    ]
+    events.forEach(event => {
+        if (event.start && event.start.includes('T00:00:00')) {
+            event.allDay = true;
+        }
+    });
     document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
 
@@ -72,12 +78,18 @@
                 day:      'dag',
                 list:     'lijst'
             },
+            allDayText: 'hele dag',
             headerToolbar: {
                 left: 'prev,next today',
                 center: 'title',
                 right: 'listMonth,dayGridMonth,timeGridWeek,timeGridDay'
             },
             events: events,
+            eventTimeFormat: {
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+            },
             // Event click handler
             eventClick: function(info) {
                 info.jsEvent.preventDefault(); // don't let the browser navigate
