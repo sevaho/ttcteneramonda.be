@@ -26,6 +26,20 @@
         cursor: pointer;
     }
     
+    /* Highlight today in list view */
+    .fc-list-day.fc-day-today {
+        background-color: #e6f3ff !important;
+        font-weight: bold !important;
+    }
+    .fc-list-day.fc-day-today .fc-list-day-text {
+        color: #2563eb !important;
+        font-weight: bold !important;
+    }
+    .fc-list-day.fc-day-today .fc-list-day-side-text {
+        color: #2563eb !important;
+        font-weight: bold !important;
+    }
+    
     /* Mobile-responsive button styling only */
     @media (max-width: 768px) {
         .fc-toolbar {
@@ -96,6 +110,7 @@
             locale: 'nl',
             initialView:   window.innerWidth > 1200 ? 'dayGridMonth': 'listMonth',
             weekNumberCalculation: 'ISO',
+            height: window.innerWidth <= 768 ? 'auto' : null,
             // initialDate: '2024-08-07',
             buttonText: {
                 today:    'vandaag',
