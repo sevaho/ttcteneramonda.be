@@ -1,12 +1,25 @@
 ---
-address: "Zaal Café Half Af, Hoofdstraat 9 - 9200 Appels "
 phone: +32 474 83 24 86
-email: ttcteneramonda@outlook.be
-google_maps_link: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4224.596051655145!2d4.0537900775583875!3d51.02958154549582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3916b061ea935%3A0x7a5ea24ed2c6fd2!2sCaf%C3%A9%20half%20af!5e1!3m2!1sen!2sbe!4v1755154334488!5m2!1sen!2sbe"
 facebook: https://www.facebook.com/profile.php?id=61560026226483
 date: 2024-10-02T07:15:09.750Z
+address: "Zaal Café Half Af, Hoofdstraat 9 - 9200 Appels "
+email: ttcteneramonda@outlook.be
+google_maps_link: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4224.596051655145!2d4.0537900775583875!3d51.02958154549582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3916b061ea935%3A0x7a5ea24ed2c6fd2!2sCaf%C3%A9%20half%20af!5e1!3m2!1sen!2sbe!4v1755154334488!5m2!1sen!2sbe"
 instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share_sheet
 title: test
+ploegen:
+  - name: A-ploeg (Senioren)
+    division: " 5de afdeling Oost Vlaanderen"
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1865_A
+  - name: B-ploeg (Senioren)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1867_B
+    division: 7de afdeling Oost Vlaanderen
+  - name: A-ploeg (jeugd)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1878_A
+    division: 1e afdeling Oost Vlaanderen
+  - name: B-ploeg (jeugd)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1880_B
+    division: 3de afdeling Oost-Vlaanderen
 sponsors:
   - name: RuitenwasseRaf
     content: |-
@@ -132,6 +145,26 @@ sponsors:
       tuinendw@hotmail.com
     href: https://tuinen-dw.be/
     image: /images/tuinen-dw.png
+  - name: Prima Woonidee
+    content: |-
+      Detailhandel in huismeubilair
+
+      Hageveld 4 & Brusselbaan 140
+
+      9320 Aalst
+
+      info@primameubelen.be
+    image: /images/prima-meubelen.jpeg
+    href: https://primameubelen.be/
+  - name: Café - Feestzaal Half Af
+    image: /images/half-af.png
+    content: |-
+      Café / Feestzaal / Vergaderruimte
+
+      Hoofdstraat 9
+
+      9200 Appels
+    href: https://www.facebook.com/p/Caf%C3%A9-Half-Af-61566305832185/?_rdr
 events:
   - content: Doe mee aan onze jaarlijkse wijnverkoop en steun de werking van onze
       sportclub. We bieden een zorgvuldig geselecteerd assortiment wijnen aan,
@@ -192,22 +225,9 @@ events:
 
       Iedereen welkom — geen ervaring nodig!
     date: 23/08/2025
-description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9, 9200 Appels (dit is de nieuwe locatie)
-  Dendermonde. Op deze site vindt u informatie over onze club TTC Teneramonda.
-  Kom gerust langs!
-ploegen:
-  - name: A-ploeg (Senioren)
-    division: " 5de afdeling Oost Vlaanderen"
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1865_A
-  - name: B-ploeg (Senioren)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1867_B
-    division: 7de afdeling Oost Vlaanderen
-  - name: A-ploeg (jeugd)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1878_A
-    division: 1e afdeling Oost Vlaanderen
-  - name: B-ploeg (jeugd)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1880_B
-    division: 3de afdeling Oost-Vlaanderen
+description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
+  9200 Appels (dit is de nieuwe locatie) Dendermonde. Op deze site vindt u
+  informatie over onze club TTC Teneramonda. Kom gerust langs!
 ---
 Welkom op de website van TTC Teneramonda! 
 
