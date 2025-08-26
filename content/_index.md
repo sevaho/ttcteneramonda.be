@@ -123,17 +123,6 @@ sponsors:
       info@hoftermeyghem.be
     href: https://www.hoftermeyghem.be/
     image: /images/logo-hof-ter-meyghem.jpg
-  - name: Big Boom
-    href: https://www.bigboom.be/
-    image: /images/logo-papa-fee.png
-    content: |-
-      Grafisch ontwerper
-
-      Bareldonkdreef 2
-
-      9290 Berlare
-
-      tim@bigboom.be
   - name: Tuinen DW
     content: |-
       Onderhoud en tuinaanleg
