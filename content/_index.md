@@ -154,6 +154,17 @@ sponsors:
 
       9200 Appels
     href: https://www.facebook.com/p/Caf%C3%A9-Half-Af-61566305832185/?_rdr
+  - name: Killypong
+    content: |-
+      Tafeltenniswinkel Sint Amandsberg/Gent
+
+      Bryan Van Wynsberge
+
+      Johannes Hartmannlaan 4
+
+      9040 Gent
+    href: https://pingpongwinkel.be/
+    image: /images/killypong-lang-tafeltennis.be.jpg
 events:
   - content: Doe mee aan onze jaarlijkse wijnverkoop en steun de werking van onze
       sportclub. We bieden een zorgvuldig geselecteerd assortiment wijnen aan,
