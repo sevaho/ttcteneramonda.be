@@ -70,14 +70,20 @@ leden:
   - name: Edward Raedemaeker
     role: A-ploeg Jeugd
     content: NG
+  - name: Gino Coppens
+    role: Reserve
+    content: NG
   - name: Wout Steeman
     role: B-ploeg Jeugd
+    content: NG
+  - name: Forkwa Tengweh
+    role: B-ploeg Senioren
     content: NG
   - name: Tamara Van Paepeghem
     role: B-ploeg Senioren
     content: NG
-  - name: Gino Coppens
-    role: Reserve
+  - name: Xander Van Reeth
+    role: B-ploeg Jeugd
     content: NG
   - name: Tom Coppens
     role: Recreant
@@ -85,13 +91,7 @@ leden:
   - name: Johan Raedemaeker
     role: Recreant
     content: NG
-  - name: Xander Van Reeth
-    role: B-ploeg Jeugd
-    content: NG
   - name: Rudy Keppens
     role: Recreant
-    content: NG
-  - name: Forkwa Tengweh
-    role: B-ploeg Senioren
     content: NG
 ---
