@@ -77,7 +77,7 @@ leden:
     role: B-ploeg Senioren
     content: NG
   - name: Gino Coppens
-    role: Recreant
+    role: Reserve
     content: NG
   - name: Tom Coppens
     role: Recreant
