@@ -25,6 +25,9 @@ trainers:
     role: Trainer Jeugd
     name: Rune Velleman
 leden:
+  - name: Marc Stallaert
+    role: Recreant
+    content: C2
   - name: Jean-Pierre D'Haeseleer
     image: ""
     role: A-ploeg Senioren
@@ -33,15 +36,15 @@ leden:
     image: ""
     role: A-ploeg Senioren
     content: E0
-  - name: Tom De Bruyn
-    content: E6
-    role: B-ploeg Senioren
   - name: Ngole Sone Nsime
     role: A-ploeg Senioren
     content: E0
   - name: Rune Velleman
     role: A/B-ploeg Senioren & A-ploeg Jeugd
     content: E4
+  - name: Tom De Bruyn
+    content: E6
+    role: B-ploeg Senioren
   - name: Tim Vinck
     image: ""
     role: B-ploeg Senioren
@@ -82,13 +85,13 @@ leden:
   - name: Xander Van Reeth
     role: Recreant
     content: NG
-  - name: Marc Stallaert
-    role: Recreant
-    content: C2
   - name: Rudy Keppens
     role: Recreant
     content: NG
   - name: Forkwa Tengweh
     role: B-ploeg Senioren
     content: NG
+  - name: Franky D'Hondt
+    content: E6
+    role: Reserve
 ---
