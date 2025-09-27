@@ -42,6 +42,9 @@ leden:
   - name: Rune Velleman
     role: A/B-ploeg Senioren & A-ploeg Jeugd
     content: E4
+  - name: Franky D'Hondt
+    content: E6
+    role: Reserve
   - name: Tom De Bruyn
     content: E6
     role: B-ploeg Senioren
@@ -91,7 +94,4 @@ leden:
   - name: Forkwa Tengweh
     role: B-ploeg Senioren
     content: NG
-  - name: Franky D'Hondt
-    content: E6
-    role: Reserve
 ---
