@@ -59,7 +59,7 @@ leden:
     role: B-ploeg Senioren
     content: NG
   - name: Aeneas De Bisschop
-    role: A-ploeg Jeugd
+    role: B-ploeg Jeugd (reserve)
     content: NG
   - name: Ilias De Bisschop
     role: A-ploeg Jeugd
