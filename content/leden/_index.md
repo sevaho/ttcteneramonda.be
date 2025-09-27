@@ -88,10 +88,34 @@ leden:
   - name: Tom Coppens
     role: Recreant
     content: NG
-  - name: Johan Raedemaeker
+  - name: Cristiane De Cnodder
     role: Recreant
     content: NG
   - name: Rudy Keppens
+    role: Recreant
+    content: NG
+  - name: Johan Raedemaeker
+    role: Recreant
+    content: NG
+  - name: Wim Remy
+    role: Recreant
+    content: NG
+  - name: Alexander Van Laethem
+    role: Recreant (Jeugd)
+    content: NG
+  - name: Louis Van Laethem
+    role: Recreant (Jeugd)
+    content: NG
+  - name: Didier Van Reeth
+    role: Recreant
+    content: NG
+  - name: Lindy Van Uytvanck
+    role: Recreant
+    content: NG
+  - name: Eline Verbeke
+    role: Recreant
+    content: NG
+  - name: Rudy Vinck
     role: Recreant
     content: NG
 ---
