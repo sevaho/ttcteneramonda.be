@@ -53,7 +53,7 @@ leden:
     role: B-ploeg Senioren
     content: E6
   - name: Arno Arents
-    role: B-ploeg Jeugd
+    role: B-ploeg Senioren & B-ploeg Jeugd
     content: NG
   - name: Geert Arents
     role: B-ploeg Senioren
