@@ -58,6 +58,9 @@ leden:
   - name: Geert Arents
     role: B-ploeg Senioren
     content: NG
+  - name: Gino Coppens
+    role: Reserve
+    content: NG
   - name: Aeneas De Bisschop
     role: B-ploeg Jeugd (reserve)
     content: NG
@@ -69,9 +72,6 @@ leden:
     content: NG
   - name: Edward Raedemaeker
     role: A-ploeg Jeugd
-    content: NG
-  - name: Gino Coppens
-    role: Reserve
     content: NG
   - name: Wout Steeman
     role: B-ploeg Jeugd
