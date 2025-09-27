@@ -65,7 +65,7 @@ leden:
     role: A-ploeg Jeugd
     content: NG
   - name: Frank Michta
-    role: Recreant
+    role: Reserve
     content: NG
   - name: Edward Raedemaeker
     role: A-ploeg Jeugd
