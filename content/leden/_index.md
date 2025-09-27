@@ -40,7 +40,7 @@ leden:
     role: A-ploeg Senioren
     content: E0
   - name: Rune Velleman
-    role: A/B-ploeg Senioren & A-ploeg Jeugd
+    role: A-ploeg Senioren & A-ploeg Jeugd
     content: E4
   - name: Franky D'Hondt
     content: E6
