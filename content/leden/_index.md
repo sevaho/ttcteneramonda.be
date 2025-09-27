@@ -86,7 +86,7 @@ leden:
     role: Recreant
     content: NG
   - name: Xander Van Reeth
-    role: Recreant
+    role: B-ploeg Jeugd
     content: NG
   - name: Rudy Keppens
     role: Recreant
