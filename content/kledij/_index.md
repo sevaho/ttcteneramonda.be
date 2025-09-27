@@ -1,10 +1,10 @@
 ---
 title: Kledij
-image: /images/tenue.webp
+image: /images/schermafbeelding-2025-09-27-122518.png
 action_button_link: https://www.trainersmateriaal.be/collections/ttc-teneramonda
 action_button_content: Ga naar Webshop
 has_action_button: true
 ---
-C﻿lubkledij aan-/bijkopen is perfect mogelijk! Via onderstaande knop kan je volledig zelf de gewenste kledingstukken bestellen. Dankzij deze outfit blijf je volledig in de dresscode van Teneramonda en representeer met trots onze club tijdens matchen. 
+C﻿lubkledij aan-/bijkopen is perfect mogelijk! Via onderstaande knop kan je ons een mail sturen en dan bestellen wij de gevraagde kledij.
 
-(﻿De 'Polo Challenge' wordt gebruikt als verplichte wedstrijdtenue)
+(﻿De 'Polo Dynamic' wordt gebruikt als verplichte wedstrijdtenue)
