@@ -1,6 +1,6 @@
 ---
 phone: +32 474 83 24 86
-facebook: https://www.facebook.com/profile.php?id=61560026226483
+facebook: https://www.facebook.com/Teneramonda/
 date: 2024-10-02T07:15:09.750Z
 address: "Zaal Café Half Af, Hoofdstraat 9 - 9200 Appels "
 email: ttcteneramonda@outlook.be
