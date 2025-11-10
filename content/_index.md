@@ -225,6 +225,18 @@ events:
 
       Iedereen welkom — geen ervaring nodig!
     date: 23/08/2025
+  - title: "Steun onze sportclub: Wijnverkoop / pralines 2025 "
+    content: >-
+      Doe mee aan onze jaarlijkse wijnverkoop en steun de werking van onze
+      sportclub. We bieden een zorgvuldig geselecteerd assortiment wijnen aan,
+      perfect voor de feestdagen of om cadeau te geven. Met elke fles die je
+      koopt, draag je rechtstreeks bij aan de activiteiten en toekomst van onze
+      club! Geen fan van wijn, dan hebben we pralines van DuBarry als
+      kwalitatief alternatief.\
+
+      Bestellen kan tot 10/12/25!!!
+    image: /assets/images/sfeerbeelden/wijnverkoop.png
+    date: 10/12/2025
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
   9200 Appels (dit is de nieuwe locatie) Dendermonde. Op deze site vindt u
   informatie over onze club TTC Teneramonda. Kom gerust langs!
