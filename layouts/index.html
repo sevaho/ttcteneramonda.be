@@ -139,37 +139,65 @@
                 <!-- ================================================================================== -->
                 <div class="lg:w-2/3 card bg-base-100 lg:ml-5 shadow-xl m-0 p-0 my-5">
                     {{ range $event := $parsedEvents }}
-                    <div id="{{$event.id}}" class="hidden events-details-list flex flex-col h-full"{{ if eq $event.id $event_in_de_kijker.id }} style="display: block"{{ end }}>
+                    <div id="{{$event.id}}" class="hidden events-details-list h-full"{{ if eq $event.id $event_in_de_kijker.id }} style="display: block"{{ end }}>
                         {{ if $event.image }}
-                        <div class="h-1/2 overflow-y-auto">
-                            <div id="gallery" class="pswp-gallery h-full">
+                        <div class="flex flex-col lg:flex-row h-full">
+                            <div class="lg:w-1/2 overflow-auto">
+                                <div class="card-body lg:mt-5">
+                                    <div>
+                                        {{ if lt $event.date $today }}
+                                        <h2 class="text-gray-500 text-2xl font-bold line-through">
+                                            {{ $event.og_date }}
+                                        </h2>
+                                        {{ else }}
+                                        <h2 class="text-gray-500 text-2xl font-bold underline">
+                                            {{ $event.og_date }}
+                                        </h2>
+                                        {{ end }}
+                                    </div>
+                                    <h2 class="card-title">{{ $event.title }}</h2>
+                                    <div class="markdown">{{ $event.content | markdownify }}</div>
+                                    {{ if $event.has_action_button }}
+                                    <div class="card-actions justify-end">
+                                        <button class="btn btn-accent">
+                                            <a href="{{ $event.action_button_link }}" class=""
+                                                >{{ $event.action_button_content }}
+                                            </a>
+                                        </button>
+                                    </div>
+                                    {{ end }}
+                                </div>
+                            </div>
+                            <div class="lg:w-1/2 overflow-y-auto flex items-center justify-center">
+                                <div id="gallery" class="pswp-gallery h-full flex items-center justify-center">
 
-                                {{ if hasPrefix $event.image "/assets/images" }}
-                                {{ $source := strings.SliceString $event.image 7 }}
-                                {{ $image := resources.Get $source }}
-                                {{ $resized := $image.Resize "2500x webp q99" }}
-                                {{ $thumbnail := $image.Resize "750x webp q85" }}
+                                    {{ if hasPrefix $event.image "/assets/images" }}
+                                    {{ $source := strings.SliceString $event.image 7 }}
+                                    {{ $image := resources.Get $source }}
+                                    {{ $resized := $image.Resize "2500x webp q99" }}
+                                    {{ $thumbnail := $image.Resize "750x webp q85" }}
 
-                                <a
-                                    href="{{$resized.RelPermalink}}"
-                                    data-pswp-width="{{ $resized.Width}}"
-                                    data-pswp-height="{{ $resized.Height}}"
-                                    target="_blank"
-                                >
-                                <figure class="h-full overflow-y-auto">
-                                    <img
-                                        class="object-contain m-auto w-full lg:h-72 xl:h-80"
-                                        src="{{ $thumbnail.RelPermalink }}"
-                                        alt="Event detail image"
-                                    />
-                                </figure>
-                                </a>
-                                {{ end }}
+                                    <a
+                                        href="{{$resized.RelPermalink}}"
+                                        data-pswp-width="{{ $resized.Width}}"
+                                        data-pswp-height="{{ $resized.Height}}"
+                                        target="_blank"
+                                    >
+                                    <figure class="">
+                                        <img
+                                            class="object-contain max-h-[500px] lg:max-h-[45vh] xl:max-h-[55vh] mb-3"
+                                            src="{{ $thumbnail.RelPermalink }}"
+                                            alt="Event detail image"
+                                        />
+                                    </figure>
+                                    </a>
+                                    {{ end }}
+                                </div>
                             </div>
                         </div>
-                        {{ end }}
-                        <div class="h-1/2 overflow-auto">
-                            <div class="card-body">
+                        {{ else }}
+                        <div class="h-full overflow-auto">
+                            <div class="card-body lg:mt-5">
                                 <div>
                                     {{ if lt $event.date $today }}
                                     <h2 class="text-gray-500 text-2xl font-bold line-through">
@@ -194,6 +222,7 @@
                                 {{ end }}
                             </div>
                         </div>
+                        {{ end }}
                     </div>
                     {{ end }}
                 </div>
