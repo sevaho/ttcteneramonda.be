@@ -118,4 +118,31 @@ leden:
   - name: Rudy Vinck
     role: Recreant
     content: NG
+  - name: Isa Antoshkiev
+    role: Recreant
+    content: NG
+  - name: Aliyah Antoshkieva
+    role: Recreant
+    content: NG
+  - name: Safiyah Antoshkieva
+    role: Recreant
+    content: NG
+  - name: Patrick Glas
+    role: Reserve
+    content: E4
+  - name: Anneke Govaert
+    role: Recreant
+    content: NG
+  - name: Salima Magamadova
+    role: Recreant
+    content: NG
+  - name: Sebastiaan Van Hoecke
+    role: Recreant
+    content: E6
+  - name: Danny Verhelst
+    role: Recreant
+    content: NG
+  - name: Dirk Verwimp
+    role: Recreant
+    content: NG
 ---
