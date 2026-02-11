@@ -40,7 +40,7 @@ leden:
     role: A-ploeg Senioren
     content: E0
   - name: Rune Velleman
-    role: A-ploeg Senioren & A-ploeg Jeugd
+    role: A-ploeg Senioren
     content: E4
   - name: Franky D'Hondt
     content: E6
@@ -48,18 +48,21 @@ leden:
   - name: Tom De Bruyn
     content: E6
     role: B-ploeg Senioren
+  - name: Dylan Van den Abbeele
+    role: B-ploeg Senioren
+    content: E6
   - name: Tim Vinck
     image: ""
     role: B-ploeg Senioren
     content: E6
   - name: Arno Arents
-    role: B-ploeg Senioren & B-ploeg Jeugd
+    role: B-ploeg Senioren & A-ploeg Jeugd
     content: NG
   - name: Geert Arents
     role: B-ploeg Senioren
     content: NG
   - name: Gino Coppens
-    role: Reserve
+    role: Reserve (invaller bij B-ploeg Senioren)
     content: NG
   - name: Aeneas De Bisschop
     role: B-ploeg Jeugd (reserve)
@@ -74,19 +77,19 @@ leden:
     role: A-ploeg Jeugd
     content: NG
   - name: Wout Steeman
-    role: B-ploeg Jeugd
+    role: A-ploeg Jeugd
     content: NG
   - name: Forkwa Tengweh
     role: B-ploeg Senioren
     content: NG
   - name: Tamara Van Paepeghem
-    role: B-ploeg Senioren
+    role: Reserve
     content: NG
   - name: Xander Van Reeth
-    role: B-ploeg Jeugd
+    role: A-ploeg Jeugd
     content: NG
   - name: Tom Coppens
-    role: Recreant
+    role: B-ploeg Senioren
     content: NG
   - name: Cristiane De Cnodder
     role: Recreant
@@ -119,13 +122,13 @@ leden:
     role: Recreant
     content: NG
   - name: Isa Antoshkiev
-    role: Recreant
+    role: Recreant (Jeugd)
     content: NG
   - name: Aliyah Antoshkieva
-    role: Recreant
+    role: Recreant (Jeugd)
     content: NG
   - name: Safiyah Antoshkieva
-    role: Recreant
+    role: Recreant (Jeugd)
     content: NG
   - name: Patrick Glas
     role: Reserve
@@ -134,7 +137,7 @@ leden:
     role: Recreant
     content: NG
   - name: Salima Magamadova
-    role: Recreant
+    role: Recreant (Jeugd)
     content: NG
   - name: Sebastiaan Van Hoecke
     role: Recreant
