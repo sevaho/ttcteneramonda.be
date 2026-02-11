@@ -237,6 +237,23 @@ events:
       Bestellen kan tot 10/12/25!!!
     image: /assets/images/sfeerbeelden/wijnverkoop.png
     date: 10/12/2025
+  - content: >-
+      
+      Op zaterdag 21 februari 2026 organiseert TTC Teneramonda zijn 2e editie van de TeneraQuiz. 
+
+
+      In teams van maximaal 4 personen nemen jullie het op in diverse rondes vragen over sport, muziek, algemene kennis, geschiedenis en veel meer. De quiz is voor recreatieve quizzers en heeft een niveau D / E. 
+
+
+
+      Er is een prijzentafel voor iedereen. Hapjes en drankjes zijn te verkrijgen aan democratische prijzen.
+
+      De opbrengst gaat integraal naar onze werking van de club.
+
+      Inschrijven kan tot 10 februari 2026 via ttcteneramonda@outlook.be
+    date: 21/02/2026
+    image: /assets/images/sfeerbeelden/teneraquiz.png
+    title: 2de TeneraQuiz
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
   9200 Appels (dit is de nieuwe locatie) Dendermonde. Op deze site vindt u
   informatie over onze club TTC Teneramonda. Kom gerust langs!
