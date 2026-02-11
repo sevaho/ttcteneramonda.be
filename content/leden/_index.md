@@ -73,6 +73,9 @@ leden:
   - name: Ilias De Bisschop
     role: A-ploeg Jeugd
     content: NG
+  - name: Patrick Glas
+    role: Reserve
+    content: E4
   - name: Frank Michta
     role: Reserve
     content: NG
@@ -103,9 +106,6 @@ leden:
   - name: Cristiane De Cnodder
     role: Recreant
     content: NG
-  - name: Patrick Glas
-    role: Reserve
-    content: E4
   - name: Anneke Govaert
     role: Recreant
     content: NG
