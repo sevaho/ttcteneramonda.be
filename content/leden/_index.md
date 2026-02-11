@@ -64,6 +64,9 @@ leden:
   - name: Gino Coppens
     role: Reserve (invaller bij B-ploeg Senioren)
     content: NG
+  - name: Tom Coppens
+    role: B-ploeg Senioren
+    content: NG
   - name: Aeneas De Bisschop
     role: B-ploeg Jeugd (reserve)
     content: NG
@@ -88,14 +91,29 @@ leden:
   - name: Xander Van Reeth
     role: A-ploeg Jeugd
     content: NG
-  - name: Tom Coppens
-    role: B-ploeg Senioren
+  - name: Isa Antoshkiev
+    role: Recreant (Jeugd)
+    content: NG
+  - name: Aliyah Antoshkieva
+    role: Recreant (Jeugd)
+    content: NG
+  - name: Safiyah Antoshkieva
+    role: Recreant (Jeugd)
     content: NG
   - name: Cristiane De Cnodder
     role: Recreant
     content: NG
+  - name: Patrick Glas
+    role: Reserve
+    content: E4
+  - name: Anneke Govaert
+    role: Recreant
+    content: NG
   - name: Rudy Keppens
     role: Recreant
+    content: NG
+  - name: Salima Magamadova
+    role: Recreant (Jeugd)
     content: NG
   - name: Johan Raedemaeker
     role: Recreant
@@ -103,6 +121,9 @@ leden:
   - name: Wim Remy
     role: Recreant
     content: NG
+  - name: Sebastiaan Van Hoecke
+    role: Recreant
+    content: E6
   - name: Alexander Van Laethem
     role: Recreant (Jeugd)
     content: NG
@@ -118,34 +139,13 @@ leden:
   - name: Eline Verbeke
     role: Recreant
     content: NG
-  - name: Rudy Vinck
-    role: Recreant
-    content: NG
-  - name: Isa Antoshkiev
-    role: Recreant (Jeugd)
-    content: NG
-  - name: Aliyah Antoshkieva
-    role: Recreant (Jeugd)
-    content: NG
-  - name: Safiyah Antoshkieva
-    role: Recreant (Jeugd)
-    content: NG
-  - name: Patrick Glas
-    role: Reserve
-    content: E4
-  - name: Anneke Govaert
-    role: Recreant
-    content: NG
-  - name: Salima Magamadova
-    role: Recreant (Jeugd)
-    content: NG
-  - name: Sebastiaan Van Hoecke
-    role: Recreant
-    content: E6
   - name: Danny Verhelst
     role: Recreant
     content: NG
   - name: Dirk Verwimp
+    role: Recreant
+    content: NG
+  - name: Rudy Vinck
     role: Recreant
     content: NG
 ---
