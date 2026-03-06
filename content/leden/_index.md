@@ -106,6 +106,9 @@ leden:
   - name: Cristiane De Cnodder
     role: Recreant
     content: NG
+  - name: Maxim De Moor
+    role: Recreant
+    content: NG
   - name: Anneke Govaert
     role: Recreant
     content: NG
@@ -115,10 +118,16 @@ leden:
   - name: Salima Magamadova
     role: Recreant (Jeugd)
     content: NG
+  - name: Mattia Pieters
+    role: Recreant (jeugd)
+    content: NG
   - name: Johan Raedemaeker
     role: Recreant
     content: NG
   - name: Wim Remy
+    role: Recreant
+    content: NG
+  - name: Ann Schouters
     role: Recreant
     content: NG
   - name: Sebastiaan Van Hoecke
@@ -146,15 +155,6 @@ leden:
     role: Recreant
     content: NG
   - name: Rudy Vinck
-    role: Recreant
-    content: NG
-  - name: Maxim De Moor
-    role: Recreant
-    content: NG
-  - name: Mattia Pieters
-    role: Recreant (jeugd)
-    content: NG
-  - name: Schouters Ann
     role: Recreant
     content: NG
 ---
