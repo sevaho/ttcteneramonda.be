@@ -148,4 +148,13 @@ leden:
   - name: Rudy Vinck
     role: Recreant
     content: NG
+  - name: Maxim De Moor
+    role: Recreant
+    content: NG
+  - name: Mattia Pieters
+    role: Recreant (jeugd)
+    content: NG
+  - name: Schouters Ann
+    role: Recreant
+    content: NG
 ---
