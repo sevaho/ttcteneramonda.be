@@ -252,6 +252,11 @@ events:
 
 
       Alles gaat door in onze vertrouwde zaal. Wedstrijden starten rond 9u30
+
+
+
+
+      Iedereen welkom. Gratis inkom voor toeschouwers!
     image: /assets/images/sfeerbeelden/cubkamp.jpg
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
   9200 Appels (dit is de nieuwe locatie) Dendermonde. Op deze site vindt u
