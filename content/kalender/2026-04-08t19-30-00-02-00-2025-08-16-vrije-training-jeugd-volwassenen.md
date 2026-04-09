@@ -1,5 +1,5 @@
 ---
-title: Vrije training (jeugd + volwassenen)
-event_date: 2026-04-08T19:30:00+02:00
-end_date: 2026-04-08T21:30:00+02:00
+title: Vrije training
+event_date: 2026-04-08T20:15:00+02:00
+end_date: 2026-04-08T22:00:00+02:00
 ---
