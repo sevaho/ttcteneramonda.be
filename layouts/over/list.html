@@ -27,8 +27,8 @@
 
         <!-- HUGO resouces.GET only works relative from /assets directory -->
         {{ range $k, $v := .Params.sfeerbeelden }}
-        {{ if hasPrefix $v.image "/assets/images" }}
-        {{ $source := strings.SliceString $v.image 7 }}
+        {{ if hasPrefix $v.image "/images" }}
+        {{ $source := strings.SliceString $v.image 1 }}
         {{ $image := resources.Get $source }}
         {{ $resized := $image.Resize "2500x webp q99" }}
 

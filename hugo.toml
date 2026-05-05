@@ -59,6 +59,9 @@ enableRobotsTXT = true
         source = "assets"
         target = "assets"
     [[module.mounts]]
+        source = "static/images"
+        target = "assets/images"
+    [[module.mounts]]
         source = "content"
         target = "content"
     [[module.mounts]]

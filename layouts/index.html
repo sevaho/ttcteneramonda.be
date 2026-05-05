@@ -171,8 +171,8 @@
                             <div class="lg:w-1/2 overflow-y-auto flex items-center justify-center">
                                 <div id="gallery" class="pswp-gallery h-full flex items-center justify-center">
 
-                                    {{ if hasPrefix $event.image "/assets/images" }}
-                                    {{ $source := strings.SliceString $event.image 7 }}
+                                    {{ if hasPrefix $event.image "/images" }}
+                                    {{ $source := strings.SliceString $event.image 1 }}
                                     {{ $image := resources.Get $source }}
                                     {{ $resized := $image.Resize "2500x webp q99" }}
                                     {{ $thumbnail := $image.Resize "750x webp q85" }}

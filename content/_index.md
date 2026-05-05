@@ -192,9 +192,9 @@ events:
     date: 01/12/2024
     title: Sporta Federaal Tornooi te Schelle, Inschrijven kan tot 25.11.24 via ons.
       Mail naar ttcteneramonda@outlook.be
-    image: /assets/images/sfeerbeelden/table-tennis-table.jpeg
+    image: /images/sfeerbeelden/table-tennis-table.jpeg
   - title: Initiatie- en kennismakingsdag zaterdag 23/08/25!
-    image: /assets/images/sfeerbeelden/initiatiedag.png
+    image: /images/sfeerbeelden/initiatiedag.png
     content: >-
       **Op zoek naar een nieuwe sport? Probeer tafeltennis!**
 
@@ -222,7 +222,7 @@ events:
       kwalitatief alternatief.\
 
       Bestellen kan tot 10/12/25!!!
-    image: /assets/images/sfeerbeelden/wijnverkoop.png
+    image: /images/sfeerbeelden/wijnverkoop.png
     date: 10/12/2025
   - content: >-
       

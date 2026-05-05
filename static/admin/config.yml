@@ -42,7 +42,7 @@ collections:
               - {label: 'Titel', name: 'title', widget: 'string'}
               - { label: "Datum", name: "date", widget: "datetime", "date_format": "DD/MM/YYYY" }
               - { label: 'Content', name: 'content', widget: 'markdown', required: false }
-              - { label: 'Afbeelding', media_folder: /assets/images/sfeerbeelden, name: 'image', widget: 'image', choose_url: true, required: false}
+              - { label: 'Afbeelding', media_folder: /static/images/sfeerbeelden, public_folder: /images/sfeerbeelden, name: 'image', widget: 'image', choose_url: true, required: false}
       - label: 'Over ons'
         name: 'over'
         file: 'content/over/_index.md'
@@ -58,7 +58,7 @@ collections:
             collapsed: false
             fields:
               - { label: 'Titel', name: 'title', widget: 'string' }
-              - { label: 'Sfeerbeeld', media_folder: /assets/images/sfeerbeelden, name: 'image', widget: 'image', choose_url: true}
+              - { label: 'Sfeerbeeld', media_folder: /static/images/sfeerbeelden, public_folder: /images/sfeerbeelden, name: 'image', widget: 'image', choose_url: true}
 
       - label: 'Kledij'
         name: 'kledij'
