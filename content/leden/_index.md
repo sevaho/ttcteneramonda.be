@@ -28,10 +28,6 @@ leden:
   - name: Marc Stallaert
     role: Recreant
     content: C2
-  - name: Jean-Pierre D'Haeseleer
-    image: ""
-    role: A-ploeg Senioren
-    content: D6
   - name: Luc Lermytte
     image: ""
     role: A-ploeg Senioren
@@ -67,9 +63,6 @@ leden:
   - name: Tom Coppens
     role: B-ploeg Senioren
     content: NG
-  - name: Aeneas De Bisschop
-    role: B-ploeg Jeugd (reserve)
-    content: NG
   - name: Ilias De Bisschop
     role: A-ploeg Jeugd
     content: NG
@@ -102,9 +95,6 @@ leden:
     content: NG
   - name: Safiyah Antoshkieva
     role: Recreant (Jeugd)
-    content: NG
-  - name: Cristiane De Cnodder
-    role: Recreant
     content: NG
   - name: Maxim De Moor
     role: Recreant
@@ -139,6 +129,9 @@ leden:
   - name: Louis Van Laethem
     role: Recreant (Jeugd)
     content: NG
+  - name: Danny Verhelst
+    role: Recreant
+    content: NG
   - name: Didier Van Reeth
     role: Recreant
     content: NG
@@ -146,9 +139,6 @@ leden:
     role: Recreant
     content: NG
   - name: Eline Verbeke
-    role: Recreant
-    content: NG
-  - name: Danny Verhelst
     role: Recreant
     content: NG
   - name: Dirk Verwimp
