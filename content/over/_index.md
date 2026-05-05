@@ -4,7 +4,7 @@ title: Over ons
 image: /images/img_5920.jpg
 sfeerbeelden:
   - title: foto
-    image: /assets/images/sfeerbeelden/463217125_4026348377609424_1115888366068242411_n.jpg
+    image: /assets/images/sfeerbeelden/collage-1.png
   - title: foto
     image: /assets/images/sfeerbeelden/462536254_856021523274585_3480590754978759908_n.jpg
   - title: foto
