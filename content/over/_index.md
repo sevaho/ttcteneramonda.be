@@ -6,11 +6,11 @@ sfeerbeelden:
   - title: foto
     image: /assets/images/sfeerbeelden/collage-1.png
   - title: foto
-    image: /assets/images/sfeerbeelden/462536254_856021523274585_3480590754978759908_n.jpg
+    image: /assets/images/sfeerbeelden/collage-2.png
   - title: foto
-    image: /assets/images/sfeerbeelden/462550101_895614135997614_7206083959592723579_n.jpg
+    image: /assets/images/sfeerbeelden/collage-4.png
   - title: foto
-    image: /assets/images/sfeerbeelden/whatsapp-image-2024-10-12-at-16.16.15-1-.jpeg
+    image: /assets/images/sfeerbeelden/collage-3.png
   - title: foto
     image: /assets/images/sfeerbeelden/462541943_1264459451542601_1736594717483185787_n.jpg
   - title: foto
