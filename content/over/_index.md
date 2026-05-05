@@ -41,6 +41,8 @@ sfeerbeelden:
     image: /images/sfeerbeelden/img_5904.jpg
   - title: foto
     image: /images/sfeerbeelden/img_5838.jpg
+  - image: /images/sfeerbeelden/16472850_1407802739261810_1302950744154613609_n.jpg
+    title: foto
 ---
 Welkom bij Teneramonda, dé tafeltennisclub te Appels-Oudegem. Onze club biedt zowel jeugd- als volwassenwerking aan waarbij we iedereen de kans geven om op zijn eigen tempo te groeien. Ook G-sporters integreren wij volwaardig in onze ploegen. Al jarenlang kent onze club leden van verschillende niveaus en leeftijden. Of je nu graag competitief speelt, of puur recreatief wilt genieten van de sport, bij TTC Teneramonda is er een plaats voor jou!
 
