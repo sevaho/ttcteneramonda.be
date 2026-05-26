@@ -117,6 +117,16 @@ collections:
           - { label: 'Content', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
           - { label: 'Afbeelding', name: 'image', widget: 'image' }
 
+      - label: 'Uitpas'
+        name: 'uitpas'
+        file: 'content/uitpas/_index.md'
+        editor:
+          preview: true
+        fields:
+          - { label: 'Titel', name: 'title', widget: 'string' }
+          - { label: 'Content', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+          - { label: 'Afbeelding', name: 'image', widget: 'image' }
+
       - label: 'Contact'
         name: 'contact'
         file: 'content/contact/_index.md'
