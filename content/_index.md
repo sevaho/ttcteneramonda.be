@@ -4,7 +4,7 @@ facebook: https://www.facebook.com/Teneramonda/
 date: 2024-10-02T07:15:09.750Z
 address: "Parochiezaal Schoonaarde, Moleneinde 3 - 9200 Schoonaarde "
 email: ttcteneramonda@outlook.be
-google_maps_link: https://www.google.com/maps/search/parochiezaal+schoonaarde/@51.0006046,4.0143575,15z?entry=ttu&g_ep=EgoyMDI2MDcwNi4wIKXMDSoASAFQAw%3D%3D
+google_maps_link: https://maps.app.goo.gl/cMNZ69m5KVHNHJ4m6
 instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share_sheet
 title: test
 ploegen:
