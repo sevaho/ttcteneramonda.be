@@ -265,6 +265,17 @@ events:
 
       Iedereen welkom. Gratis inkom voor toeschouwers!
     image: /assets/images/sfeerbeelden/cubkamp.jpg
+  - title: Vakantie!
+    date: 19/08/2026
+    content: >-
+      Momenteel is onze club gesloten. Onze leden en het bestuur zijn aan het
+      genieten van een deugddoende vakantie na een succesvol sportseizoen.
+
+
+
+
+      Wij verwelkomen graag iedereen opnieuw vanaf woensdag 19 augustus 2026 op de gebruikelijke trainingsuren. Meer info (zie kalender of lid worden)
+    image: /images/sfeerbeelden/chatgpt-image-9-jul-2026-17_07_38.png
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
   9200 Appels (dit is de nieuwe locatie) Dendermonde. Op deze site vindt u
   informatie over onze club TTC Teneramonda. Kom gerust langs!
