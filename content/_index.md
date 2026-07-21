@@ -2,7 +2,7 @@
 address: "Parochiezaal Schoonaarde, Moleneinde 3 - 9200 Schoonaarde "
 phone: +32 474 83 24 86
 email: ttcteneramonda@outlook.be
-google_maps_link: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17706.662129125438!2d4.0143575!3d51.0006046!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c39738d33d5763%3A0x21c98e3992782f0c!2sParochiaal%20centrum%20Oudegem!5e1!3m2!1sen!2sbe!4v1784661081626!5m2!1sen!2sbe
+google_maps_link: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17706.950726398856!2d4.005087785644532!3d50.99984839365755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c399c24443463b%3A0xa9071a048dd0c894!2sParochiecentrum%20Schoonaarde!5e1!3m2!1sen!2sbe!4v1784661128382!5m2!1sen!2sbe
 facebook: https://www.facebook.com/Teneramonda/
 date: 2024-10-02T07:15:09.750Z
 instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share_sheet
