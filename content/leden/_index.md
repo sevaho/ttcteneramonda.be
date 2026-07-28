@@ -35,24 +35,23 @@ leden:
     image: ""
     role: A-ploeg Senioren
     content: E2
+  - name: Arno Arents
+    role: A-ploeg Senioren & A-ploeg Jeugd
+    content: E6
   - name: Tom Coppens
     role: A-ploeg Senioren
-    content: E6
-  - name: Dylan Van den Abbeele
-    role: B-ploeg Senioren
-    content: E6
-  - name: Arno Arents
-    role: B-ploeg Senioren & A-ploeg Jeugd
     content: E6
   - name: Patrick Glas
     role: Reserve
     content: E6
+  - name: Dylan Van den Abbeele
+    role: A-ploeg Senioren
+    content: E6
+  - name: Franky D'Hondt
+    content: F
+    role: Reserve
   - name: Ilias De Bisschop
     role: A-ploeg Jeugd
-    content: F
-  - name: Tim Vinck
-    image: ""
-    role: B-ploeg Senioren
     content: F
   - name: Forkwa Tengweh
     role: B-ploeg Senioren
@@ -63,17 +62,24 @@ leden:
   - name: Guy Van Wijmeersch
     role: B-ploeg Senioren
     content: F
-  - name: Franky D'Hondt
+  - name: Tim Vinck
+    image: ""
+    role: B-ploeg Senioren
     content: F
-    role: Reserve
   - name: Geert Arents
     role: C-ploeg Senioren
     content: NG
   - name: Gino Coppens
-    role: Reserve (invaller bij B-C-ploeg Senioren)
+    role: B & C-ploeg Senioren
+    content: NG
+  - name: Maxim De Moor
+    role: B-ploeg Senioren
     content: NG
   - name: Frank Michta
     role: Reserve
+    content: NG
+  - name: Mattia Pieters
+    role: B ploeg Jeugd
     content: NG
   - name: Edward Raedemaeker
     role: A-ploeg Jeugd
@@ -81,23 +87,29 @@ leden:
   - name: Wout Steeman
     role: A-ploeg Jeugd
     content: NG
+  - name: Alexander Van Laethem
+    role: B ploeg Jeugd
+    content: NG
+  - name: Louis Van Laethem
+    role: B ploeg Jeugd
+    content: NG
   - name: Tamara Van Paepeghem
-    role: Reserve
+    role: Reserve (invaller bij B-C-ploeg Senioren)
     content: NG
   - name: Xander Van Reeth
     role: A-B ploeg Jeugd
     content: NG
-  - name: Maxim De Moor
-    role: B-ploeg
+  - name: Dirk Verwimp
+    role: C-ploeg Senioren
+    content: NG
+  - name: Rudy Vinck
+    role: Reserve (invaller bij B-C-ploeg Senioren)
     content: NG
   - name: Anneke Govaert
     role: Recreant
     content: NG
   - name: Rudy Keppens
     role: Recreant
-    content: NG
-  - name: Mattia Pieters
-    role: B ploeg Jeugd
     content: NG
   - name: Johan Raedemaeker
     role: Recreant
@@ -111,25 +123,13 @@ leden:
   - name: Sebastiaan Van Hoecke
     role: Recreant
     content: E6
-  - name: Alexander Van Laethem
-    role: B ploeg Jeugd
-    content: NG
-  - name: Louis Van Laethem
-    role: B ploeg Jeugd
-    content: NG
-  - name: Danny Verhelst
-    role: Recreant
-    content: NG
   - name: Didier Van Reeth
     role: Recreant
     content: NG
   - name: Eline Verbeke
     role: Recreant
     content: NG
-  - name: Dirk Verwimp
-    role: C-ploeg Senioren
-    content: NG
-  - name: Rudy Vinck
-    role: Reserve
+  - name: Danny Verhelst
+    role: Recreant
     content: NG
 ---
