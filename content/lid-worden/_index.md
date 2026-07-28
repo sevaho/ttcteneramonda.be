@@ -17,7 +17,7 @@ Onze geleide trainingen worden verzorgd door twee gediplomeerde trainers die je 
 
 Wil je eerst kennismaken? Geen probleem! We bieden nieuwkomers de mogelijkheid om enkele keren gratis mee te doen voordat je besluit lid te worden. De gele Sportkaart van de stad Dendermonde wordt aanvaard.
 
-Het **lidmaatschap** bedraagt **€ 105,00** voor sportjaar **2025-2026**, zowel voor jeugd als volwassenen. Dit bedrag is inclusief:
+Het **lidmaatschap** bedraagt **€ 110,00** voor sportjaar **2026-2027**, zowel voor jeugd als volwassenen. De Uitpas wordt aanvaard. Dit bedrag is inclusief:
 
 * Aansluiting bij de Sporta Federatie als recreant of competitiespeler
 * Sportverzekering van Ethias (Lichamelijke ongevallen, hartfalen en beroertes,  burgerlijke aansprakelijkheid en rechtsbijstand)
@@ -25,3 +25,10 @@ Het **lidmaatschap** bedraagt **€ 105,00** voor sportjaar **2025-2026**, zowel
 * Bijdrage huur zaal en andere onkosten
 
 **Interesse?** Via onderstaande knop kun je contact met ons opnemen en helpen we jou graag verder.
+
+
+
+**Adres:** 
+
+Parochiezaal Schoonaarde\
+Moleneinde 3 - 9200 Schoonaarde
