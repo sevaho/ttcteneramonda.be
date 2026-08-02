@@ -73,7 +73,7 @@ leden:
     role: B & C-ploeg Senioren
     content: NG
   - name: Maxim De Moor
-    role: B-ploeg Senioren
+    role: C-ploeg Senioren
     content: NG
   - name: Frank Michta
     role: Reserve
