@@ -123,12 +123,6 @@ leden:
   - name: Sebastiaan Van Hoecke
     role: Recreant
     content: E6
-  - name: Didier Van Reeth
-    role: Recreant
-    content: NG
-  - name: Eline Verbeke
-    role: Recreant
-    content: NG
   - name: Danny Verhelst
     role: Recreant
     content: NG
