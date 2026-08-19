@@ -284,7 +284,7 @@ Welkom op de website van TTC Teneramonda!
 
 ## **Let op! Tafeltennis tijdelijk op ander adres.**
 
-Vanaf 19/8/25 spelen we tijdelijk op een nieuwe locatie 
+Vanaf 19/8/26 spelen we tijdelijk op een nieuwe locatie 
 
 # **📍 Parochiezaal Schoonaarde - Moleneinde 3, 9200 Schoonaarde**
 
