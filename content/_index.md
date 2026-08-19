@@ -260,6 +260,19 @@ events:
 
       Wij verwelkomen graag iedereen opnieuw vanaf woensdag 19 augustus 2026 op de gebruikelijke trainingsuren. Meer info (zie kalender of lid worden)
     image: /images/sfeerbeelden/chatgpt-image-9-jul-2026-17_07_38.png
+  - title: Welkom terug, TTC Teneramonda! 🏓
+    content: >-
+      Na een welverdiende vakantie vliegen we er opnieuw in! Vanaf **woensdag 19
+      augustus 2026** starten onze trainingen weer en maken we ons klaar voor
+      een nieuw, sportief en vooral gezellig tafeltennisseizoen.
+
+
+      **Balletjes op tafel, batjes in de hand en volle goesting om er samen een fantastisch seizoen van te maken!** 💪🏓
+
+
+      Tot straks in de zaal!
+    date: 01/09/2026
+    image: /images/sfeerbeelden/chatgpt-image-19-aug-2026-14_48_40.png
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
   9200 Appels (dit is de nieuwe locatie) Dendermonde. Op deze site vindt u
   informatie over onze club TTC Teneramonda. Kom gerust langs!
