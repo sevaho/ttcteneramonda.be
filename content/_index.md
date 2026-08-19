@@ -250,7 +250,7 @@ events:
       Iedereen welkom. Gratis inkom voor toeschouwers!
     image: /assets/images/sfeerbeelden/cubkamp.jpg
   - title: Vakantie!
-    date: 19/08/2026
+    date: 18/08/2026
     content: >-
       Momenteel is onze club gesloten. Onze leden en het bestuur zijn aan het
       genieten van een deugddoende vakantie na een succesvol sportseizoen.
