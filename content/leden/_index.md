@@ -75,6 +75,9 @@ leden:
   - name: Maxim De Moor
     role: C-ploeg Senioren
     content: NG
+  - name: Dirk Verwimp
+    role: C-ploeg Senioren
+    content: NG
   - name: Mattia Pieters
     role: B ploeg Jeugd
     content: NG
@@ -95,9 +98,6 @@ leden:
     content: NG
   - name: Xander Van Reeth
     role: A-B ploeg Jeugd
-    content: NG
-  - name: Dirk Verwimp
-    role: C-ploeg Senioren
     content: NG
   - name: Rudy Vinck
     role: Reserve (invaller bij B-C-ploeg Senioren)
