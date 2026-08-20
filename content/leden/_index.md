@@ -70,13 +70,10 @@ leden:
     role: C-ploeg Senioren
     content: NG
   - name: Gino Coppens
-    role: B & C-ploeg Senioren
+    role: C-ploeg Senioren
     content: NG
   - name: Maxim De Moor
     role: C-ploeg Senioren
-    content: NG
-  - name: Frank Michta
-    role: Reserve
     content: NG
   - name: Mattia Pieters
     role: B ploeg Jeugd
