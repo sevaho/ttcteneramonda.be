@@ -360,7 +360,7 @@ events:
 
       Volg ons op Facebook!
     title: "Competitieoverzicht Week 2 "
-    date: 27/09/2026
+    date: 21/09/2026
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
   9200 Appels (dit is de nieuwe locatie) Dendermonde. Op deze site vindt u
   informatie over onze club TTC Teneramonda. Kom gerust langs!
