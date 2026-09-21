@@ -359,6 +359,8 @@ events:
 
 
       Volg ons op Facebook!
+
+      https://www.facebook.com/Teneramonda/posts/pfbid0DbN6RL9q35RrD6RADnb17W5U6xuqSorZp6xYeiwjMCL4HkCqochR1yG7C33kFAH4l
     title: "Competitieoverzicht Week 2 "
     date: 21/09/2026
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
