@@ -121,17 +121,6 @@ sponsors:
       tuinendw@hotmail.com
     href: https://tuinen-dw.be/
     image: /images/tuinen-dw.png
-  - name: Prima Woonidee
-    content: |-
-      Detailhandel in huismeubilair
-
-      Hageveld 4 & Brusselbaan 140
-
-      9320 Aalst
-
-      info@primameubelen.be
-    image: /images/prima-meubelen.jpeg
-    href: https://primameubelen.be/
   - name: Killypong
     content: |-
       Tafeltenniswinkel Sint Amandsberg/Gent
