@@ -318,7 +318,11 @@ events:
       👏 Proficiat aan al onze spelers voor hun inzet en sportieve prestaties!
 
 
+
+
       📅 Deze week staan alweer nieuwe wedstrijden op het programma. Veel succes aan al onze ploegen!
+
+
 
 
       🏓 Volwassenen 
@@ -342,6 +346,8 @@ events:
       A-ploeg heeft een vrije speelweek.
 
 
+
+
       🏓 Jeugd
 
 
@@ -352,6 +358,8 @@ events:
 
 
       B-ploeg tegen Nova
+
+
 
 
       \#TTC #Tafeltennis #Competitie #Jeugd #Volwassenen #SamenSterk
