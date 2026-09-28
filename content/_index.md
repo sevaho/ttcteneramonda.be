@@ -388,13 +388,16 @@ events:
 
       B-ploeg: 4-6 verlies tegen Lede (7de provinciale)
 
+
       C-ploeg: 4-6 verlies tegen Nova Buggenhout (7de provinciale)
 
 
 
       🏓 Jeugd
 
+
       A-ploeg: 4-6 verlies tegen Stekene (1e afdeling B)
+
 
       B-ploeg: 1-9 verlies tegen Nova Buggenhout ( 2e afdeling B)
 
@@ -416,9 +419,12 @@ events:
 
       Maandag 05/10/26 20u uitwedstrijden:
 
+
       A-ploeg tegen Sint Niklaas
 
+
       B-ploeg tegen Beveren
+
 
       C-ploeg tegen Sint Niklaas
 
@@ -428,7 +434,9 @@ events:
 
       Zaterdag 10/10/26 twee uitmatchen:
 
+
       A-ploeg tegen Hamme (10u)
+
 
       B-ploeg tegen Kruibeke (14u)
 
