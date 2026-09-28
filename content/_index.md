@@ -407,38 +407,18 @@ events:
 
 
 
-      📅 Deze week geen wedstrijden gepland!
-
-
-
-      Week 4 gaat van start op 5/10/26
-
-
-
-      🏓 Volwassenen 
-
-      Maandag 05/10/26 20u uitwedstrijden:
-
-
-      A-ploeg tegen Sint Niklaas
-
-
-      B-ploeg tegen Beveren
-
-
-      C-ploeg tegen Sint Niklaas
-
+      📅 Deze week twee wedstrijden gepland bij de jeugd. Inhaal- en vooruitgeschoven wedstrijd
 
 
       🏓 Jeugd
 
-      Zaterdag 10/10/26 twee uitmatchen:
+      Zaterdag 03/10/26 twee thuismatchen:
 
 
-      A-ploeg tegen Hamme (10u)
+      A-ploeg tegen Sint Niklaas (10u)
 
 
-      B-ploeg tegen Kruibeke (14u)
+      B-ploeg tegen Erpe-Mere (10u)
 
 
 
