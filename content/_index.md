@@ -359,6 +359,89 @@ events:
       <https://www.facebook.com/Teneramonda/posts/pfbid0DbN6RL9q35RrD6RADnb17W5U6xuqSorZp6xYeiwjMCL4HkCqochR1yG7C33kFAH4l>
     title: "Competitieoverzicht Week 2 "
     date: 21/09/2026
+  - content: >-
+      📣 Competitie-overzicht van de voorbije week
+
+
+
+      De competitie is zijn 3de week gepasseerd. A-ploeg had een vrije week.
+
+
+      Dylan Van den Abbeele heeft de B-ploeg met overtuiging geholpen. Een cleansheet voor hem! Desondanks toch een nipte nederlaag.
+
+      Maxim De Moor heeft zijn debuut in de C-ploeg ook glans gegeven met 2 overwinningen, waarvan eentje tegen E6 met 3-0.
+
+
+      De jeugd A-ploeg had bijna een heuse remontada. Na een 2-5 achterstand konden zowel Ilias en Edward hun matchen winnen maar helaas verloren we de laatste match.
+
+      B-ploeg kon enkel Xander een match winnen tegen het ongenaaktbare Nova Buggenhout die met 2x 10-0 autoritair aan de leiding staat. Het scoreverloop van de matchen gaf een totaal ander beeld dan de eindscore. Een goede leerschool en op naar de volgende weken.
+
+
+      Individuele details kan men telkens terug vinden op de website van tt online.
+
+
+      Hieronder een overzicht van de resultaten:
+
+
+      🏓 Volwassenen 
+
+
+      B-ploeg: 4-6 verlies tegen Lede (7de provinciale)
+
+      C-ploeg: 4-6 verlies tegen Nova Buggenhout (7de provinciale)
+
+
+
+      🏓 Jeugd
+
+      A-ploeg: 4-6 verlies tegen Stekene (1e afdeling B)
+
+      B-ploeg: 1-9 verlies tegen Nova Buggenhout ( 2e afdeling B)
+
+
+
+      👏 Proficiat aan al onze spelers voor hun inzet en sportieve prestaties!
+
+
+
+      📅 Deze week geen wedstrijden gepland!
+
+
+
+      Week 4 gaat van start op 5/10/26
+
+
+
+      🏓 Volwassenen 
+
+      Maandag 05/10/26 20u uitwedstrijden:
+
+      A-ploeg tegen Sint Niklaas
+
+      B-ploeg tegen Beveren
+
+      C-ploeg tegen Sint Niklaas
+
+
+
+      🏓 Jeugd
+
+      Zaterdag 10/10/26 twee uitmatchen:
+
+      A-ploeg tegen Hamme (10u)
+
+      B-ploeg tegen Kruibeke (14u)
+
+
+
+      \#TTC #Tafeltennis #Competitie #Jeugd #Volwassenen #SamenSterk 
+
+
+
+
+      https://www.facebook.com/Teneramonda/posts/pfbid02hQHrWRh3FXm8TR6CrxCke34MCLykfidj5uRoA1H9xbsWYJtrSiyieZjyFHQh3YJvl
+    title: Competitieoverzicht Week 3
+    date: 28/09/2026
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
   9200 Appels (dit is de nieuwe locatie) Dendermonde. Op deze site vindt u
   informatie over onze club TTC Teneramonda. Kom gerust langs!
