@@ -430,6 +430,88 @@ events:
       https://www.facebook.com/Teneramonda/posts/pfbid02hQHrWRh3FXm8TR6CrxCke34MCLykfidj5uRoA1H9xbsWYJtrSiyieZjyFHQh3YJvl
     title: Competitieoverzicht Week 3
     date: 28/09/2026
+  - date: 05/10/2026
+    title: Competitieoverzicht Extra
+    content: >-
+      📣 Competitie-overzicht van de voorbije week
+
+
+
+      Velen genoten deze week/dit weekend van een vrije week. Toch stonden er twee jeugdmatchen op het programma door verschuivingen in de kalender.
+
+
+      Jeugd A speelde thuis tegen Sint Niklaas en Jeugd B speelde eveneens thuis tegen Erpe Mere. Opnieuw Full House zaterdagochtend.
+
+
+      Na de 10-0 in de 1e week op Sint Niklaas, mochten we nu al de terugmatch spelen. Deze werd opnieuw overtuigend gewonnen met 9-1. Edward zet de kroon op zijn competitiestart met opnieuw een feilloos parcours. Al de 3de keer in 4 wedstrijden kan hij al zijn matchen winnen. Van een competitiestart gesproken, super! 💪
+
+      Wout herpakte zich na een moeilijke start tegen Kruibeke en kon dit keer ook al zijn matchen winnen. Blijven trainen, het loont!
+
+      Arno bewijst nog maar eens dat hij een vaste waarde is van de A-ploeg. Met 1 slippertje, kan hij toch mooi 2 matchen winnen en bewijst ook hij zijn goede competitiestart.
+
+
+      Jeugd B mocht dan weer een inhaalmatch spelen (van speelweek 1) tegen Erpe-Mere. Mattia, Xander en Alexander hebben de pannen van het dak gespeeld en 10-0 gewonnen.
+
+      Mattia bewijst opnieuw dat hij zijn competitiedebuut niet gemist heeft. Doe zo verder!
+
+      Xander zijn debuut was vorig jaar en dit jaar zie je meer en meer de stappen die hij sindsdien gezet heeft. Zijn verdedigend werk is top en de aanval wordt beter en beter. Top mentaliteit.
+
+      Wij zijn blij dat ook Alexander zijn eerste matchen van het seizoen gewonnen heeft. Hij is eveneens een competitiedebutant en kende een moeilijke start maar heeft duidelijk laten zien wat hij kan!
+
+
+      Een super weekend voor onze jeugd! 💪 🏓 🏆
+
+
+      Individuele details kan men telkens terug vinden op de website van tt online.
+
+
+      Hieronder een overzicht van de resultaten:
+
+
+      🏓 Jeugd
+
+
+      A-ploeg: 9-1 winst tegen Sint Niklaas (1e afdeling B)
+
+
+      B-ploeg: 10-0 winst tegen Erpe Mere ( 2e afdeling B)
+
+
+      👏 Proficiat aan al onze spelers voor hun inzet en sportieve prestaties!
+
+
+
+
+      📅 Deze week gaat de competitie gewoon verder, met allemaal uitwedstrijden
+
+
+      🏓 Volwassenen maandag (5/10)
+
+
+      A & C-ploeg tegen Sint Niklaas (20u)
+
+
+      B-ploeg tegen Beveren (20u30)
+
+
+      🏓 Jeugd
+
+
+      Zaterdag 10/10/26 
+
+
+      A-ploeg tegen Hamme (10u)
+
+
+      B-ploeg tegen Kruibeke (14u)
+
+
+      \#TTC #Tafeltennis #Competitie #Jeugd #Volwassenen #SamenSterk
+
+
+
+
+      https://www.facebook.com/Teneramonda/posts/pfbid06QJFtLhEsEFrrM4XPRsGrJSy8TryBzpSVzQmbBT9vHnnJGcKFUCvKiWrvRCrc2i7l
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
   9200 Appels (dit is de nieuwe locatie) Dendermonde. Op deze site vindt u
   informatie over onze club TTC Teneramonda. Kom gerust langs!
