@@ -516,6 +516,106 @@ events:
 
 
       https://www.facebook.com/Teneramonda/posts/pfbid06QJFtLhEsEFrrM4XPRsGrJSy8TryBzpSVzQmbBT9vHnnJGcKFUCvKiWrvRCrc2i7l
+  - title: Competitieoverzicht Week 4
+    date: 15/10/2026
+    content: >-
+      Ondertussen zijn we al opnieuw anderhalve week verder en is er al heel wat
+      gebeurd. Een overzicht van deze week komt er op zondag/maandag maar
+      hieronder deze nog van vorige week.
+
+
+      📣 Competitie-overzicht van vorige week
+
+
+      Zowel de A als de C-ploeg mocht het opnemen in en tegen Sint Niklaas. Met Rune Velleman, Tom Coppens en Dylan Van den Abbeele voor de A-ploeg en Dirk Verwimp, Gino Coppens en Geert Arents trokken ze ten strijde om de 1e overwinning van het seizoen te proberen binnen te halen. 
+
+
+      Na een paar spannende vijfsetters konden Rune, Tom en Dylan elk 2 keer winnen waardoor de 6-4 overwinning een feit was. Wat een collectieve prestatie. Dankzij deze overwinning sluiten ze opnieuw aan bij de middenmoot.
+
+
+      Gino kon op zijn beurt 2 matchen winnen waaronder zijn eerste F-geklasseerde. Proficiat! 
+
+      Geert had dan weer pech met het nipte 2-3 verlies tegen de speler die een foutloos parcours afwerkte. Dit zijn positieve signalen voor toekomstige matchen. Doe zo verder!
+
+
+      De B-ploeg mocht dan weer naar het verre Kallo rijden om Okapi Beveren in de ogen te kijken. Patrick,  Tim Vinck en Forkwa hebben een gelijkspel uit de brand gesleept met 2 overwinning voor Partrick/Tim en ééntje voor Forkwa. 
+
+
+      Jeugd A heeft zaterdag een 2de overwinning op rij behaald. Met een krappe 6-4 zege en met heel wat thrillers konden ze toch met een overwinning naar huis keren. Arno, Ilias en Wout hebben gekeken naar onze volwassen A-ploeg en hebben op hun beurt net hetzelfde gedaan. Met elk 2 overwinningen was dit een collectieve prestatie.
+
+
+      Jeugd B startte meteen met een lichte domper. Zij moesten afzakken naar Kruibeke met 2 ipv 3. Dit betekende meteen al een achterstand van 0-3. Edward en Mattia hebben dit echter niet aan hun hart laten komen en hebben zich kranig verweerd. Met twee overwinningen van Edward en de dubbel met Mattia, stond er 3-7 als eindstand. Mentaal zeker niet simpel om meteen met een achterstand te beginnen maar jullie hebben dit super gedaan! 💪
+
+
+      Bij alle wedstrijden kan men dus zeggen dat onze ploegen één voor één collectief sterk waren. Hierbij dus bewezen dat tafeltennis ook een teamsport is!  
+
+
+      Individuele details kan men telkens terug vinden op de website van tt online.
+
+
+      Hieronder een overzicht van de resultaten:
+
+
+      🏓 Volwassenen
+
+
+      A-ploeg: 6-4 winst tegen Sint Niklaas (5de provinciale)
+
+
+      B-ploeg: 5-5 gelijkspel tegen Beveren (7de provinciale)
+
+
+      C-ploeg: 3-7 verlies tegen Sint Niklaas (7de provinciale)
+
+
+      🏓 Jeugd
+
+
+      A-ploeg: 6-4 winst tegen Hamme (1e afdeling B)
+
+
+      B-ploeg: 3-7 verlies tegen Kruibeke ( 2e afdeling B)
+
+
+      👏 Proficiat aan al onze spelers voor hun inzet en sportieve prestaties!
+
+
+
+
+      📅 Deze week gaat de competitie gewoon verder, met allemaal thuiswedstrijden
+
+
+      🏓 Volwassenen
+
+
+      Maandag (12/10, 20u)
+
+
+      A-ploeg tegen Erembodegem
+
+
+      C-ploeg tegen Aalst
+
+
+      Woensdag 14/10, 20u)
+
+
+      B-ploeg tegen Temse
+
+
+      🏓 Jeugd
+
+
+      Zaterdag 17/10/26 , 10u)
+
+
+      A-ploeg tegen Zele
+
+
+      B-ploeg tegen Stekene
+
+
+      \#TTC #Tafeltennis #Competitie #Jeugd #Volwassenen #SamenSterk
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
   9200 Appels (dit is de nieuwe locatie) Dendermonde. Op deze site vindt u
   informatie over onze club TTC Teneramonda. Kom gerust langs!
