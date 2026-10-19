@@ -616,6 +616,131 @@ events:
 
 
       \#TTC #Tafeltennis #Competitie #Jeugd #Volwassenen #SamenSterk
+  - content: >-
+      📣 Competitie-overzicht van voorbije week
+
+
+      🏓 Volwassenen
+
+
+      Onze A en C-ploeg beleefden maandag een zware avond tegen twee sterke tegenstanders uit Erembodegem en Aalst.
+
+
+      Bij de A-ploeg wist Arno als 13-jarige toch indruk te maken. Hij zorgde voor een knappe overwinning met 3-2 tegen de ervaren Luc Tuypens, een speler die twee klassementen hoger staat. Daarnaast verloor hij ook nog nipt met 2-3 van Peter, die zelfs drie klassementen hoger geklasseerd is. Met één overwinning uit drie wedstrijden tegen zulke tegenstand mag hij zeker tevreden zijn. Blijven trainen, Arno! 💪
+
+
+      Tom en Dylan hadden minder geluk. De setstanden waren vaak erg spannend, maar uiteindelijk trokken zij telkens net aan het kortste eind.
+
+
+      De C-ploeg kreeg op haar beurt het sterke Aalst E tegenover zich. Die ploeg greep vorig seizoen net naast promotie en lijkt vastberaden om dat dit jaar recht te zetten. Tegen spelers met klassementen E2, E4 en F werd het uiteindelijk een zware 10-0 nederlaag. Toch hebben onze spelers zich volledig gegeven en konden ze hier en daar een setwinst meepakken. Een pittige, maar leerrijke avond. Op naar de volgende wedstrijden!
+
+
+      Woensdag ontving onze B-ploeg het team van Temse. Ook zij moesten uiteindelijk het onderspit delven met 7-3. Tim zorgde voor twee overwinningen en Forkwa voegde er nog eentje aan toe.
+
+
+      🌟 Jeugd schittert opnieuw
+
+
+      Onze jeugdploegen kunnen wel terugblikken op een bijzonder geslaagde speelweek.
+
+
+      De jeugd A-ploeg met Arno, Ilias en Wout versloeg Zele met 6-4. Maar liefst vijf wedstrijden gingen over de volle vijf sets, waarvan er vier onze kant uit vielen. Ilias bevestigde zijn uitstekende vorm en bleef foutloos. Samen met Wout won hij ook de dubbel. 👏
+
+
+      Wout liet opnieuw zien dat hij nooit opgeeft. Zelfs bij achterstand bleef hij vechten voor elk punt. Met een tikkeltje meer meeval had er zelfs nog meer ingezeten. Sterke prestatie!
+
+
+      Arno kende een iets moeilijkere dag en vond niet meteen zijn gebruikelijke vertrouwen terug, vooral in zijn duwballen. Ook dat hoort bij sport. Door hard te blijven werken en ervaring op te doen, zal hij alleen maar sterker worden!
+
+
+      De jeugd B-ploeg, bestaande uit Xander, Mattia en Alexander, won overtuigend met 7-3 van Stekene. 
+
+      Xander bleef ongeslagen en won bovendien ook de dubbel samen met Mattia. Met 10 overwinningen op 12 wedstrijden is hij aan een zeer sterk seizoen bezig. 🔥
+
+
+      Mattia schreef twee enkelzeges op zijn naam en droeg samen met Xander ook bij aan de winst in het dubbelspel. Een kleine tip: wat extra rust voor de start van een punt kan soms wonderen doen.
+
+      Ook Alexander pakte een mooie overwinning en is uitstekend begonnen aan zijn debuutseizoen.
+
+
+      \-
+
+
+      🚀 De toekomst oogt veelbelovend
+
+
+      Eén ding is zeker: de toekomst ziet er bijzonder goed uit voor onze club. Onze jeugd toont week na week inzet, ambitie en groeipotentieel. Blijven trainen, blijven luisteren naar de coaches Jan Willem en Rune, en dan volgen er ongetwijfeld nog heel wat mooie prestaties.
+
+
+      \-
+
+
+      Individuele details kun je telkens terugvinden op de website van tt online.
+
+
+      Hieronder een overzicht van de resultaten:
+
+
+      🏓 Volwassenen
+
+
+      A-ploeg: 1-9 verlies tegen Erembodegem (5de provinciale)
+
+
+      B-ploeg: 3-7 verlies tegen Temse (7de provinciale)
+
+
+      C-ploeg: 0-10 verlies tegen Aalst (7de provinciale)
+
+
+      🏓 Jeugd
+
+
+      A-ploeg: 6-4 winst tegen Zele (1e afdeling B)
+
+
+      B-ploeg: 7-3 winst tegen Stekene ( 2e afdeling B)
+
+
+      👏 Proficiat aan al onze spelers voor hun inzet en sportieve prestaties!
+
+
+      📅 Deze week gaat de competitie gewoon verder met maandag een derby tussen onze B en C-ploeg
+
+
+      🏓 Volwassenen
+
+
+      Maandag (19/10, 20u)
+
+
+      A-ploeg tegen Lokomotiv (Bornem)
+
+
+      B-ploeg tegen C-ploeg 🔥 DERBY!
+
+
+      🏓 Jeugd
+
+
+      Zaterdag 24/10/26 , 9u)
+
+
+      B-ploeg tegen Erpe-Mere
+
+
+      De A-ploeg heeft haar wedstrijd van deze speeldag reeds afgewerkt tijdens het weekend van 3 oktober.
+
+
+      \-
+
+
+      \#TTC #Tafeltennis #Competitie #Jeugd #Volwassenen #SamenSterk🏓💪
+
+
+      https://www.facebook.com/Teneramonda/posts/pfbid02HYwMqM6TRMc7ig1JfxBhquv89ubiSCRgU7zU1U5iYPS3tuPR3yYsVtH3et2bUXc2l
+    title: Competitieoverzicht Week 5
+    date: 19/10/2026
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
   9200 Appels (dit is de nieuwe locatie) Dendermonde. Op deze site vindt u
   informatie over onze club TTC Teneramonda. Kom gerust langs!
