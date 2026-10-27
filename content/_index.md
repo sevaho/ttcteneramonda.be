@@ -797,6 +797,9 @@ events:
       Alexander en Mattia konden beiden twee enkelwedstrijden op hun naam schrijven. Week na week zie je de vorderingen van beide debutanten. Mooi seizoen.
 
 
+      \-
+
+
       Individuele details kun je telkens terugvinden op de website van tt online.
 
 
@@ -819,6 +822,9 @@ events:
 
 
       👏 Proficiat aan al onze spelers voor hun inzet en sportieve prestaties!
+
+
+      \-
 
 
       📅 Deze week gaat de competitie gewoon verder:
