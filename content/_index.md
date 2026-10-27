@@ -759,7 +759,7 @@ events:
     date: 19/10/2026
   - title: Competitieoverzicht Week 6
     date: 27/10/2026
-    content: >+
+    content: >-
       📣 Competitie-overzicht van voorbije week
 
 
@@ -767,7 +767,8 @@ events:
 
 
       Vorige week maandag was het een full house. De A-ploeg nam het op tegen Lokomotiv Bornem en onze B en C-ploeg keken elkaar in de ogen.
-       
+
+
       Tom maakte veel indruk in de A-ploeg. Als E6 mocht hij het die avond opnemen tegen D0 , D4 en E0 en hij heeft telkens het maximaal aantal sets gespeeld. Met één winpartij en twee zeer nipte verliezen, kan hij terugkijken om een sterke prestatie. Daarbovenop kon hij met Rune de dubbel winnen met, u raad het al, 3-2. :)
 
 
@@ -804,12 +805,15 @@ events:
 
       🏓 Volwassenen
 
+
       A-ploeg: 4-6 verlies tegen Lokomotiv (5de provinciale)
+
 
       B-ploeg vs C-ploeg: 5-5 gelijkspel (7de provinciale)
 
 
       🏓 Jeugd
+
 
       B-ploeg: 8-2 winst tegen Erpe-Mere ( 2e afdeling B)
 
@@ -824,15 +828,18 @@ events:
 
       Maandag (26/10, 20u) THUIS
 
+
       B-ploeg tegen Aalst
 
 
       Dinsdag (27/10, 20u) UIT
 
+
       C-ploeg tegen Aaigem 
 
 
       Woensdag (28/10, 20u) UIT
+
 
       A-ploeg tegen Orix
 
@@ -844,14 +851,14 @@ events:
 
       A-ploeg tegen Kruibeke
 
+
       B-ploeg tegen Temse
 
 
-      #TTC #Tafeltennis #Competitie #Jeugd #Volwassenen #SamenSterk🏓💪
+      \#TTC #Tafeltennis #Competitie #Jeugd #Volwassenen #SamenSterk🏓💪
 
 
       https://www.facebook.com/Teneramonda/posts/pfbid0grXagNdWbHieppggy8fyKi2KG6VD83s6v3zRJeJ3syjtisZkTGhwJHNBEhXX1KNKl
-
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
   9200 Appels (dit is de nieuwe locatie) Dendermonde. Op deze site vindt u
   informatie over onze club TTC Teneramonda. Kom gerust langs!
