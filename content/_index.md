@@ -1,12 +1,28 @@
 ---
-address: "Parochiezaal Schoonaarde, Moleneinde 3 - 9200 Schoonaarde "
 phone: +32 474 83 24 86
-email: ttcteneramonda@outlook.be
-google_maps_link: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17706.950726398856!2d4.005087785644532!3d50.99984839365755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c399c24443463b%3A0xa9071a048dd0c894!2sParochiecentrum%20Schoonaarde!5e1!3m2!1sen!2sbe!4v1784661128382!5m2!1sen!2sbe
 facebook: https://www.facebook.com/Teneramonda/
 date: 2024-10-02T07:15:09.750Z
+address: "Parochiezaal Schoonaarde, Moleneinde 3 - 9200 Schoonaarde "
+email: ttcteneramonda@outlook.be
+google_maps_link: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17706.950726398856!2d4.005087785644532!3d50.99984839365755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c399c24443463b%3A0xa9071a048dd0c894!2sParochiecentrum%20Schoonaarde!5e1!3m2!1sen!2sbe!4v1784661128382!5m2!1sen!2sbe
 instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share_sheet
 title: test
+ploegen:
+  - name: A-ploeg (Senioren)
+    division: " 5de afdeling Oost Vlaanderen"
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1960_A
+  - name: B-ploeg (Senioren)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1962_B
+    division: 7de afdeling Oost Vlaanderen
+  - name: C-ploeg (Senioren)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1962_C
+    division: 7de afdeling Oost Vlaanderen
+  - name: A-ploeg (jeugd)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1980_A
+    division: 1e afdeling B Oost Vlaanderen
+  - name: B-ploeg (jeugd)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1982_B
+    division: 2de afdeling B Oost-Vlaanderen
 sponsors:
   - name: RuitenwasseRaf
     content: |-
@@ -741,25 +757,103 @@ events:
       https://www.facebook.com/Teneramonda/posts/pfbid02HYwMqM6TRMc7ig1JfxBhquv89ubiSCRgU7zU1U5iYPS3tuPR3yYsVtH3et2bUXc2l
     title: Competitieoverzicht Week 5
     date: 19/10/2026
+  - title: Competitieoverzicht Week 6
+    date: 27/10/2026
+    content: >+
+      📣 Competitie-overzicht van voorbije week
+
+
+      🏓 Volwassenen
+
+
+      Vorige week maandag was het een full house. De A-ploeg nam het op tegen Lokomotiv Bornem en onze B en C-ploeg keken elkaar in de ogen.
+       
+      Tom maakte veel indruk in de A-ploeg. Als E6 mocht hij het die avond opnemen tegen D0 , D4 en E0 en hij heeft telkens het maximaal aantal sets gespeeld. Met één winpartij en twee zeer nipte verliezen, kan hij terugkijken om een sterke prestatie. Daarbovenop kon hij met Rune de dubbel winnen met, u raad het al, 3-2. :)
+
+
+      Rune kon twee wedstrijden + dubbel winnen en kan terugblikken op een succesvolle prestatie.
+
+      Helaas was dit niet genoeg om met een gelijkspel of winst naar huis te gaan. Met het kleinste verschil moesten ze hun meerdere erkennen in Bornem.
+
+
+      De B en de C-ploeg stonden oog in oog met elkaar. Arno, Tim en Dirk versus Forkwa, Guy en Maxim. 
+
+      Dat beide ploegen op hetzelfde niveau presteerde, verklaart ook de 5-5 eindstand. Met drie overwinningen + de dubbel kon Maxim een perfect parcours afleggen. 
+
+      Arno en Dirk konden elk 2 keer winnen waardoor zij een even groot aandeel hadden in het behaalde gelijkspel.
+
+
+      🌟 Jeugd B kan opnieuw winnen
+
+
+      Dit weekend kwam enkel onze jeugd B in actie op het terrein van Erpe-Mere.  De A-ploeg had immers hun vooruitgeschoven wedstrijd tegen Sint Niklaas al gespeeld. 
+
+
+      De jeugd B-ploeg, bestaande uit Xander, Mattia en Alexander, won overtuigend met 8-2 van Erpe-Mere. 
+
+      Xander bleef ongeslagen en won bovendien ook de dubbel samen met Alexander. 💪
+
+      Alexander en Mattia konden beiden twee enkelwedstrijden op hun naam schrijven. Week na week zie je de vorderingen van beide debutanten. Mooi seizoen.
+
+
+      Individuele details kun je telkens terugvinden op de website van tt online.
+
+
+      Hieronder een overzicht van de resultaten:
+
+
+      🏓 Volwassenen
+
+      A-ploeg: 4-6 verlies tegen Lokomotiv (5de provinciale)
+
+      B-ploeg vs C-ploeg: 5-5 gelijkspel (7de provinciale)
+
+
+      🏓 Jeugd
+
+      B-ploeg: 8-2 winst tegen Erpe-Mere ( 2e afdeling B)
+
+
+      👏 Proficiat aan al onze spelers voor hun inzet en sportieve prestaties!
+
+
+      📅 Deze week gaat de competitie gewoon verder:
+
+
+      🏓 Volwassenen
+
+      Maandag (26/10, 20u) THUIS
+
+      B-ploeg tegen Aalst
+
+
+      Dinsdag (27/10, 20u) UIT
+
+      C-ploeg tegen Aaigem 
+
+
+      Woensdag (28/10, 20u) UIT
+
+      A-ploeg tegen Orix
+
+
+      🏓 Jeugd
+
+      Zaterdag 30/10/26 , 10u) Thuismatchen
+
+      A-ploeg tegen Kruibeke
+
+      B-ploeg tegen Temse
+
+
+      #TTC #Tafeltennis #Competitie #Jeugd #Volwassenen #SamenSterk🏓💪
+
+
+      https://www.facebook.com/Teneramonda/posts/pfbid0grXagNdWbHieppggy8fyKi2KG6VD83s6v3zRJeJ3syjtisZkTGhwJHNBEhXX1KNKl
+
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
   9200 Appels (dit is de nieuwe locatie) Dendermonde. Op deze site vindt u
   informatie over onze club TTC Teneramonda. Kom gerust langs!
-ploegen:
-  - name: A-ploeg (Senioren)
-    division: " 5de afdeling Oost Vlaanderen"
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1960_A
-  - name: B-ploeg (Senioren)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1962_B
-    division: 7de afdeling Oost Vlaanderen
-  - name: C-ploeg (Senioren)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1962_C
-    division: 7de afdeling Oost Vlaanderen
-  - name: A-ploeg (jeugd)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1980_A
-    division: 1e afdeling B Oost Vlaanderen
-  - name: B-ploeg (jeugd)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1982_B
-    division: 2de afdeling B Oost-Vlaanderen
 ---
 Welkom op de website van TTC Teneramonda! 
 
