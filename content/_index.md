@@ -846,6 +846,7 @@ events:
 
       🏓 Jeugd
 
+
       Zaterdag 30/10/26 , 10u) Thuismatchen
 
 
