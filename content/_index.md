@@ -841,6 +841,7 @@ events:
 
       Zaterdag 30/10/26 , 10u) Thuismatchen
 
+
       A-ploeg tegen Kruibeke
 
       B-ploeg tegen Temse
