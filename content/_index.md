@@ -852,16 +852,16 @@ events:
       https://www.facebook.com/Teneramonda/posts/pfbid0grXagNdWbHieppggy8fyKi2KG6VD83s6v3zRJeJ3syjtisZkTGhwJHNBEhXX1KNKl
   - title: Competitieoverzicht Week 7
     content: >-
-      📣🔥 Competitie-overzicht van de voorbije week 🔥🏓
+      **📣🔥 Competitie-overzicht van de voorbije week 🔥🏓**
 
 
       Wat een week! 💪 Onze volwassenenploegen zorgden voor twee knappe gelijke spelen tegen sterke tegenstanders, terwijl onze jeugd opnieuw waardevolle ervaring opdeed én een fantastisch debuut vierde. 🌟🏓
 
 
-      🏓 Volwassenen
+      **🏓 Volwassenen**
 
 
-      🔥 A-ploeg pakt belangrijk punt in degradatiestrijd
+      *🔥 A-ploeg pakt belangrijk punt in degradatiestrijd*
 
 
       Voor onze A-ploeg stond een cruciale verplaatsing naar Orix op het programma. Tegen een rechtstreekse concurrent in de degradatiestrijd was verliezen geen optie, en dat besefte de ploeg maar al te goed.
@@ -872,7 +872,7 @@ events:
       Rune en Tom waren elk goed voor twee overwinningen, terwijl Luc het belangrijke vijfde punt toevoegde. Opvallend is dat Tom er opnieuw in slaagde om zowel een D4- als D6-speler te verslaan, exact hetzelfde kunststukje als Rune. Een sterk resultaat dat ons een belangrijk punt oplevert in de strijd voor het behoud. 👏
 
 
-      🔥 B-ploeg stunt tegen titelfavoriet
+      *🔥 B-ploeg stunt tegen titelfavoriet*
 
 
       De B-ploeg kreeg thuis het sterke Aalst over de vloer, door velen beschouwd als dé favoriet voor de titel.
@@ -885,7 +885,7 @@ events:
       Eerlijk? Er zat zelfs meer in. Een overwinning behoorde zeker tot de mogelijkheden. Tegen de verwachte kampioen voelt dit gelijkspel dan ook als een kleine overwinning. 🚀
 
 
-      🎯 C-ploeg krijgt te zware score
+      *🎯 C-ploeg krijgt te zware score*
 
 
       De C-ploeg trok naar Aaigem en verloor met 9-1, maar die uitslag vertelt niet het hele verhaal
@@ -897,10 +897,10 @@ events:
 
       \---\
 
-      🌟 Jeugd
+      **🌟 Jeugd**
 
 
-      Kruibeke maatje te groot voor jeugd A
+      *Kruibeke maatje te groot voor jeugd A*
 
 
       Onze jeugd A-ploeg met Arno, Wout en Edward ontving leider Kruibeke.
@@ -910,7 +910,7 @@ events:
       Toch zijn dit de wedstrijden waarin je het meeste leert. De ervaring die tegen zulke tegenstanders wordt opgedaan, nemen we mee naar de komende speeldagen. 💪
 
 
-      🎉 Droomdebuut voor Louis
+      *🎉 Droomdebuut voor Louis*
 
 
       Bij de jeugd B-ploeg stond de thuiswedstrijd tegen Temse in het teken van het competitiedebuut van Louis.
@@ -931,15 +931,18 @@ events:
       \---
 
 
-      🍂 Herfstvakantie
+      **🍂 Herfstvakantie**
 
       Volgende week wordt er niet gespeeld door de herfstvakantie. Tijd om even de batterijen op te laden, zodat we er nadien opnieuw volop tegenaan kunnen.
 
 
-      📅 Programma na de herfstvakantie
+      \---
 
 
-      Volwassenen
+      **📅 Programma na de herfstvakantie**
+
+
+      *Volwassenen*
 
 
       🏠 Maandag (thuis) 20u
@@ -952,10 +955,10 @@ events:
 
        • B-ploeg - Wapper
 
-      \--
+      .
 
 
-      Jeugd
+      *Jeugd*
 
 
       🚌 Zaterdag (uit)
@@ -965,8 +968,6 @@ events:
        • B-ploeg - Nova (10u)
 
       Succes aan alle ploegen! 💙🏓 
-
-
 
 
       https://www.facebook.com/Teneramonda/posts/pfbid02dTJCnFSH5ZzNr1j1nGJSmugVBCaSUGjMBjb3Xh2BgiFt6fQRDxtWLvpD8oBjPXvCl
