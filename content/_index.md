@@ -1,28 +1,12 @@
 ---
-phone: +32 474 83 24 86
-facebook: https://www.facebook.com/Teneramonda/
-date: 2024-10-02T07:15:09.750Z
 address: "Parochiezaal Schoonaarde, Moleneinde 3 - 9200 Schoonaarde "
+phone: +32 474 83 24 86
 email: ttcteneramonda@outlook.be
 google_maps_link: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17706.950726398856!2d4.005087785644532!3d50.99984839365755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c399c24443463b%3A0xa9071a048dd0c894!2sParochiecentrum%20Schoonaarde!5e1!3m2!1sen!2sbe!4v1784661128382!5m2!1sen!2sbe
+facebook: https://www.facebook.com/Teneramonda/
+date: 2024-10-02T07:15:09.750Z
 instagram: https://www.instagram.com/teneramonda/?utm_source=ig_web_button_share_sheet
 title: test
-ploegen:
-  - name: A-ploeg (Senioren)
-    division: " 5de afdeling Oost Vlaanderen"
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1960_A
-  - name: B-ploeg (Senioren)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1962_B
-    division: 7de afdeling Oost Vlaanderen
-  - name: C-ploeg (Senioren)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1962_C
-    division: 7de afdeling Oost Vlaanderen
-  - name: A-ploeg (jeugd)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1980_A
-    division: 1e afdeling B Oost Vlaanderen
-  - name: B-ploeg (jeugd)
-    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1982_B
-    division: 2de afdeling B Oost-Vlaanderen
 sponsors:
   - name: RuitenwasseRaf
     content: |-
@@ -866,9 +850,146 @@ events:
 
 
       https://www.facebook.com/Teneramonda/posts/pfbid0grXagNdWbHieppggy8fyKi2KG6VD83s6v3zRJeJ3syjtisZkTGhwJHNBEhXX1KNKl
+  - title: Competitieoverzicht Week 7
+    content: >-
+      📣🔥 Competitie-overzicht van de voorbije week 🔥🏓
+
+
+      Wat een week! 💪 Onze volwassenenploegen zorgden voor twee knappe gelijke spelen tegen sterke tegenstanders, terwijl onze jeugd opnieuw waardevolle ervaring opdeed én een fantastisch debuut vierde. 🌟🏓
+
+
+      🏓 Volwassenen
+
+
+      🔥 A-ploeg pakt belangrijk punt in degradatiestrijd
+
+
+      Voor onze A-ploeg stond een cruciale verplaatsing naar Orix op het programma. Tegen een rechtstreekse concurrent in de degradatiestrijd was verliezen geen optie, en dat besefte de ploeg maar al te goed.
+
+
+      Met Rune, Luc en Tom werd uiteindelijk een verdiend 5-5 gelijkspel uit de brand gesleept.
+
+      Rune en Tom waren elk goed voor twee overwinningen, terwijl Luc het belangrijke vijfde punt toevoegde. Opvallend is dat Tom er opnieuw in slaagde om zowel een D4- als D6-speler te verslaan, exact hetzelfde kunststukje als Rune. Een sterk resultaat dat ons een belangrijk punt oplevert in de strijd voor het behoud. 👏
+
+
+      🔥 B-ploeg stunt tegen titelfavoriet
+
+
+      De B-ploeg kreeg thuis het sterke Aalst over de vloer, door velen beschouwd als dé favoriet voor de titel.
+
+      Op papier leek dit een bijzonder moeilijke opdracht, maar onze jongens hadden duidelijk andere plannen. Na een spannende avond werd het 5-5, een resultaat waar vooraf wellicht weinig mensen geld op zouden hebben gezet.
+
+
+      Dylan en Arno wonnen elk twee wedstrijden en samen zorgden ze ook voor winst in het dubbelspel.
+
+      Eerlijk? Er zat zelfs meer in. Een overwinning behoorde zeker tot de mogelijkheden. Tegen de verwachte kampioen voelt dit gelijkspel dan ook als een kleine overwinning. 🚀
+
+
+      🎯 C-ploeg krijgt te zware score
+
+
+      De C-ploeg trok naar Aaigem en verloor met 9-1, maar die uitslag vertelt niet het hele verhaal
+
+      Tim zorgde voor het enige winstpunt en verloor daarnaast maar liefst zes sets met 10-12. Ook Franky en Geert kwamen verschillende keren bijzonder dicht bij setwinst.
+
+      Soms valt een wedstrijdblad harder uit dan het werkelijke verschil aan tafel. Met een beetje geluk had de score er een pak aangenamer uitgezien. Blijven bouwen op de goede momenten! 💙
+
+
+      \---\
+
+      🌟 Jeugd
+
+
+      Kruibeke maatje te groot voor jeugd A
+
+
+      Onze jeugd A-ploeg met Arno, Wout en Edward ontving leider Kruibeke.
+
+      De bezoekers bewezen meteen waarom ze bovenaan het klassement staan. Met slechts één setwinst op 31 gespeelde sets was het duidelijk dat Kruibeke momenteel een maatje te groot is.
+
+      Toch zijn dit de wedstrijden waarin je het meeste leert. De ervaring die tegen zulke tegenstanders wordt opgedaan, nemen we mee naar de komende speeldagen. 💪
+
+
+      🎉 Droomdebuut voor Louis
+
+
+      Bij de jeugd B-ploeg stond de thuiswedstrijd tegen Temse in het teken van het competitiedebuut van Louis.
+
+
+      En wat voor een debuut!
+
+
+      Louis won meteen 2 wedstrijden, net als zijn broer Alexander. Het lijkt erop dat de broers elkaar naar een hoger niveau tillen wanneer ze samen spelen.
+
+
+      Mattia voegde nog een overwinning toe en had samen met Alexander ook een belangrijk aandeel in het gewonnen dubbelspel.
+
+
+      Een fantastische prestatie van onze jonge ploeg. Voor Louis kon zijn eerste competitiewedstrijd bijna niet mooier verlopen. Proficiat! 👏🏓
+
+
+      \---
+
+
+      🍂 Herfstvakantie
+
+      Volgende week wordt er niet gespeeld door de herfstvakantie. Tijd om even de batterijen op te laden, zodat we er nadien opnieuw volop tegenaan kunnen.
+
+
+      📅 Programma na de herfstvakantie
+
+
+      Volwassenen
+
+
+      🏠 Maandag (thuis) 20u
+
+       • A-ploeg - Stekene
+
+       • C-ploeg - Temse
+
+      🚌 Dinsdag (uit) 20u
+
+       • B-ploeg - Wapper
+
+      \--
+
+
+      Jeugd
+
+
+      🚌 Zaterdag (uit)
+
+       • A-ploeg - Stekene (14u)
+
+       • B-ploeg - Nova (10u)
+
+      Succes aan alle ploegen! 💙🏓 
+
+
+
+
+      https://www.facebook.com/Teneramonda/posts/pfbid02dTJCnFSH5ZzNr1j1nGJSmugVBCaSUGjMBjb3Xh2BgiFt6fQRDxtWLvpD8oBjPXvCl
+    date: 03/11/2026
 description: Welkom bij Tafeltennisclub Teneramonda gelegen te Hoofdstraat 9,
   9200 Appels (dit is de nieuwe locatie) Dendermonde. Op deze site vindt u
   informatie over onze club TTC Teneramonda. Kom gerust langs!
+ploegen:
+  - name: A-ploeg (Senioren)
+    division: " 5de afdeling Oost Vlaanderen"
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1960_A
+  - name: B-ploeg (Senioren)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1962_B
+    division: 7de afdeling Oost Vlaanderen
+  - name: C-ploeg (Senioren)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1962_C
+    division: 7de afdeling Oost Vlaanderen
+  - name: A-ploeg (jeugd)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1980_A
+    division: 1e afdeling B Oost Vlaanderen
+  - name: B-ploeg (jeugd)
+    link_naar_sporta: https://ttonline.sporta.be/index.php?menu=5&modif=0&club_id=34&div_id=1982_B
+    division: 2de afdeling B Oost-Vlaanderen
 ---
 Welkom op de website van TTC Teneramonda! 
 
