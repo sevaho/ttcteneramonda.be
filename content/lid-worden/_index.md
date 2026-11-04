@@ -17,16 +17,26 @@ Onze geleide trainingen worden verzorgd door twee gediplomeerde trainers die je 
 
 Wil je eerst kennismaken? Geen probleem! We bieden nieuwkomers de mogelijkheid om enkele keren gratis mee te doen voordat je besluit lid te worden. De gele Sportkaart van de stad Dendermonde wordt aanvaard.
 
-Het **lidmaatschap** bedraagt **€ 110,00** voor sportjaar **2026-2027**, zowel voor jeugd als volwassenen. De Uitpas wordt aanvaard. Dit bedrag is inclusief:
+Het **standaardlidgeld** bedraagt **€ 110,00** voor sportjaar **2026-2027**, zowel voor jeugd als volwassenen. 
+
+
+
+Sluit je later in het seizoen aan? Dan geniet je van een aangepast lidgeld:
+
+* Augustus t.e.m. oktober: € 110,00
+* November t.e.m. februari: € 90,00
+* Maart t.e.m. mei: € 60,00
+
+Dit bedrag is inclusief:
 
 * Aansluiting bij de Sporta Federatie als recreant of competitiespeler
 * Sportverzekering van Ethias (Lichamelijke ongevallen, hartfalen en beroertes,  burgerlijke aansprakelijkheid en rechtsbijstand)
 * Wedstrijdpolo (ook voor recreanten)
 * Bijdrage huur zaal en andere onkosten
 
+De Uitpas wordt aanvaard.
+
 **Interesse?** Via onderstaande knop kun je contact met ons opnemen en helpen we jou graag verder.
-
-
 
 **Adres:** 
 
